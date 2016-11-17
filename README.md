@@ -1,1 +1,6 @@
 # Lab2Screens
+
+## THIS IS THE READ ME
+
+TODO LIST:
+	EVERYTHING
