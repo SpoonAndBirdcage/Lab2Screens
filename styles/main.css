@@ -1,0 +1,71 @@
+/**
+ * 	Main Element Styles
+ */
+
+body {
+	background-color: #252830;
+}
+
+
+/**
+ * 		Typography
+ */
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * 		Main Nav
+ */
+nav {
+	float: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 6%;
+	background-color: #30343e;
+	height: 100%;
+}
+
+.main-nav {
+	text-align: center;
+}
+
+.nav-link {
+	border-bottom: 2px solid #262830;
+	display: block;
+	padding: 30px 0;
+}
+
+.nav-link:hover, .active {
+	background-color: #141820;
+
+}
+.nav-icon {
+	width: 50px;
+	height: 50px;
+}
+
+/**
+ * 		Main Content
+ */
+
+
+
+
+
+
+
+
+
+/**
+ * 		Footer
+ */

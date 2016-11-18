@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Nait Dental School</title>
-</head>
-<body>
-	<?php include('include/header.php') ?>
-	<main>
-		
-	</main>
-	<?php include('include/footer.php') ?>
-</body>
-</html>
+<?php include('include/header.php') ?>
+	
+<main>
+		<!-- PUT ALL OF YOUR FORM CONTENT HERE -->
+</main>
+	
+<?php include('include/footer.php') ?>
+
