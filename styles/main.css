@@ -6,6 +6,9 @@ body {
 	background-color: #252830;
 }
 
+a {
+	text-decoration: none;
+}
 
 /**
  * 		Typography
@@ -36,22 +39,52 @@ nav {
 }
 
 .main-nav {
-	text-align: center;
+	clear: both;
+}
+
+.main-nav li {
+	width: 127px;
+	height: 115px;
+}
+
+.nav-label {
+	display: none;
+	position: absolute;
+    color: #e2e2e2;
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 0px 0 0 127px;
+    padding: 48px 25px 48px 25px;
+    letter-spacing: 3px;
+    background-color: #141820;
+    border-radius: 0 10px 10px 0;
+    z-index: 9;
 }
 
 .nav-link {
 	border-bottom: 2px solid #262830;
 	display: block;
 	padding: 30px 0;
+	float: left;
+	width: 100%;
 }
 
-.nav-link:hover, .active {
+.nav-link:hover {
 	background-color: #141820;
-
 }
+
+.active {
+	background-color: #141820;
+}
+
 .nav-icon {
 	width: 50px;
 	height: 50px;
+	position: relative;
+	left: 35px;
+	z-index: 9;
 }
 
 /**
