@@ -29,44 +29,42 @@ a {
  */
 nav {
 	float: left;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	display: block;
 	width: 6%;
-	background-color: #30343e;
 	height: 100%;
-}
-
-.main-nav {
-	clear: both;
+	background-color: #30343e;
 }
 
 .main-nav li {
-	width: 127px;
-	height: 115px;
+	min-width: 100%;
+	text-align: center;
 }
 
 .nav-label {
 	display: none;
-	position: absolute;
+    position: absolute;
     color: #e2e2e2;
     float: left;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 1.1em;
-    margin: 0px 0 0 127px;
-    padding: 48px 25px 48px 25px;
+    font-size: 0.8em;
+    margin-left: 105%;
+    margin-top: 20%;
+    align-content: center;
     letter-spacing: 3px;
+    padding: 15%;
     background-color: #141820;
-    border-radius: 0 10px 10px 0;
+    border-radius: 20px;
     z-index: 9;
 }
 
 .nav-link {
 	border-bottom: 2px solid #262830;
 	display: block;
-	padding: 30px 0;
+	padding: 25% 0;
 	float: left;
 	width: 100%;
 }
@@ -80,10 +78,8 @@ nav {
 }
 
 .nav-icon {
-	width: 50px;
-	height: 50px;
+	max-width: 40%;
 	position: relative;
-	left: 35px;
 	z-index: 9;
 }
 
@@ -102,3 +98,19 @@ nav {
 /**
  * 		Footer
  */
+
+
+/**
+ * 		Clear Fix
+ */
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
