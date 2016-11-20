@@ -5,18 +5,41 @@
 	<title>Nait Dental School</title>
 	<link rel="stylesheet" href="styles/reset.css" type="text/css">
 	<link rel="stylesheet" href="styles/main.css" type="text/css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body>
-<header>
-			<ul>
-				<li><a href="#">Patients</a></li>
-				<li><a href="#">Students</a></li>
-				<li><a href="#">Instructors</a></li>
-				<li><a href="#">Class</a></li>
-				<li><a href="#">Rooms</a></li>
-				<li><a href="#">Appointments</a></li>
-				<li><a href="#">Inventory</a></li>
+	<header>
+		<nav>
+			<ul class="main-nav">
+				<li class="group">
+					<a href="#" class="nav-link"><img class="nav-icon" src="assets/navicons/appt_icon_96_96.png" alt="Appointment Icon"></a>
+					<h4 class="nav-label">Appointments</h4>
+				</li>
+				<li class="group">
+					<a href="#" class="nav-link"><img class="nav-icon" src="assets/navicons/patient_icon_96_96.png" alt="Patient Icon"></a>
+					<h4 class="nav-label">Patients</h4>
+				</li>
+				<li class="group">
+					<a href="#" class="nav-link"><img class="nav-icon" src="assets/navicons/inventory_icon_96_96.png" alt="Inventory Icon"></a>
+					<h4 class="nav-label">Inventory</h4>
+				</li>
+				<li class="group">
+					<a href="#" class="nav-link"><img class="nav-icon" src="assets/navicons/class_icon_96_96.png" alt="Classes Icon"></a>
+					<h4 class="nav-label">Courses</h4>
+				</li>
+				<li class="group">
+					<a href="#" class="nav-link"><img class="nav-icon" src="assets/navicons/student_icon_96_96.png" alt="Student Icon"></a>
+					<h4 class="nav-label">Students</h4>
+				</li>
+				<li class="group">
+					<a href="#" class="nav-link"><img class="nav-icon" src="assets/navicons/instructors_icon_96_96.png" alt="Instructor Icon"></a>
+					<h4 class="nav-label">Instructors</h4>
+				</li>
+
+				<li class="group">
+					<a href="#" class="nav-link"><img class="nav-icon" src="assets/navicons/classroom_icon_96_96.png" alt="Classroom Icon"></a>
+					<h4 class="nav-label">Classrooms</h4>
+				</li>
 			</ul>
 		</nav>
 	</header>

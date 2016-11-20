@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Nait DS - Class</title>
-</head>
-<body>
 	<!--<?php include('include/header.php') ?>-->
 	<main>
 		<!--Create Course(CourseID, CourseName, CourseDescription, CreditsAwarded)-->
@@ -39,7 +32,7 @@
 				</SELECT>
 			<br>
 				<label for="CourseID">Course Section ID:</label>
-				<input type="text" name="CourseID" readonly value="1018">			
+				<input type="text" name="CourseID" readonly value="1018">
 			<br>
 				<label for="SemesterID">Semester:</label><br>
 				<input type="radio" name="Semester" value="Winter" checked> Winter<br>
@@ -99,5 +92,3 @@
 		</div>
 	</main>
 	<!--<?php include('include/footer.php') ?>-->
-</body>
-</html>
