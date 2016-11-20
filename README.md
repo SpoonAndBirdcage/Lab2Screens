@@ -13,7 +13,7 @@
 
 
 ### TODO LIST:
-	EVERYTHING NEED TO BE DONE 
+	EVERYTHING NEEDS TO BE DONE
 
 
 
@@ -22,5 +22,5 @@
 	-- Please update this list as you finish work or if you need some input
 
 
-### COMPLETE: 
+### COMPLETE:
 	-- Update this list as things are singed off and finished by the group
