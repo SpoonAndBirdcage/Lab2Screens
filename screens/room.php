@@ -5,7 +5,7 @@
 	<title>Nait DS - Room</title>
 </head>
 <body>
-	<?php include('include/header.php') ?>
+	<?php include('../include/header.php') ?>
 	<main class="main-content">
 		<div>
 			<h3>Create a Room</h3>
@@ -38,6 +38,6 @@
 			</form>
 		</div>
 	</main>
-	<?php include('include/footer.php') ?>
+	<?php include('../include/footer.php') ?>
 </body>
 </html>
