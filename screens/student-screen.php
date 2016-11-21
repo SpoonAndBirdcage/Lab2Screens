@@ -21,16 +21,16 @@
 	<form name="" method="">
 		<h1>Register Student</h1>
 		<p><label>First Name:</label>
-		<input type="" name=""></p> 
+		<input type="text" name="" class="form-input"></p> 
 
 		<p><label>Last Name:</label>
-		<input type="" name=""></p> 
+		<input type="text" name="" class="form-input"></p> 
 
 		<p><label>Street Address:</label>
-		<input type="" name=""></p> 
+		<input type="text" name="" class="form-input"></p> 
 
 		<p><label>Postal Code:</label>
-		<input type="" name=""></p> 
+		<input type="text" name="" class="form-input"></p> 
 
 		<p><label>City:</label> 
 		<select class="form-input form-ddl">
@@ -56,10 +56,10 @@
 		</select></p> 
 
 		<p><label>Email:</label>
-		<input type="" name=""></p> 
+		<input type="text" name="" class="form-input"></p> 
 
 		<p><label>Phone Number:</label>
-		<input type="" name=""></p> 
+		<input type="text" name="" class="form-input"></p> 
 
 		<p><label>Add Designation:</label>
 		<select class="form-input form-ddl">
@@ -75,7 +75,7 @@
 	<form name="" method="">
 		<h1>Search Student</h1>
 		<p><label>Search ID/Name:</label>
-		<input type="" name=""></p> 
+		<input type="" name="" class="form-input"></p> 
 
 		<p><input type="submit" name="submit" value="Search Student" class="btn btn-submit"></p>
 
@@ -102,7 +102,7 @@
 	<form name="" method="">
 		<h1>Register Student In Section</h1>
 		<p><label>Search Student:</label>
-		<input type="" name=""></p> 
+		<input type="" name="" class="form-input"></p> 
 		<p><input type="submit" name="submit" value="Search Student" class="btn btn-submit"></p>
 		
 		<p><label>Search Course:</label>
