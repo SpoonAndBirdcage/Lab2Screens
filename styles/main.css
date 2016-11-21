@@ -1,6 +1,9 @@
 /**
  * 	Main Element Styles
  */
+* {
+	box-sizing: border-box;
+}
 
 body {
 	background-color: #252830;
@@ -9,6 +12,8 @@ body {
 a {
 	text-decoration: none;
 }
+
+
 
 /**
  * 		Typography
@@ -86,14 +91,93 @@ nav {
 /**
  * 		Main Content
  */
+.main-content {
+	margin: 5% 15%;
+	width: 75%;
+	height: 100%;
+}
 
 
+/**
+ * 		Super Simple Grid System
+ */
+.grid {
+	display: block;
+}
+
+[class*='col-'] {
+  float: left;
+}
+
+.col-1 {
+	width: 25%;
+}
+
+.col-2 {
+	width: 50%;
+}
+
+.col-3 {
+	width: 75%;
+}
+
+.col-4 {
+	width: 100%;
+}
 
 
+/**
+ * 		Forms
+ */
+.form-main {
+	width: 100%;
+}
 
+.form-section {
+	padding: 15px 15px 0px 15px;
+}
 
+.form-section label {
+	display: block;
+	margin-bottom: 10px;
+	color: #e2e2e2;
+	font-size: 1.2em;
+	letter-spacing: 3px;
+}
 
+.form-input {
+	display: block;
+	border-radius: 5px;
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+}
 
+.form-ddl {
+	height: 38px;
+}
+
+.form-textarea {
+	height: 160px;
+}
+
+.btn {
+	font-size: 1em;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.btn-submit {
+	background-color: #1ec0a7;
+	border: 1px solid #30343e;
+	color: #fff;
+}
+
+.btn-submit:hover {
+	background-color: #1ec0b8;
+	border: 1px solid #30343e;
+	color: #fff;
+}
 
 /**
  * 		Footer

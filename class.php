@@ -1,24 +1,36 @@
-	<!--<?php include('include/header.php') ?>-->
-	<main>
+	<?php include('include/header.php') ?>
+	<main class="main-content">
 		<!--Create Course(CourseID, CourseName, CourseDescription, CreditsAwarded)-->
-		<div>
+		<div class="form-main">
 			<h3>Create a Course</h3>
-			<form class="">
-				<label for="CourseID" >Course ID:</label>
-				<input type="text" name="CourseID" readonly value="1001">
-			<br>
-				<label for="CourseName">Course Name:</label>
-				<input type="text" name="CourseName" value="Root Canals 101">
-			<br>
-				<label for="CourseDescription">Course Description:</label><br>
-				<textarea></textarea>
-			<br>
-				<label for="Credits">Credits:</label>
-				<SELECT name="Credits">
-					<option value="3">3</option>
-				</SELECT>
-			<br>
-				<input type="submit" value="Create Class">
+			<form>
+				<div class="grid group">
+					<div class="col-2 form-section">
+							<label for="CourseID" >Course ID:</label>
+							<input type="text" name="CourseID" class="form-input" readonly value="1001">
+					</div>
+					<div class="col-2 form-section">
+						<label for="CourseName">Course Name:</label>
+						<input type="text" name="CourseName" class="form-input" value="Root Canals 101">
+					</div>
+				</div>
+				<div class="grid group">
+					<div class="col-1 form-section">
+						<label for="Credits">Credits:</label>
+						<SELECT name="Credits" class="form-input form-ddl">
+							<option value="3">3</option>
+						</SELECT>
+					</div>
+					<div class="col-3 form-section">
+						<label for="CourseDescription">Course Description:</label>
+						<textarea class="form-input form-textarea"></textarea>
+					</div>
+				</div>
+				<div class="grid group">
+					<div class="col-2 form-section">
+						<input type="submit" value="Create Class" class="btn btn-submit">
+					</div>
+				</div>
 			</form>
 		</div>
 
@@ -91,4 +103,4 @@
 			</form>
 		</div>
 	</main>
-	<!--<?php include('include/footer.php') ?>-->
+	<?php include('include/footer.php') ?>

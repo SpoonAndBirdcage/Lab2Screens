@@ -2,6 +2,8 @@
 
 ## THIS IS THE READ ME - PLEASE KEEP THIS UPDATED AND DATED AS THINGS ARE DONE
 
+## Current Server
+http://sad2lab2.10.129.5.170.xip.io/
 
 ### Who is doing what:
 
