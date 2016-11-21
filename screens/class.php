@@ -3,21 +3,32 @@
 	<!--Create Course(CourseID, CourseName, CourseDescription, CreditsAwarded)-->
 	<section class="grid group">
 		<h2>Create a Course</h3>
+		<hr>
 		<form class="">
-			<label for="CourseID" >Course ID:</label>
-			<input class="form-input" type="text" name="CourseID" readonly value="1001">
-		<br>
-			<label for="CourseName">Course Name:</label>
-			<input class="form-input" type="text" name="CourseName" value="Root Canals 101">
-		<br>
-			<label for="CourseDescription">Course Description:</label><br>
-			<textarea id="elementID" class="form-input form-textarea"></textarea>
-		<br>
-			<label for="Credits">Credits:</label>
-			<SELECT class="form-input form-ddl" name="Credits">
-				<option value="3">3</option>
-			</SELECT>
-		<br>
+			<div class="grid group">
+				<div class="col-2 form-section">
+					<label for="CourseID" >Course ID:</label>
+					<input class="form-input" type="text" name="CourseID" readonly value="1001">
+				</div>
+				
+				<div class="col-2 form-section">
+					<label for="CourseName">Course Name:</label>
+					<input class="form-input" type="text" name="CourseName" value="Root Canals 101">
+				</div>
+			</div>
+			<div class="grid group">
+				<div class="col-2 form-section">
+					<label for="CourseDescription">Course Description:</label><br>
+					<textarea id="elementID" class="form-input form-textarea"></textarea>
+				</div>
+
+				<div class="col-2 form-section">
+					<label for="Credits">Credits:</label>
+					<SELECT class="form-input form-ddl" name="Credits">
+						<option value="3">3</option>
+					</SELECT>
+				</div>
+			</div>
 			<input class="btn btn-submit" type="submit" value="Create Class">
 		</form>
 	</section>
