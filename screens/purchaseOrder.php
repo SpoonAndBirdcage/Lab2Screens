@@ -4,6 +4,7 @@
 	<title>Purchase Order</title>
 </head>
 <body>
+	<!--<?php include('include/header.php') ?>-->
 	<main>
 		<h1>Create Purchase Order</h1>
 
@@ -83,5 +84,6 @@
 			<input type="submit" value="Cancel">
 		</form>
 	</main>
+	<!--<?php include('include/footer.php') ?>-->
 </body>
 </html>

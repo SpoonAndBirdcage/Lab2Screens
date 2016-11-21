@@ -4,6 +4,7 @@
 	<title>Search Inventory</title>
 </head>
 <body>
+	<!--<?php include('include/header.php') ?>-->
 	<main>
 		<h1>Search Inventory</h1>
 		<section>
@@ -65,5 +66,6 @@
 			<input type="submit" value="Add to Purchase Order">
 		</section>
 	</main>
+	<!--<?php include('include/footer.php') ?>-->
 </body>
 </html>
