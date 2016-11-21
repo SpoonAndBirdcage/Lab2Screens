@@ -5,7 +5,7 @@
 	<title>Nait DS - Room</title>
 </head>
 <body>
-	<?php include('include/header.php') ?>
+	<?php include('../include/header.php') ?>
 	<main class="main-content">
 		<!--Create Course(CourseID, CourseName, CourseDescription, CreditsAwarded)-->
 		<section class="grid group">
@@ -262,6 +262,6 @@
 			</div>
 		</section>
 	</main>
-	<?php include('include/footer.php') ?>
+	<?php include('../include/footer.php') ?>
 	</body>
 </html>
