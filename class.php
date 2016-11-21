@@ -2,7 +2,8 @@
 	<main class="main-content">
 		<!--Create Course(CourseID, CourseName, CourseDescription, CreditsAwarded)-->
 		<div class="form-main">
-			<h3>Create a Course</h3>
+			<h1>Create a Course</h1>
+			<hr>
 			<form>
 				<div class="grid group">
 					<div class="col-2 form-section">

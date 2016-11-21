@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Nait Dental School</title>
 	<link rel="stylesheet" href="styles/reset.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
 	<link rel="stylesheet" href="styles/main.css" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
