@@ -15,15 +15,15 @@
 					</div>
 				</div>
 				<div class="grid group">
+					<div class="col-3 form-section">
+						<label for="CourseDescription">Course Description:</label>
+						<textarea class="form-input form-textarea"></textarea>
+					</div>
 					<div class="col-1 form-section">
 						<label for="Credits">Credits:</label>
 						<SELECT name="Credits" class="form-input form-ddl">
 							<option value="3">3</option>
 						</SELECT>
-					</div>
-					<div class="col-3 form-section">
-						<label for="CourseDescription">Course Description:</label>
-						<textarea class="form-input form-textarea"></textarea>
 					</div>
 				</div>
 				<div class="grid group">
