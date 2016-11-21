@@ -33,13 +33,13 @@
 		<input type="" name=""></p> 
 
 		<p><label>City:</label> 
-		<select>
+		<select class="form-input form-ddl">
 			<option value="">Edmonton</option>
 			<option value="">Calgary</option>
 		</select></p>
 
 		<p><label>Province:</label>
-		<select>
+		<select class="form-input form-ddl">
 			<option value="AB">Alberta</option>
 			<option value="BC">British Columbia</option>
 			<option value="MB">Manitoba</option>
@@ -62,12 +62,12 @@
 		<input type="" name=""></p> 
 
 		<p><label>Add Designation:</label>
-		<select>
+		<select class="form-input form-ddl">
 			<option value="">Right</option>
 			<option value="">Left</option>
 		</select></p>
 
-		<p><input type="submit" name="submit" value="Add Student"></p>
+		<p><input type="submit" name="submit" value="Add Student" class="btn btn-submit"></p>
 	</form>
 
 
@@ -77,7 +77,7 @@
 		<p><label>Search ID/Name:</label>
 		<input type="" name=""></p> 
 
-		<p><input type="submit" name="submit" value="Search Student"></p>
+		<p><input type="submit" name="submit" value="Search Student" class="btn btn-submit"></p>
 
 		<div>
 			<h3>Result List</h3>
@@ -103,21 +103,21 @@
 		<h1>Register Student In Section</h1>
 		<p><label>Search Student:</label>
 		<input type="" name=""></p> 
-		<p><input type="submit" name="submit" value="Search Student"></p>
+		<p><input type="submit" name="submit" value="Search Student" class="btn btn-submit"></p>
 		
 		<p><label>Search Course:</label>
-		<select>
+		<select class="form-input form-ddl">
 			<option value=""></option>
 			<option value=""></option>
 		</select></p> 
 
 		<p><label>Search Section:</label>
-		<select>
+		<select class="form-input form-ddl">
 			<option value=""></option>
 			<option value=""></option>
 		</select></p>
 
-		<p><input type="submit" name="submit" value="Register Student"></p>
+		<p><input type="submit" name="submit" value="Register Student" class="btn btn-submit"></p>
 	</form>
 </body>
 </html>
