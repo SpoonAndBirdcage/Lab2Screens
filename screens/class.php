@@ -85,8 +85,7 @@
 				<!--Add schedule Table-->
 			<br>
 				<input type="datetime-local">
-			<br>
-
+		    <br>
 				<input type="submit" value="Assign Section To Room">
 			</form>
 		</div>
