@@ -63,12 +63,14 @@
 
 		<p><label>Add Designation:</label>
 		<select>
-			<option value=""></option>
-			<option value=""></option>
+			<option value="">Right</option>
+			<option value="">Left</option>
 		</select></p>
 
 		<p><input type="submit" name="submit" value="Add Student"></p>
 	</form>
+
+
 
 	<form name="" method="">
 		<h1>Search Student</h1>
@@ -76,6 +78,25 @@
 		<input type="" name=""></p> 
 
 		<p><input type="submit" name="submit" value="Search Student"></p>
+
+		<div>
+			<h3>Result List</h3>
+			<p><a href="">Homer Simpson</a></p>
+			<p><a href="">Margie Simpson</a></p>
+			<p><a href="">Simpson Simpson</a></p>
+		</div>
+
+		<div>
+			<h3>Student Info</h3>
+			<p>Student ID: 69</p>
+			<p>Full Name: Homer Simpson</p>
+			<p>Address: Somewhere</p>
+			<p>City: Somewhere</p>
+			<p>Province: Somewhere</p>
+			<p>Email: Somewhere@Somewhere.com</p>
+			<p>Phone: 12345567787</p>
+			<p>Designation ID: 5</p>
+		</div>
 	</form>
 
 	<form name="" method="">
