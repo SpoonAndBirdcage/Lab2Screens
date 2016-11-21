@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Manage Inventory</title>
-	<!-- <link rel="stylesheet" href="../styles/reset.css">
-	<link rel="stylesheet" href="../styles/main.css"> -->
-</head>
-<body>
-	<!--<?php include('include/header.php') ?>-->
+	<?php include('include/header.php') ?>
 	<main>
 		<h1>Manage Inventory</h1>
 		<section>
@@ -14,24 +6,24 @@
 			<form class="">
 				<label for="name">Search by Name:</label>
 				<input type="text" name="name">
-				<input type="submit" value="Search">
+				<input class="btn btn-submit" type="submit" value="Search">
 				<br/>
 
 				<label for="category">Search by Category:</label>
 				<select>
 				  <option value="default">Select Category</option>
 				</select>
-				<input type="submit" value="Search">
+				<input class="btn btn-submit" type="submit" value="Search">
 				<br/>
 
 				<label for="category">Search by Vendor:</label>
 				<select>
 				  <option value="default">Select Vendor</option>
 				</select>
-				<input type="submit" value="Search">
+				<input class="btn btn-submit" type="submit" value="Search">
 				<br/>
 
-				<input type="submit" value="Add New Item">
+				<input class="btn btn-submit" type="submit" value="Add New Item">
 			</form>
 		<section>
 		<section>
@@ -51,7 +43,7 @@
 					<td>50</td>
 					<td>&#36;3.77</td>
 					<td><input type="checkbox"><td>
-					<td><input type="submit" value="Edit"></td>
+					<td><input class="btn btn-submit" type="submit" value="Edit"></td>
 				</tr>
 				<tr>
 					<td>HAS-100-67</td>
@@ -60,7 +52,7 @@
 					<td>30</td>
 					<td>&#36;5.36</td>
 					<td><input type="checkbox"><td>
-					<td><input type="submit" value="Edit"></td>
+					<td><input class="btn btn-submit" type="submit" value="Edit"></td>
 				</tr>
 				<tr>
 					<td>HAS-100-89</td>
@@ -69,11 +61,11 @@
 					<td>67</td>
 					<td>&#36;3.56</td>
 					<td><input type="checkbox"><td>
-					<td><input type="submit" value="Edit"></td>
+					<td><input class="btn btn-submit" type="submit" value="Edit"></td>
 				</tr>
 			</table>
-			<input type="submit" value="Clear">
-			<input type="submit" value="Add to Current Purchase Order">
+			<input class="btn btn-submit" type="submit" value="Clear">
+			<input class="btn btn-submit" type="submit" value="Add to Current Purchase Order">
 		</section>
 		<section>
 			<h3>Edit Item Information</h3>
@@ -103,8 +95,8 @@
 				</select>
 				<br/>
 				
-				<input type="submit" value="Cancel">
-				<input type="submit" value="Update">
+				<input class="btn btn-submit" type="submit" value="Cancel">
+				<input class="btn btn-submit" type="submit" value="Update">
 			</form>
 		</section>
 		<section>
@@ -132,11 +124,9 @@
 				</select>
 				<br/>
 				
-				<input type="submit" value="Cancel">
-				<input type="submit" value="Add">
+				<input class="btn btn-submit" type="submit" value="Cancel">
+				<input class="btn btn-submit" type="submit" value="Add">
 			</form>
 		</section>
 	</main>
-	<!--<?php include('include/footer.php') ?>-->
-</body>
-</html>
+	<?php include('include/footer.php') ?>
