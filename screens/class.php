@@ -1,9 +1,9 @@
 	<!--<?php include('include/header.php') ?>-->
 	<main>
 		<!--Create Course(CourseID, CourseName, CourseDescription, CreditsAwarded)-->
-		<div>
-			<h3>Create a Course</h3>
-			<form class="">
+		<div class="form-main">
+			<h2>Create a Course</h3>
+			<form class="form-section">
 				<label for="CourseID" >Course ID:</label>
 				<input type="text" name="CourseID" readonly value="1001">
 			<br>
@@ -23,9 +23,9 @@
 		</div>
 
 		<!--Create Course Section(CourseSectionID, CourseID, SemesterID, InstructorID, SessionalInstructorID)-->
-		<div>
-			<h3>Add Course Section</h3>
-			<form class="">
+		<div class="form-main">
+			<h2>Add Course Section</h3>
+			<form class="form-section">
 				<label for="CourseID">Course ID:</label>
 				<SELECT name="CourseID">
 					<option value="RootCanal101">Root Canals 101 - 1001</option>
@@ -60,9 +60,9 @@
 		</div>
 
 		<!--Add Class to Room Schedule (ClassRoomScheduleID, ClassRoomID, CourseSectionID, Date)-->
-		<div>
-			<h3>Assign Section to Room</h3>
-			<form class="">
+		<div class="form-main">
+			<h2>Assign Section to Room</h3>
+			<form class="form-section">
 				<label for="RoomCourseID">Section:</label>
 				<SELECT name="RoomCourseID">
 					<option value="1018">1018</option>
@@ -83,6 +83,171 @@
 					<option value="202">QR-201</option>
 				</SELECT>
 				<!--Add schedule Table-->
+				<div class="">
+					<h4>Room Schedule</h4>
+					<table>
+						<tr>
+							<th>Time</th>
+							<th>Sunday</th>
+							<th>Monday</th>
+							<th>Tuesday</th>
+							<th>Wednesday</th>
+							<th>Thursday</th>
+							<th>Friday</th>
+							<th>Saturday</th>
+						</tr>
+						<tr>
+							<td><strong>8:00am</strong></td>
+							<td><p>Sunday</p></td>
+							<td><p>Monday</p></td>
+							<td><p>Tuesday</p></td>
+							<td><p>Wednesday</p></td>
+							<td><p>Thursday</p></td>
+							<td><p>Friday</p></td>
+							<td><p>Saturday</p></td>
+						</tr>
+						<tr>
+							<td><strong>9:00am</strong>
+							</td><td><p>Sunday</p></td>
+							<td><p>Monday</p></td>
+							<td><p>Tuesday</p></td>
+							<td><p>Wednesday</p></td>
+							<td><p>Thursday</p></td>
+							<td><p>Friday</p></td>
+							<td><p>Saturday</p></td>
+						</tr>
+						<tr>
+							<td><strong>10:00am</strong
+							></td><td><p>Sunday</p></td>
+							<td><p>Monday</p></td>
+							<td><p>Tuesday</p></td>
+							<td><p>Wednesday</p></td>
+							<td><p>Thursday</p></td>
+							<td><p>Friday</p></td>
+							<td><p>Saturday</p></td>
+						</tr>
+						<tr>
+							<td><strong>11:00am</strong></td>
+							<td><p>Sunday</p></td>
+							<td><p>Monday</p></td>
+							<td><p>Tuesday</p></td>
+							<td><p>Wednesday</p></td>
+							<td><p>Thursday</p></td>
+							<td><p>Friday</p></td>
+							<td><p>Saturday</p></td>
+						</tr>
+						<tr>
+							<td><strong>12:00pm</strong
+							></td><td><p>Sunday</p></td>
+							<td><p>Monday</p></td>
+							<td><p>Tuesday</p></td>
+							<td><p>Wednesday</p></td>
+							<td><p>Thursday</p></td>
+							<td><p>Friday</p></td>
+							<td><p>Saturday</p></td>
+						</tr>
+						<tr>
+							<td><strong>1:00pm</strong>
+							</td><td><p>Sunday</p></td>
+							<td><p>Monday</p></td>
+							<td><p>Tuesday</p></td>
+							<td><p>Wednesday</p></td>
+							<td><p>Thursday</p></td>
+							<td><p>Friday</p></td>
+							<td><p>Saturday</p></td>
+						</tr>
+						<tr>
+							<td><strong>2:00pm</strong>
+							</td><td><p>Sunday</p></td>
+							<td><p>Monday</p></td>
+							<td><p>Tuesday</p></td>
+							<td><p>Wednesday</p></td>
+							<td><p>Thursday</p></td>
+							<td><p>Friday</p></td>
+							<td><p>Saturday</p></td>
+						</tr>
+						<tr>
+							<td><strong>3:00pm</strong>
+							</td><td><p>Sunday</p></td>
+							<td><p>Monday</p></td>
+							<td><p>Tuesday</p></td>
+							<td><p>Wednesday</p></td>
+							<td><p>Thursday</p></td>
+							<td><p>Friday</p></td>
+							<td><p>Saturday</p></td>
+						</tr>
+						<tr>
+							<td><strong>4:00pm</strong>
+							</td><td><p>Sunday</p></td>
+							<td><p>Monday</p></td>
+							<td><p>Tuesday</p></td>
+							<td><p>Wednesday</p></td>
+							<td><p>Thursday</p></td>
+							<td><p>Friday</p></td>
+							<td><p>Saturday</p></td>
+						</tr>
+						<tr>
+							<td><strong>5:00pm</strong>
+							</td><td><p>Sunday</p></td>
+							<td><p>Monday</p></td>
+							<td><p>Tuesday</p></td>
+							<td><p>Wednesday</p></td>
+							<td><p>Thursday</p></td>
+							<td><p>Friday</p></td>
+							<td><p>Saturday</p></td>
+						</tr>					
+						<tr>
+							<td><strong>6:00pm</strong>
+							</td><td><p>Sunday</p></td>
+							<td><p>Monday</p></td>
+							<td><p>Tuesday</p></td>
+							<td><p>Wednesday</p></td>
+							<td><p>Thursday</p></td>
+							<td><p>Friday</p></td>
+							<td><p>Saturday</p></td>
+						</tr>
+						<tr>
+							<td><strong>7:00pm</strong>
+							</td><td><p>Sunday</p></td>
+							<td><p>Monday</p></td>
+							<td><p>Tuesday</p></td>
+							<td><p>Wednesday</p></td>
+							<td><p>Thursday</p></td>
+							<td><p>Friday</p></td>
+							<td><p>Saturday</p></td>
+						</tr>
+						<tr>
+							<td><strong>8:00pm</strong>
+							</td><td><p>Sunday</p></td>
+							<td><p>Monday</p></td>
+							<td><p>Tuesday</p></td>
+							<td><p>Wednesday</p></td>
+							<td><p>Thursday</p></td>
+							<td><p>Friday</p></td>
+							<td><p>Saturday</p></td>
+						</tr>
+						<tr>
+							<td><strong>9:00pm</strong>
+							</td><td><p>Sunday</p></td>
+							<td><p>Monday</p></td>
+							<td><p>Tuesday</p></td>
+							<td><p>Wednesday</p></td>
+							<td><p>Thursday</p></td>
+							<td><p>Friday</p></td>
+							<td><p>Saturday</p></td>
+						</tr>									
+						<tr>
+							<td><strong>10:00pm</strong
+							></td><td><p>Sunday</p></td>
+							<td><p>Monday</p></td>
+							<td><p>Tuesday</p></td>
+							<td><p>Wednesday</p></td>
+							<td><p>Thursday</p></td>
+							<td><p>Friday</p></td>
+							<td><p>Saturday</p></td>
+						</tr>
+					</table>
+				</div>
 			<br>
 				<input type="datetime-local">
 		    <br>
