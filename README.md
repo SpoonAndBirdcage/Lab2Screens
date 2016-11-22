@@ -14,7 +14,7 @@ add the class "main-content" to your main element
 
 EG.
 
-	<!-- <main class="main-content"> -->
+	<main class="main-content">
 
 ---
 
@@ -26,7 +26,7 @@ First wrap every thing you wants in a horozontial row in a div with classes "gri
 
 EG.
 
-	<!-- <div class="grid group"> ONE FULL ROW GOES IN HERE</div> -->
+	<div class="grid group"> ONE FULL ROW GOES IN HERE</div>
 
 ---
 
@@ -43,7 +43,7 @@ also add a form-section class to each column you make
 
 EG.
 
-	<!-- <div class="col-2 form-section"> YOUR FORM ELEMENTS GO HERE </div> -->
+	<div class="col-2 form-section"> YOUR FORM ELEMENTS GO HERE </div>
 
 ---
 
@@ -59,7 +59,7 @@ on a TEXT INPUT add the css class "form-input"
 
 EG.
 
-	<!-- <input type="text" name="yourName" id="yourID" class="form-input" value="Your Value"> -->
+	<input type="text" name="yourName" id="yourID" class="form-input" value="Your Value">
 
 
 #### TEXT AREA
@@ -68,7 +68,7 @@ on a TEXT AREA add the css classes "form-input form-textarea"
 
 EG.
 
-	<!-- <textarea id="elementID" class="form-input form-textarea"></textarea>
+	<textarea id="elementID" class="form-input form-textarea"></textarea>
 
 
 #### DROP DOWN LIST
@@ -77,7 +77,7 @@ for a drop down list add the classes "form-input form-ddl"
 
 EG.
 
-	<!-- <SELECT name="elementName" id="elementID" class="form-input form-ddl"> </select>-->
+	<SELECT name="elementName" id="elementID" class="form-input form-ddl"> </select>
 
 #### BUTTONS
 
@@ -85,7 +85,7 @@ For buttons add a class of "btn" and then depending on the function of the butto
 
 EG.
 
-	<!-- <button type="submit" class="btn btn-submit">Submit</button> -->
+	<button type="submit" class="btn btn-submit">Submit</button>
 
 
 MORE TO COME SOON!
