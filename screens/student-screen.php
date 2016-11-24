@@ -1,45 +1,28 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<style type="text/css">
-		form p{
-			margin: 0; 
-			clear: left; 
-			font-size: 20px;
-			margin-left: 20px;
-			font-family: 'Vollkorn', serif;
-		}
-		form label{
-			float: left; 
-			width: 200px; 
-		}
-
-	</style>
-</head>
-<body>
-	<form name="" method="">
+<?php include('/include/header.php') ?>
+	
+<main class="main-content">
+	<form>
 		<h1>Register Student</h1>
 		<p><label>First Name:</label>
-		<input type="text" name="" class="form-input"></p> 
+		<input type="text" name="yourName" id="yourID" class="form-input" value="Your Value"></p> 
 
 		<p><label>Last Name:</label>
-		<input type="text" name="" class="form-input"></p> 
+		<input type="text" name="yourName" id="yourID" class="form-input" value="Your Value"></p> 
 
 		<p><label>Street Address:</label>
-		<input type="text" name="" class="form-input"></p> 
+		<input type="text" name="yourName" id="yourID" class="form-input" value="Your Value"></p> 
 
 		<p><label>Postal Code:</label>
-		<input type="text" name="" class="form-input"></p> 
+		<input type="text" name="yourName" id="yourID" class="form-input" value="Your Value"></p> 
 
 		<p><label>City:</label> 
-		<select class="form-input form-ddl">
+		<select name="elementName" id="elementID" class="form-input form-ddl">
 			<option value="">Edmonton</option>
 			<option value="">Calgary</option>
 		</select></p>
 
 		<p><label>Province:</label>
-		<select class="form-input form-ddl">
+		<select name="elementName" id="elementID" class="form-input form-ddl">
 			<option value="AB">Alberta</option>
 			<option value="BC">British Columbia</option>
 			<option value="MB">Manitoba</option>
@@ -56,28 +39,28 @@
 		</select></p> 
 
 		<p><label>Email:</label>
-		<input type="text" name="" class="form-input"></p> 
+		<input type="text" name="yourName" id="yourID" class="form-input" value="Your Value"></p> 
 
 		<p><label>Phone Number:</label>
-		<input type="text" name="" class="form-input"></p> 
+		<input type="text" name="yourName" id="yourID" class="form-input" value="Your Value"></p> 
 
 		<p><label>Add Designation:</label>
-		<select class="form-input form-ddl">
+		<select name="elementName" id="elementID" class="form-input form-ddl">
 			<option value="">Right</option>
 			<option value="">Left</option>
 		</select></p>
 
-		<p><input type="submit" name="submit" value="Add Student" class="btn btn-submit"></p>
+		<p><button type="submit" class="btn btn-submit">Submit</button></p>
 	</form>
 
 
 
-	<form name="" method="">
+	<form>
 		<h1>Search Student</h1>
 		<p><label>Search ID/Name:</label>
-		<input type="" name="" class="form-input"></p> 
+		<input type="text" name="yourName" id="yourID" class="form-input" value="Your Value"></p> 
 
-		<p><input type="submit" name="submit" value="Search Student" class="btn btn-submit"></p>
+		<p><button type="submit" class="btn btn-submit">Submit</button></p>
 
 		<div>
 			<h3>Result List</h3>
@@ -99,25 +82,27 @@
 		</div>
 	</form>
 
-	<form name="" method="">
+	<form>
 		<h1>Register Student In Section</h1>
 		<p><label>Search Student:</label>
-		<input type="" name="" class="form-input"></p> 
-		<p><input type="submit" name="submit" value="Search Student" class="btn btn-submit"></p>
+		<input type="text" name="yourName" id="yourID" class="form-input" value="Your Value"></p> 
+		<p><button type="submit" class="btn btn-submit">Submit</button></p>
 		
 		<p><label>Search Course:</label>
-		<select class="form-input form-ddl">
+		<select name="elementName" id="elementID" class="form-input form-ddl">
 			<option value=""></option>
 			<option value=""></option>
 		</select></p> 
 
 		<p><label>Search Section:</label>
-		<select class="form-input form-ddl">
+		<select name="elementName" id="elementID" class="form-input form-ddl">
 			<option value=""></option>
 			<option value=""></option>
 		</select></p>
 
-		<p><input type="submit" name="submit" value="Register Student" class="btn btn-submit"></p>
+		<p><button type="submit" class="btn btn-submit">Submit</button></p>
 	</form>
-</body>
-</html>
+
+</main>
+	
+<?php include('/include/footer.php') ?>
