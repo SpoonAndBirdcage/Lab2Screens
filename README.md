@@ -3,7 +3,7 @@
 ## THIS IS THE READ ME - PLEASE KEEP THIS UPDATED AND DATED AS THINGS ARE DONE
 
 ## Current Server
-http://sad2lab2.10.129.5.170.xip.io/
+http://sad2.10.129.5.154.xip.io/
 
 ---
 
@@ -89,6 +89,14 @@ EG.
 
 
 MORE TO COME SOON!
+
+## Examples Of Use
+---
+
+Full text box example.
+
+
+
 
 ---
 
