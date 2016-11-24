@@ -1,3 +1,4 @@
+<?php include('/include/header.php') ?>
 	
 <main class="main-content">
 	<form>
@@ -104,3 +105,4 @@
 
 </main>
 	
+<?php include('/include/footer.php') ?>
