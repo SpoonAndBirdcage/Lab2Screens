@@ -1,14 +1,21 @@
 	<?php include('include/header.php') ?>
 	<main class="main-content">
 		<!--Create Course(CourseID, CourseName, CourseDescription, CreditsAwarded)-->
-		<div class="form-main">
-			<h1>Create a Course</h1>
-			<hr>
+
+		<h1>Course Management</h1>
+		<ul class="tabs">
+			<li class="tab-link current" data-tab="tab-1">Create a Course</li>
+			<li class="tab-link" data-tab="tab-2">Add Course Section</li>
+			<li class="tab-link" data-tab="tab-3">Assign Course Section to Room</li>
+		</ul>
+
+		<div id="tab-1" class="form-main tab-content current">
+			<h2>Create a Course</h2>
 			<form>
 				<div class="grid group">
 					<div class="col-2 form-section">
 							<label for="CourseID" >Course ID:</label>
-							<input type="text" name="CourseID" class="form-input" readonly value="1001">
+							<input type="text" name="CourseID" class="form-input" value="1001">
 					</div>
 					<div class="col-2 form-section">
 						<label for="CourseName">Course Name:</label>
@@ -36,28 +43,39 @@
 		</div>
 
 		<!--Create Course Section(CourseSectionID, CourseID, SemesterID, InstructorID, SessionalInstructorID)-->
-		<div>
-			<h3>Add Course Section</h3>
-			<form class="">
-				<label for="CourseID">Course ID:</label>
-				<SELECT name="CourseID">
-					<option value="RootCanal101">Root Canals 101 - 1001</option>
-				</SELECT>
-			<br>
-				<label for="CourseID">Course Section ID:</label>
-				<input type="text" name="CourseID" readonly value="1018">
-			<br>
-				<label for="SemesterID">Semester:</label><br>
-				<input type="radio" name="Semester" value="Winter" checked> Winter<br>
-			    <input type="radio" name="Semester" value="Spring"> Spring<br>
-			    <input type="radio" name="Semester" value="Summer"> Summer<br>
-			    <input type="radio" name="Semester" value="Fall"> Fall
-		    <br>
-		    	<label for="SemesterYear">Year:</label>
-				<SELECT name="SemesterYear">
-					<option value="2016">2016</option>
-				</SELECT>
-			<br>
+		<div id="tab-2" class="form-main tab-content">
+			<h2>Add Course Section</h2>
+			<form>
+				<div class="grid group">
+				<h3>Course Information</h3>	
+					<div class="col-1 form-section">
+						<label for="CourseID">Course ID:</label>
+						<SELECT name="CourseID" class="form-input form-ddl">
+							<option value="RootCanal101">Root Canals 101 - 1001</option>
+						</SELECT>
+					</div>
+					<div class="col-1 form-section">
+						<label for="CourseID">Course Section ID:</label>
+						<input type="text" name="CourseID" class="form-input" readonly value="1018">
+					</div>
+					<div class="col-1 form-section">
+						<label for="SemesterID">Semester:</label><br>
+						<input type="radio" name="Semester" value="Winter" checked> Winter<br>
+					    <input type="radio" name="Semester" value="Spring"> Spring<br>
+					    <input type="radio" name="Semester" value="Summer"> Summer<br>
+					    <input type="radio" name="Semester" value="Fall"> Fall
+					</div>
+					<div class="col-1 form-section">
+						<label for="SemesterYear">Year:</label>
+						<SELECT name="SemesterYear">
+							<option value="2016">2016</option>
+						</SELECT>
+					</div>
+				</div>
+				<div class="grid group">
+					<h3>Course Instructor Information</h3>
+
+				</div>
 				<label for="Instructor">Instructor:</label>
 				<SELECT name="Instructor">
 					<option value="52">Homer Simpson</option>
@@ -73,9 +91,10 @@
 		</div>
 
 		<!--Add Class to Room Schedule (ClassRoomScheduleID, ClassRoomID, CourseSectionID, Date)-->
-		<div>
-			<h3>Assign Section to Room</h3>
+		<div id="tab-3" class="form-main tab-content">
+			<h2>Assign Section to Room</h2>
 			<form class="">
+			<div class="grid group">
 				<label for="RoomCourseID">Section:</label>
 				<SELECT name="RoomCourseID">
 					<option value="1018">1018</option>
@@ -101,6 +120,7 @@
 			<br>
 
 				<input type="submit" value="Assign Section To Room">
+				</div>
 			</form>
 		</div>
 	</main>

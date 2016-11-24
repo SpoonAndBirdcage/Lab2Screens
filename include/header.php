@@ -7,6 +7,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
 	<link rel="stylesheet" href="/../styles/main.css" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tools.min.js"></script> 
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
+	<!--[if lt IE9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
 	<header>

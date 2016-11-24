@@ -20,7 +20,6 @@ a {
 /**
  * 		Typography
  */
-
 h1 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
@@ -29,19 +28,55 @@ h1 {
 	color: #e2e2e2;
 	text-transform: uppercase;
 	letter-spacing: 5px;
+	margin-bottom: 50px;
 }
 
-hr {
-	border-color: #e2e2e2;
-    border-width: 2px;
-    border-style: solid;
+h2 {
+	font-family: 'Raleway', sans-serif;
+	display: inline-block;
+	font-size: 2em;
+	margin-bottom: 25px;
+	color: #e2e2e2;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	border-bottom: 2px solid #e2e2e2;
+	padding-bottom: 12px;
 }
 
 
 
+/**
+ *		Tab System
+ */
+ul.tabs {
+	margin: 0 0 60px 0;
+	padding: 0px;
+	list-style: none;
+	border-bottom: 5px solid #e2e2e2;
+}
 
+ul.tabs li {
+	background: none;
+	letter-spacing: 1px;
+	color: #e2e2e2;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+}
 
+ul.tabs li.current {
+	background: #ededed;
+	color: #222;
+	border-radius: 10px 10px 0 0;
+}
 
+.tab-content {
+	display: none;
+}
+
+.tab-content.current {
+	display: inherit;
+}
 
 /**
  * 		Main Nav
@@ -145,6 +180,7 @@ nav {
  */
 .form-main {
 	width: 100%;
+	margin-bottom: 35px;
 }
 
 .form-section {
@@ -168,7 +204,7 @@ nav {
 }
 
 .form-ddl {
-	height: 38px;
+	height: 42px;
 }
 
 .form-textarea {
