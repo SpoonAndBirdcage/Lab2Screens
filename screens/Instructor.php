@@ -45,6 +45,7 @@
 		</nav>
 	</header>
     <main class="main-content">
+        <h1>Add Instructors/Sessional</h1>
 <form class="Instructor">
             <label for="InstructorID">InstructorID</label>
     <input type="text" readonly value="111" class="form-input">
@@ -52,16 +53,31 @@
      <div class= "grid group">
       <label for="FirstName">First Name</label>
     <input type="text" id="FirstName" value="Bruce" class="form-input"/>
+    <br/>       
+      
+      <label for="LastName">Last Name</label>
+    <input type="text" id="LastName" value="Wayne" class="form-input"/>
     <br/>
+   
       <label for="Address">Address</label>
     <input type="text" id="Address" value="123 Gotham St" class="form-input"/>
     <br/>
+             
+     <label for="PostalCode">Postal Code</label>
+    <input type="text" id="PostalCode" value="B4T7V3"  class="form-input"/>
+    <br/>
+             
     <label for="City">City</label>
     <input type="text" id="City" value="Gotham" class="form-input"/>
     <br/> 
           <label for="Province">Province</label> 
     <input type="text"  id="Province" value="AB" class="form-input"/>
     <br/>
+    
+    <label for="Email">E-Mail</label>
+    <input type="text" id="Email" value="iamnotbatman@gmail.com" class="form-input"/>
+    <br/>
+             
          <label for="PhoneNumber">Phone</label>
     <input type="text" id="PhoneNumber" value="7823479569" class="form-input"/>
     <br/>
@@ -71,26 +87,9 @@
     </div>
     </div>
     
-   
-    <div class ="col-2 formsection">
-
-        
+    <div class ="col-2 form-section"> 
+    
        <div class="grid group">
-      <label for="LastName">Last Name</label>
-    <input type="text" id="LastName" value="Wayne" class="form-input"/>
-    <br/>
-   
-  
-    <label for="PostalCode">Postal Code</label>
-    <input type="text" id="PostalCode" value="B4T7V3"  class="form-input"/>
-    <br/>
-    
-   
-    <label for="Email">E-Mail</label>
-    <input type="text" id="Email" value="iamnotbatman@gmail.com" class="form-input"/>
-    <br/>
-    
-    
     <label>Availability</label>       
     <br/>       
     <p>Enter times available for the following days eg. 12am-12pm *N/A for days unavailable</p>       
@@ -121,6 +120,53 @@
     <button type="submit" id="CancelButton" class="btn btn-cancel">Cancel</button>
     </div>
     </form>
+        
+    <form class="Contract Insructor">
+        <h1>Contract Instructor to Course Section</h1>
+       <div class="col-2 form-section"> 
+            <div class="grid group">
+        <label>Instructor</label><br/>
+        <label for="FullTime">FullTime: </label>
+        <select id="FullTime" class="form-input form-ddl">
+        <option value="0">Select.....</option>    
+        <option value="1">Bruce Wayne</option>
+        </select>
+        <br/>
+        <p>----or------</p>
+        <br/>
+        <label for="Sessional">Sessional: </label>
+        <select id="Sessional"  class="form-input form-ddl">
+        <option value="0">Select.....</option>
+        </select>
+        <br>
+           </div>
+        </div>   
+        
+        <div class="col-2 form-section">
+            <div class="grid group">
+        <label for="CourseDLL">Course: </label>
+        <select id="CourseDDL"  class="form-input form-ddl">
+        <option value="0">Select.....</option>
+        <option value="1" selected>OPTO1001</option>
+        <option value="2">DENT1000</option>    
+        </select>
+        <br/>
+        
+        <label for="SectionDDL">Section: </label>
+        <select id="SectionDDL" class="form-input form-ddl">
+        <option value="0">Select......</option>
+        <option value="1">A01</option>
+        <option value="2">A02</option>
+        <option value="3">A03</option>
+        </select><br/><br/>
+        </div>
+        </div>
+        
+        <div class="grid group">
+           <button type="submit" class="btn btn-submit" id="AssignButton">Assign</button>
+            <button type="submit" id="ResetButton" class="btn btn-cancel">Reset</button>
+        </div>
+        </form>    
     </main>
     <footer></footer>
 </body>
