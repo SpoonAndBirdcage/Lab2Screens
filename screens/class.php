@@ -139,7 +139,7 @@
 					</div>
 				</div>
 				<div class="col-3 form-section">
-					<label for="schedule">Room Schedule</h4>
+					<label for="schedule">Room Schedule:</label>
 					<table name="schedule" id="schedule">
 						<tr>
 							<th>Time</th>
