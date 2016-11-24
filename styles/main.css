@@ -211,7 +211,7 @@ nav {
 }
 
 .form-textarea {
-	height: 160px;
+	min-height: 100%;
 }
 
 .btn {

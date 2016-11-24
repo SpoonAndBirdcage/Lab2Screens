@@ -2,45 +2,49 @@
 <main class="main-content">
 	<!--Create Course(CourseID, CourseName, CourseDescription, CreditsAwarded)-->
 	<section class="grid group">
-		<h1>Create a Course</h1>
+		<h2>Create a Course</h2>
 		<hr>
-		<form class="grid group">
-			<div class="grid group">
-				<div class="col-2 form-section">
-					<label for="CourseID" >Course ID:</label>
-					<input class="form-input" type="text" name="CourseID" readonly value="1001">
+		<div class="grid group">
+			<form>
+				<div class="grid group">
+					<div class="col-2 form-section">
+						<label for="CourseID" >Course ID:</label>
+						<input class="form-input" type="text" name="CourseID" readonly value="1001">
+					</div>
+					
+					<div class="col-2 form-section">
+						<label for="CourseName">Course Name:</label>
+						<input class="form-input" type="text" name="CourseName" value="Root Canals 101">
+					</div>
 				</div>
-				
-				<div class="col-2 form-section">
-					<label for="CourseName">Course Name:</label>
-					<input class="form-input" type="text" name="CourseName" value="Root Canals 101">
+				<div class="grid group">
+					<div class="col-1 form-section">
+						<label for="Credits">Credits:</label>
+						<SELECT class="form-input form-ddl" name="Credits">
+							<option value="3">3</option>
+						</SELECT>
+					</div>
 				</div>
-			</div>
-			<div class="grid group">
-				<div class="col-3 form-section">
-					<label for="CourseDescription">Course Description:</label><br>
-					<textarea id="elementID" class="form-input form-textarea"></textarea>
+				<div class="grid group">
+					<div class="col-4 form-section">
+						<label for="CourseDescription">Course Description:</label><br>
+						<textarea id="elementID" class="form-input form-textarea"></textarea>
+					</div>
 				</div>
-
-				<div class="col-1 form-section">
-					<label for="Credits">Credits:</label>
-					<SELECT class="form-input form-ddl" name="Credits">
-						<option value="3">3</option>
-					</SELECT>
+				<div class="grid group">
+					<div class="col-1 form-section">
+						<input class="btn btn-submit" type="submit" value="Create Class">
+					</div>
 				</div>
-			</div>
-			<div class="grid group">
-				<div class="col-1 form-section">
-					<input class="btn btn-submit" type="submit" value="Create Class">
-				</div>
-			</div>
-		</form>
+			</form>
+		</div>
 	</section>
 
 	<!--Create Course Section(CourseSectionID, CourseID, SemesterID, InstructorID, SessionalInstructorID)-->
 	<section class="grid group">
-		<h1>Add Course Section</h1>
-		<form class="grid group">
+		<h2>Add Course Section</h2>
+		<div class="grid group">
+		<form>
 			<div class="grid group">
 				<div class="col-2 form-section">
 					<label for="CourseID">Course ID:</label>
@@ -56,7 +60,7 @@
 
 			<div class="grid group">
 				<div class="col-2 form-section">
-					<label for="SemesterID">Semester:</label><br>
+					<label for="SemesterID">Semester:</label>
 					<input type="radio" name="Semester" value="Winter" checked> Winter<br>
 				    <input type="radio" name="Semester" value="Spring"> Spring<br>
 				    <input type="radio" name="Semester" value="Summer"> Summer<br>
@@ -90,11 +94,12 @@
 				</div>
 			</div>
 		</form>
+		 </div>
 	</section>
 
 	<!--Add Class to Room Schedule (ClassRoomScheduleID, ClassRoomID, CourseSectionID, Date)-->
 	<section class="grid group">
-		<h1>Assign Section to Room</h1>
+		<h2>Assign Section to Room</h2>
 		<br>
 		<form class="grid group">
 			<div class="grid group">
@@ -113,7 +118,7 @@
 			</div>
 			<div class="grid group">
 				<div class="col-1 form-section">
-					
+			
 					<label for="RoomCourseID">Section:</label>
 					<SELECT class="form-input form-ddl" name="RoomCourseID">
 						<option value="1018">1018</option>
