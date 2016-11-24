@@ -139,6 +139,9 @@ nav {
 	width: 100%;
 }
 
+.row-inside-row {
+	padding-top: 15px;
+}
 
 /**
  * 		Forms
