@@ -88,17 +88,66 @@ EG.
 	<button type="submit" class="btn btn-submit">Submit</button>
 
 
-MORE TO COME SOON!
-
-## Examples Of Use
+## TABS
 ---
 
-Full text box example.
+### Setting Up the Tabs
 
+This section should go directly after your main tag 
 
+	<h1> *PLACE YOU MAIN PAGE TITLE HERE* </h1>
+		<ul class="tabs">
+			<li class="tab-link current" data-tab="tab-1"> *NAME OF THE FORM* </li>
+			<li class="tab-link" data-tab="tab-2"> *NAME OF THE FORM* </li>
+			<li class="tab-link" data-tab="tab-3"> *NAME OF THE FORM* </li>
 
+		.... Place as many li here for every tab you want to use just incease the data-tab tab-# each time
+
+	</ul>	
+	
+To get the froms to change when using the link change your div with the class form-main from:
+
+	<div class="form-main">
+
+To:
+
+	<div id="tab-1" class="form-main tab-content current">	
+
+The div ID needs to match the data-tab in the tab navigation
+
+So 
+
+	<div id="tab-1" class="form-main tab-content current">	
+
+Will show up when you click this link 
+
+	<li class="tab-link current" data-tab="tab-1"> First Form </li>
+
+## THE CLASS OF current IS ONLY USED ON THE FIRST DIV AND THE FIRST LI 
+
+## Checkboxes / Radio Buttons
+
+All checkboxes and radio buttons need to be wrapped in a div with the class of checkbox
+
+So this
+
+	<div class="col-2 form-section">
+
+will become
+
+	<div class="col-2 form-section checkbox">
+
+Also all check boxes and raido buttons need to be formated liek the following
+
+	<label class="checkbox-layout">
+		<input type="radio" name="Semester" value="Winter" checked> Winter
+	</label>
+
+The input type needs to be wrapped in a label container with the class of checkbox-layout
 
 ---
+
+## MORE TO COME
 
 ### Who is doing what:
 
