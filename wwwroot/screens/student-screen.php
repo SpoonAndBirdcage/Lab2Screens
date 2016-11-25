@@ -1,10 +1,16 @@
 <?php include('../include/header.php') ?>
 <main class="main-content">
-	<h1>Students</h1>
 
-	<div class="form-main">
+	<h1>Students</h1>
+	<ul class="tabs">
+	<li class="tab-link current" data-tab="tab-1"> Register </li>
+	<li class="tab-link" data-tab="tab-2"> Search Student </li>
+	<li class="tab-link" data-tab="tab-3"> Assign Section </li>
+	</ul>	
+
+		<div id="tab-1" class="form-main tab-content current">
 		<h2>Register Student</h2>
-		<form>
+		
 		<div class="grid group">
 			<div class="col-2 form-section">
 			<label>First Name:</label>
@@ -279,15 +285,14 @@
 		</div>
 
 			<div class="col-4 form-section">
-			<button type="submit" class="btn btn-submit">Submit</button>
+				<button type="submit" class="btn btn-submit">Submit</button>
 			</div>
-	</form>
+	
 	</div>
 
 
-	<div class="form-main">
+	<div id="tab-2" class="form-main tab-content current">
 		<h2>Search Student</h2>
-		<form>
 			<div class="grid group">
 				<div class="col-1 form-section">
 					<label>Search ID/Name:</label>
@@ -299,12 +304,10 @@
 			<div class="col-2 form-section">
 				<button type="submit" class="btn btn-submit">Search</button>
 			</div>
-		</form>
 	</div>
 
-	<div class="form-main">
+	<div id="tab-3" class="form-main tab-content current">
 		<h2>Register Student in Section</h2>
-		<form>
 			<div class="grid group">
 				<div class="col-1 form-section">
 				<label>Search Student:</label>
@@ -343,7 +346,6 @@
 				<label>Add Student to Section</label>
 				<button type="submit" class="btn btn-submit">Register Student</button>
 			</div>
-		</form>
 	</div>
 </main>
 <?php include('../include/footer.php') ?>
