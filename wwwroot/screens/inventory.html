@@ -47,124 +47,164 @@
 	<!--<?php include('include/header.php') ?>-->
 	<main class="main-content">
 		<h1>Manage Inventory</h1>
-		<section class="col-4">
+		<section class="form-main">
 			<h2>Search Inventory</h2>
-			<form class="">
-				<div class="col-1 form-section">
-					<label for="name">Enter Item Name:</label>
-					<input class="form-input" type="text" name="name">
+			<form>
+				<div class="grid group">
+					<div class="col-1 form-section">
+						<label for="name">Enter Item Name:</label>
+						<input class="form-input" type="text" name="name">
+					</div>
+					<div class="col-1 form-section">
+						<label for="category">Select Category:</label>
+						<select class="form-input form-ddl">
+							<option value="default">All</option>
+						</select>
+					</div>
+					<div class="col-1 form-section">
+						<label for="category">Select Vendor:</label>
+						<select class="form-input form-ddl">
+							<option value="default">All</option>
+						</select>
+					</div>
 				</div>
-				<div class="col-1 form-section">
-					<label for="category">Select Category:</label>
-					<select class="form-input form-ddl">
-						<option value="default">All</option>
-					</select>
-				</div>
-				<div class="col-1 form-section">
-					<label for="category">Select Vendor:</label>
-					<select class="form-input form-ddl">
-						<option value="default">All</option>
-					</select>
-				</div>
-				<div class="col-1 form-section">
-					<input class="btn btn-submit" type="submit" value="Search">
-				</div>
-				<br/>
-				<div class="col-4 form-section">
-					<input class="btn btn-submit" type="submit" value="Add New Item">
+				<div class="grid group">
+					<div class="col-1 form-section">
+						<input class="btn btn-submit" type="submit" value="Add New Item">
+						<input class="btn btn-submit" type="submit" value="Search">
+					</div>
 				</div>
 			</form>
 		</section>
-		<section class="col-2 form-section">
+		<section class="form-main">
 			<h2>Search Results: Category</h2>
-			<table>
-				<tr>
-					<th>Inventory ID</th>
-					<th>Name</th>
-					<th>Description</th>
-					<th>Quantity</th>
-					<th>Price</th>
-				</tr>
-				<tr>
-					<td>HAS-100-60</td>
-					<td>Face Mask</td>
-					<td>3 Layer, Tie Type, 50/Pk</td>
-					<td>50</td>
-					<td>&#36;3.77</td>
-					<td><input type="checkbox"><td>
-					<td><input class="btn btn-submit" type="submit" value="Edit"></td>
-				</tr>
-				<tr>
-					<td>HAS-100-67</td>
-					<td>Gloves Vinyl Powder Free</td>
-					<td>Size: XS,S,M,L,XL, 100/Pk</td>
-					<td>30</td>
-					<td>&#36;5.36</td>
-					<td><input type="checkbox"><td>
-					<td><input class="btn btn-submit" type="submit" value="Edit"></td>
-				</tr>
-				<tr>
-					<td>HAS-100-89</td>
-					<td>Saliva Ejector Transparent</td>
-					<td>100/Pk</td>
-					<td>67</td>
-					<td>&#36;3.56</td>
-					<td><input type="checkbox"><td>
-					<td><input class="btn btn-submit" type="submit" value="Edit"></td>
-				</tr>
-			</table>
-			<input class="btn btn-submit" type="submit" value="Clear">
-			<input class="btn btn-submit" type="submit" value="Add to Current Purchase Order">
+			<div class="grid group">
+				<div class="col-2 form-section">
+					<table>
+						<tr>
+							<th>Inventory ID</th>
+							<th>Name</th>
+							<th>Description</th>
+							<th>Quantity</th>
+							<th>Price</th>
+						</tr>
+						<tr>
+							<td>HAS-100-60</td>
+							<td>Face Mask</td>
+							<td>3 Layer, Tie Type, 50/Pk</td>
+							<td>50</td>
+							<td>&#36;3.77</td>
+							<td><input class="checkbox checkbox-layout" type="checkbox"><td>
+							<td><input class="btn btn-submit" type="submit" value="Edit"></td>
+						</tr>
+						<tr>
+							<td>HAS-100-67</td>
+							<td>Gloves Vinyl Powder Free</td>
+							<td>Size: XS,S,M,L,XL, 100/Pk</td>
+							<td>30</td>
+							<td>&#36;5.36</td>
+							<td><input class="checkbox checkbox-layout" type="checkbox"><td>
+							<td><input class="btn btn-submit" type="submit" value="Edit"></td>
+						</tr>
+						<tr>
+							<td>HAS-100-89</td>
+							<td>Saliva Ejector Transparent</td>
+							<td>100/Pk</td>
+							<td>67</td>
+							<td>&#36;3.56</td>
+							<td><input class="checkbox checkbox-layout" type="checkbox"><td>
+							<td><input class="btn btn-submit" type="submit" value="Edit"></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="grid group">
+				<div class="col-1 form-section">
+					<input class="btn btn-submit" type="submit" value="Clear">
+					<input class="btn btn-submit" type="submit" value="Add to Current Purchase Order">
+				</div>
+			</div>
 		</section>
-		<section class="col-2 form-section">
+		<section class="form-main">
 			<h2>Edit Item Information</h2>
 			<form>
-				<label>Inventory ID:</label>
-				<input class="form-input" type="text" value="HAS-100-89" readonly>
-
-				<label>Name:</label>
-				<input class="form-input" type="text">
-
-				<label>Description:</label>
-				<textarea class="form-input form-textarea"></textarea>
-
-				<label>Quantity:</label>
-				<input class="form-input" type="text">
-
-				<label>Price:</label>
-				<input class="form-input" type="text">
-
-				<label for="category">Vendor:</label>
-				<select class="form-input">
-				  <option value="default">Select Vendor</option>
-				</select>
-				
-				<input class="btn btn-submit" type="submit" value="Cancel">
-				<input class="btn btn-submit" type="submit" value="Update">
+				<div class="grid group">
+					<div class="col-1 form-section">
+						<label>Inventory ID:</label>
+						<input class="form-input" type="text" value="HAS-100-89" readonly>
+					</div>
+					<div class="col-1 form-section">
+						<label>Name:</label>
+						<input class="form-input" type="text">
+					</div>
+					<div class="col-1 form-section">
+						<label for="category">Vendor:</label>
+						<select class="form-input">
+						  <option value="default">Select Vendor</option>
+						</select>
+					</div>
+				</div>
+				<div class="grid group">
+					<div class="col-4 form-section">
+						<label>Description:</label>
+						<textarea class="form-input form-textarea"></textarea>
+					</div>
+				</div>
+				<div class="grid group">
+					<div class="col-2 form-section">
+						<label>Quantity:</label>
+						<input class="form-input" type="text">
+					</div>
+					<div class="col-2 form-section">
+						<label>Price:</label>
+						<input class="form-input" type="text">
+					</div>	
+				</div>
+				<div class="grid group">
+					<div class="col-1 form-section">
+						<input class="btn btn-submit" type="submit" value="Cancel">
+						<input class="btn btn-submit" type="submit" value="Update">
+					</div>
+				</div>
 			</form>
 		</section>
-		<section class="col-2 form-section">
+		<section class="form-main">
 			<h2>Add New Inventory Item</h2>
 			<form>
-				<label>Name:</label>
-				<input class="form-input" type="text">
-
-				<label>Description:</label>
-				<textarea class="form-input form-textarea"></textarea>
-
-				<label>Quantity:</label>
-				<input class="form-input" type="text">
-
-				<label>Price:</label>
-				<input class="form-input" type="text">
-
-				<label for="category">Vendor:</label>
-				<select class="form-input">
-				  <option value="default">Select Vendor</option>
-				</select>
-				
-				<input class="btn btn-submit" type="submit" value="Cancel">
-				<input class="btn btn-submit" type="submit" value="Add">
+				<div class="grid group">
+					<div class="col-2 form-section">
+						<label>Name:</label>
+						<input class="form-input" type="text">
+					</div>
+					<div class="col-2 form-section">
+						<label for="category">Vendor:</label>
+						<select class="form-input">
+						  <option value="default">Select Vendor</option>
+						</select>
+					</div>
+				</div>
+				<div class="grid group">
+					<div class="col-1 form-section">
+						<label>Description:</label>
+						<textarea class="form-input form-textarea"></textarea>
+					</div>
+				</div>
+				<div class="grid group">
+					<div class="col-2 form-section">
+						<label>Quantity:</label>
+						<input class="form-input" type="text">
+					</div>
+					<div class="col-2 form-section">
+						<label>Price:</label>
+						<input class="form-input" type="text">
+					</div>	
+				</div>
+				<div class="grid group">
+					<div class="col-1 form-section">
+						<input class="btn btn-submit" type="submit" value="Cancel">
+						<input class="btn btn-submit" type="submit" value="Add">
+					</div>
+				</div>
 			</form>
 		</section>
 	</main>
