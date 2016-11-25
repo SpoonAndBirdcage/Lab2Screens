@@ -6,17 +6,17 @@
 		<h2>Register Student</h2>
 		<form>
 		<div class="grid group">
-			<div class="col-1 form-section">
+			<div class="col-2 form-section">
 			<label>First Name:</label>
 			<input type="text" class="form-input" name="fname">
 			</div>
 
-			<div class="col-1 form-section">
+			<div class="col-2 form-section">
 			<label>Last Name:</label>
 			<input type="text" class="form-input" name="lname">
 			</div>
 
-			<div class="col-1 form-section checkbox">
+			<div class="col-2 form-section checkbox">
 			<label>Gender:</label>
 			<select name="elementName" class="form-input form-ddl">
 				<option value="">Gender</option>
@@ -26,10 +26,12 @@
 			</select>
 			</label>
 			</div>
+
+			<div class="col-4 form-section checkbox"></div>
 		</div>
 
 		<div class="grid group">
-			<div class="col-1 form-section">
+			<div class="col-2 form-section">
 			<label>Birth Date:</label>
 			<select name="elementName" class="form-input form-ddl">
 		      <option value="">Day</option>
@@ -68,7 +70,7 @@
 		    </select>
 			</div>
 
-			<div class="col-1 form-section">
+			<div class="col-2 form-section">
 			<label>Month</label>
 			<select name="elementName" class="form-input form-ddl">
 			   	  <option value="">Month</option>
@@ -88,7 +90,7 @@
 			    </select>  
 			</div>
 
-			<div class="col-1 form-section">
+			<div class="col-2 form-section">
 			<label>Year</label>
 			<select name="elementName" class="form-input form-ddl">
 			      <option value="">Year</option>
@@ -207,20 +209,22 @@
 			      <option value="1900">1900</option>
 			    </select>
 			 </div>
+
+			 <div class="col-4 form-section"></div>
 		</div>
 
 		<div class="grid group">
-			<div class="col-1 form-section">
+			<div class="col-2 form-section">
 			<label>Street Address:</label>
 			<input type="text" class="form-input" name="sadd">
 			</div>
 
-			<div class="col-1 form-section">
+			<div class="col-2 form-section">
 			<label>Postal Code:</label>
 			<input type="text" class="form-input" name="pcode">
 			</div>
 
-			<div class="col-1 form-section">
+			<div class="col-2 form-section">
 			<label>City:</label>
 			<select name="city" class="form-input form-ddl">
 				<option value="">Edmonton</option>
@@ -228,7 +232,7 @@
 			</select>
 			</div>
 
-			<div class="col-1 form-section">
+			<div class="col-2 form-section">
 			<label>Province:</label>
 			<select name="elementName" class="form-input form-ddl">
 				<option value="AB">Alberta</option>
@@ -246,20 +250,22 @@
 				<option value="YT">Yukon</option>
 			</select>
 			</div>
+
+			<div class="col-2 form-section"></div>
 		</div>
 
 		<div class="grid group">
-			<div class="col-1 form-section">
+			<div class="col-2 form-section">
 			<label>Email:</label>
 			<input type="text" class="form-input" name="email">
 			</div>
 
-			<div class="col-1 form-section">
+			<div class="col-2 form-section">
 			<label>Phone Number:</label>
 			<input type="text" class="form-input" name="phone">
 			</div>
 
-			<div class="col-1 form-section">
+			<div class="col-2 form-section">
 			<label>Add Designation:</label>
 			<select name="designation" class="form-input form-ddl">
 				<option value="">Right</option>
@@ -268,6 +274,8 @@
 				<option value="">Down</option>
 			</select>
 			</div>
+
+			<div class="col-4 form-section"></div>
 		</div>
 
 			<div class="col-4 form-section">
