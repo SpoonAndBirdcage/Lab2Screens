@@ -1,17 +1,16 @@
 <?php include('../include/header.php') ?>
 <main class="main-content">
+	<h1>Course Management</h1>
 	<!--Create Course(CourseID, CourseName, CourseDescription, CreditsAwarded)-->
-	<section class="grid group">
+	<section class="form-main">
 		<h2>Create a Course</h2>
-		<hr>
-		<div class="grid group">
 			<form>
 				<div class="grid group">
 					<div class="col-2 form-section">
 						<label for="CourseID" >Course ID:</label>
 						<input class="form-input" type="text" name="CourseID" readonly value="1001">
 					</div>
-					
+
 					<div class="col-2 form-section">
 						<label for="CourseName">Course Name:</label>
 						<input class="form-input" type="text" name="CourseName" value="Root Canals 101">
@@ -37,13 +36,11 @@
 					</div>
 				</div>
 			</form>
-		</div>
 	</section>
 
 	<!--Create Course Section(CourseSectionID, CourseID, SemesterID, InstructorID, SessionalInstructorID)-->
-	<section class="grid group">
+	<section class="form-main">
 		<h2>Add Course Section</h2>
-		<div class="grid group">
 		<form>
 			<div class="grid group">
 				<div class="col-2 form-section">
@@ -61,9 +58,9 @@
 			<div class="grid group">
 				<div class="col-2 form-section">
 					<label for="SemesterID">Semester:</label>
-					<input type="radio" name="Semester" value="Winter" checked> Winter<br>
-				    <input type="radio" name="Semester" value="Spring"> Spring<br>
-				    <input type="radio" name="Semester" value="Summer"> Summer<br>
+					<input type="radio" name="Semester" value="Winter" checked> Winter
+				    <input type="radio" name="Semester" value="Spring"> Spring
+				    <input type="radio" name="Semester" value="Summer"> Summer
 				    <input type="radio" name="Semester" value="Fall"> Fall
 			   </div>
 			   <div class="col-2 form-section">
@@ -94,14 +91,11 @@
 				</div>
 			</div>
 		</form>
-		 </div>
 	</section>
 
 	<!--Add Class to Room Schedule (ClassRoomScheduleID, ClassRoomID, CourseSectionID, Date)-->
-	<section class="grid group">
+	<section class="form-main">
 		<h2>Assign Section to Room</h2>
-		<br>
-		<form class="grid group">
 			<div class="grid group">
 				<div class="col-2 form-section">
 					<label for="RoomLocation">Location:</label>
@@ -118,12 +112,12 @@
 			</div>
 			<div class="grid group">
 				<div class="col-1 form-section">
-			
+
 					<label for="RoomCourseID">Section:</label>
 					<SELECT class="form-input form-ddl" name="RoomCourseID">
 						<option value="1018">1018</option>
 					</SELECT>
-					
+
 					<div class="row-inside-row">
 						<label for="CourseID">Course ID:</label>
 						<SELECT class="form-input form-ddl" name="CourseID">
@@ -255,7 +249,7 @@
 							<td>Thursday</td>
 							<td>Friday</td>
 							<td>Saturday</td>
-						</tr>					
+						</tr>
 						<tr>
 							<td><strong>6:00pm</strong></td>
 							<td>Sunday</td>
@@ -295,7 +289,7 @@
 							<td>Thursday</td>
 							<td>Friday</td>
 							<td>Saturday</td>
-						</tr>									
+						</tr>
 						<tr>
 							<td><strong>10:00pm</strong></td>
 							<td>Sunday</td>

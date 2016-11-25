@@ -1,7 +1,6 @@
 	<?php include('include/header.php') ?>
 	<main class="main-content">
 		<!--Create Course(CourseID, CourseName, CourseDescription, CreditsAwarded)-->
-
 		<h1>Course Management</h1>
 		<ul class="tabs">
 			<li class="tab-link current" data-tab="tab-1">Create a Course</li>
@@ -46,8 +45,8 @@
 		<div id="tab-2" class="form-main tab-content">
 			<h2>Add Course Section</h2>
 			<form>
+				<h3>Course Information</h3>
 				<div class="grid group">
-				<h3>Course Information</h3>	
 					<div class="col-1 form-section">
 						<label for="CourseID">Course ID:</label>
 						<SELECT name="CourseID" class="form-input form-ddl">
@@ -58,16 +57,26 @@
 						<label for="CourseID">Course Section ID:</label>
 						<input type="text" name="CourseID" class="form-input" readonly value="1018">
 					</div>
-					<div class="col-1 form-section">
+				</div>
+				<div class="grid group">
+					<div class="col-2 form-section checkbox">
 						<label for="SemesterID">Semester:</label><br>
-						<input type="radio" name="Semester" value="Winter" checked> Winter<br>
-					    <input type="radio" name="Semester" value="Spring"> Spring<br>
-					    <input type="radio" name="Semester" value="Summer"> Summer<br>
-					    <input type="radio" name="Semester" value="Fall"> Fall
+						<label class="checkbox-layout">
+							<input type="radio" name="Semester" value="Winter" checked> Winter
+						</label>
+						<label class="checkbox-layout">
+					    	<input type="radio" name="Semester" value="Spring"> Spring
+					    </label>
+					    <label class="checkbox-layout">
+					    	<input type="radio" name="Semester" value="Summer"> Summer
+					    </label>
+					    <label class="checkbox-layout">
+					    	<input type="radio" name="Semester" value="Fall"> Fall
+					    </label>
 					</div>
-					<div class="col-1 form-section">
+					<div class="col-2 form-section">
 						<label for="SemesterYear">Year:</label>
-						<SELECT name="SemesterYear">
+						<SELECT name="SemesterYear" class="form-input form-ddl">
 							<option value="2016">2016</option>
 						</SELECT>
 					</div>

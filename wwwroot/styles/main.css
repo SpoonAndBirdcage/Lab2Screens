@@ -151,31 +151,27 @@ nav {
  * 		Super Simple Grid System
  */
 .grid {
-	display: block;
-}
-
-[class*='col-'] {
-  float: left;
+	display: flex;
 }
 
 .col-1 {
-	width: 25%;
+	flex: 1;
 }
 
 .col-2 {
-	width: 50%;
+	flex: 2;
 }
 
 .col-3 {
-	width: 75%;
+	flex: 3;
 }
 
 .col-4 {
-	width: 100%;
+	flex: 4;
 }
 
-.row-inside-row {
-	padding-top: 15px;
+.row-inside-row input, .row-inside-row .form-ddl {
+	margin-bottom: 15px;
 }
 
 /**
@@ -211,7 +207,14 @@ nav {
 }
 
 .form-textarea {
-	min-height: 100%;
+	resize: none;
+	max-width: 100%;
+}
+
+.checkbox .checkbox-layout {
+	position: realtive;
+	display: inline-block;
+	padding-left: 25px;
 }
 
 .btn {
@@ -231,6 +234,8 @@ nav {
 	border: 1px solid #30343e;
 	color: #fff;
 }
+
+
 
 /**
  * 		Footer

@@ -1,21 +1,21 @@
-<?php include('/include/header.php') ?>
-	
+<?php include('../include/header.php') ?>
+
 <main class="main-content">
 	<form>
 		<h1>Register Student</h1>
 		<p><label>First Name:</label>
-		<input type="text" name="yourName" id="yourID" class="form-input" value="Your Value"></p> 
+		<input type="text" name="yourName" id="yourID" class="form-input" value="Your Value"></p>
 
 		<p><label>Last Name:</label>
-		<input type="text" name="yourName" id="yourID" class="form-input" value="Your Value"></p> 
+		<input type="text" name="yourName" id="yourID" class="form-input" value="Your Value"></p>
 
 		<p><label>Street Address:</label>
-		<input type="text" name="yourName" id="yourID" class="form-input" value="Your Value"></p> 
+		<input type="text" name="yourName" id="yourID" class="form-input" value="Your Value"></p>
 
 		<p><label>Postal Code:</label>
-		<input type="text" name="yourName" id="yourID" class="form-input" value="Your Value"></p> 
+		<input type="text" name="yourName" id="yourID" class="form-input" value="Your Value"></p>
 
-		<p><label>City:</label> 
+		<p><label>City:</label>
 		<select name="elementName" id="elementID" class="form-input form-ddl">
 			<option value="">Edmonton</option>
 			<option value="">Calgary</option>
@@ -36,13 +36,13 @@
 			<option value="NT">Northwest Territories</option>
 			<option value="NU">Nunavut</option>
 			<option value="YT">Yukon</option>
-		</select></p> 
+		</select></p>
 
 		<p><label>Email:</label>
-		<input type="text" name="yourName" id="yourID" class="form-input" value="Your Value"></p> 
+		<input type="text" name="yourName" id="yourID" class="form-input" value="Your Value"></p>
 
 		<p><label>Phone Number:</label>
-		<input type="text" name="yourName" id="yourID" class="form-input" value="Your Value"></p> 
+		<input type="text" name="yourName" id="yourID" class="form-input" value="Your Value"></p>
 
 		<p><label>Add Designation:</label>
 		<select name="elementName" id="elementID" class="form-input form-ddl">
@@ -58,7 +58,7 @@
 	<form>
 		<h1>Search Student</h1>
 		<p><label>Search ID/Name:</label>
-		<input type="text" name="yourName" id="yourID" class="form-input" value="Your Value"></p> 
+		<input type="text" name="yourName" id="yourID" class="form-input" value="Your Value"></p>
 
 		<p><button type="submit" class="btn btn-submit">Submit</button></p>
 
@@ -85,14 +85,14 @@
 	<form>
 		<h1>Register Student In Section</h1>
 		<p><label>Search Student:</label>
-		<input type="text" name="yourName" id="yourID" class="form-input" value="Your Value"></p> 
+		<input type="text" name="yourName" id="yourID" class="form-input" value="Your Value"></p>
 		<p><button type="submit" class="btn btn-submit">Submit</button></p>
-		
+
 		<p><label>Search Course:</label>
 		<select name="elementName" id="elementID" class="form-input form-ddl">
 			<option value=""></option>
 			<option value=""></option>
-		</select></p> 
+		</select></p>
 
 		<p><label>Search Section:</label>
 		<select name="elementName" id="elementID" class="form-input form-ddl">
@@ -104,5 +104,5 @@
 	</form>
 
 </main>
-	
-<?php include('/include/footer.php') ?>
+
+<?php include('../include/footer.php') ?>
