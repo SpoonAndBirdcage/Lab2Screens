@@ -235,6 +235,30 @@ nav {
 	color: #fff;
 }
 
+.btn-danger {
+	background-color: #ee1100;
+	border: 1px solid #30343e;
+	color: #fff;
+}
+
+.btn-danger:hover {
+	background-color: #CC1100;
+	border: 1px solid #30343e;
+	color: #fff;
+}
+
+.btn-update {
+	background-color: #FF673A;
+	border: 1px solid #30343e;
+	color: #fff;
+}
+
+.btn-update {
+	background-color: #FFA33A;
+	border: 1px solid #30343e;
+	color: #fff;
+}
+
 
 
 /**
