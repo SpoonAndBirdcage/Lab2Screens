@@ -289,7 +289,7 @@
 			</div>
 
 			<div class="col-2 form-section">
-				<button type="submit" class="btn btn-submit">Submit</button>
+				<button type="submit" class="btn btn-submit">Search</button>
 			</div>
 		</form>
 	</div>
@@ -306,7 +306,7 @@
 			</div>
 
 			<div class="col-2 form-section">
-				<button type="submit" class="btn btn-submit">Submit</button>
+				<button type="submit" class="btn btn-submit">Search</button>
 			</div>
 
 			<div class="grid group">
@@ -318,10 +318,6 @@
 				</select>
 				</div>
 				<div class="col-4 form-section"></div>
-			</div>
-
-			<div class="col-2 form-section">
-				<button type="submit" class="btn btn-submit">Submit</button>
 			</div>
 
 			<div class="grid group">
@@ -336,7 +332,8 @@
 			</div>
 
 			<div class="col-2 form-section">
-				<button type="submit" class="btn btn-submit">Submit</button>
+				<label>Add Student to Section</label>
+				<button type="submit" class="btn btn-submit">Register Student</button>
 			</div>
 		</form>
 	</div>
