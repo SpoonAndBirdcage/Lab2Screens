@@ -1,46 +1,68 @@
 <?php include('../include/header.php') ?>
 <main class="main-content">
 	<h1>Course Management</h1>
-	<!--Create Course(CourseID, CourseName, CourseDescription, CreditsAwarded)-->
-	<section class="form-main">
-		<h2>Create a Course</h2>
-			<form>
-				<div class="grid group">
-					<div class="col-2 form-section">
-						<label for="CourseID" >Course ID:</label>
-						<input class="form-input" type="text" name="CourseID" readonly value="1001">
-					</div>
+		<ul class="tabs">
+			<li class="tab-link current" data-tab="tab-1">Create a Course</li>
+			<li class="tab-link" data-tab="tab-2">Add Course Section</li>
+			<li class="tab-link" data-tab="tab-3">Assign Course Section to Room</li>
+		</ul>
 
-					<div class="col-2 form-section">
-						<label for="CourseName">Course Name:</label>
-						<input class="form-input" type="text" name="CourseName" value="Root Canals 101">
-					</div>
+	<!--Create Course(CourseID, CourseName, CourseDescription, CreditsAwarded)-->
+	<section id="tab-1" class="form-main tab-content current">
+		<h2>Create a Course</h2>
+		<div class="grid group">
+			<div class="col-4 form-section">
+				<label for="search">Search:</label>
+				<input type="text" class="form-input" name="search">
+			</div>
+		</div>
+		<hr>
+		<form>
+			<div class="grid group">
+				<div class="col-2 form-section">
+					<label for="CourseID" >Course ID:</label>
+					<input class="form-input" type="text" name="CourseID" readonly value="1001">
 				</div>
-				<div class="grid group">
-					<div class="col-1 form-section">
-						<label for="Credits">Credits:</label>
-						<SELECT class="form-input form-ddl" name="Credits">
-							<option value="3">3</option>
-						</SELECT>
-					</div>
+
+				<div class="col-2 form-section">
+					<label for="CourseName">Course Name:</label>
+					<input class="form-input" type="text" name="CourseName" value="Root Canals 101">
 				</div>
-				<div class="grid group">
-					<div class="col-4 form-section">
-						<label for="CourseDescription">Course Description:</label><br>
-						<textarea id="elementID" class="form-input form-textarea"></textarea>
-					</div>
+			</div>
+			<div class="grid group">
+				<div class="col-1 form-section">
+					<label for="Credits">Credits:</label>
+					<SELECT class="form-input form-ddl" name="Credits">
+						<option value="3">3</option>
+					</SELECT>
 				</div>
-				<div class="grid group">
-					<div class="col-1 form-section">
-						<input class="btn btn-submit" type="submit" value="Create Class">
-					</div>
+			</div>
+			<div class="grid group">
+				<div class="col-4 form-section">
+					<label for="CourseDescription">Course Description:</label><br>
+					<textarea id="elementID" class="form-input form-textarea"></textarea>
 				</div>
-			</form>
+			</div>
+			<div class="grid group">
+				<div class="col-4 form-section">
+					<input class="btn btn-submit" type="submit" value="Create Class">
+					<input class="btn btn-submit update" type="submit" value="Update">
+					<input class="btn btn-submit danger" type="submit" value="Delete">
+				</div>
+			</div>
+		</form>
 	</section>
 
 	<!--Create Course Section(CourseSectionID, CourseID, SemesterID, InstructorID, SessionalInstructorID)-->
-	<section class="form-main">
+	<section id="tab-2" class="form-main tab-content">
 		<h2>Add Course Section</h2>
+		<div class="grid group">
+			<div class="col-4 form-section">
+				<label for="search">Search:</label>
+				<input type="text" class="form-input" name="search">
+			</div>
+		</div>
+		<hr>
 		<form>
 			<div class="grid group">
 				<div class="col-2 form-section">
@@ -56,12 +78,20 @@
 			</div>
 
 			<div class="grid group">
-				<div class="col-2 form-section">
+				<div class="col-2 form-section checkbox">
 					<label for="SemesterID">Semester:</label>
-					<input type="radio" name="Semester" value="Winter" checked> Winter
-				    <input type="radio" name="Semester" value="Spring"> Spring
-				    <input type="radio" name="Semester" value="Summer"> Summer
-				    <input type="radio" name="Semester" value="Fall"> Fall
+					<label class="checkbox-layout">
+						<input type="radio" name="Semester" value="Winter" checked> Winter
+					</label>
+					<label class="checkbox-layout">
+				    	<input type="radio" name="Semester" value="Spring"> Spring
+				    </label>
+					<label class="checkbox-layout">
+				    	<input type="radio" name="Semester" value="Summer"> Summer
+				    </label>
+					<label class="checkbox-layout">
+				    	<input type="radio" name="Semester" value="Fall"> Fall
+				    </label>
 			   </div>
 			   <div class="col-2 form-section">
 			    	<label for="SemesterYear">Year:</label>
@@ -86,16 +116,26 @@
 				</div>
 			</div>
 			<div class="grid group">
-				<div class="col-1 form-section">
+				<div class="col-4 form-section">
 					<input class="btn btn-submit" type="submit" value="Add Class Section">
+					<input class="btn btn-submit update" type="submit" value="Update">
+					<input class="btn btn-submit danger" type="submit" value="Delete">
 				</div>
 			</div>
 		</form>
 	</section>
 
 	<!--Add Class to Room Schedule (ClassRoomScheduleID, ClassRoomID, CourseSectionID, Date)-->
-	<section class="form-main">
+	<section id="tab-3" class="form-main tab-content">
 		<h2>Assign Section to Room</h2>
+		<div class="grid group">
+			<div class="col-4 form-section">
+				<label for="search">Search:</label>
+				<input type="text" class="form-input" name="search">	
+			</div>
+		</div>
+		<hr>
+		<form>
 			<div class="grid group">
 				<div class="col-2 form-section">
 					<label for="RoomLocation">Location:</label>
@@ -112,25 +152,23 @@
 			</div>
 			<div class="grid group">
 				<div class="col-1 form-section">
-
-					<label for="RoomCourseID">Section:</label>
-					<SELECT class="form-input form-ddl" name="RoomCourseID">
-						<option value="1018">1018</option>
-					</SELECT>
-
 					<div class="row-inside-row">
+						<label for="RoomCourseID">Section:</label>
+						<SELECT class="form-input form-ddl" name="RoomCourseID">
+							<option value="1018">1018</option>
+						</SELECT>
+
+					
 						<label for="CourseID">Course ID:</label>
 						<SELECT class="form-input form-ddl" name="CourseID">
 							<option value="RootCanal101">Root Canals 101 - 1001</option>
 						</SELECT>
-					</div>
-					<div class="row-inside-row">
+
 						<label for="DayOfWeek">Day Of Week:</label>
 						<SELECT class="form-input form-ddl" name="DayOfWeek">
 							<option value="Mon">Monday</option>
 						</SELECT>
-					</div>
-					<div class="row-inside-row">
+
 						<label for="StartTime">Start Time:</label>
 						<SELECT class="form-input form-ddl" name="StartTime">
 							<option value="13">1:00pm</option>
@@ -304,8 +342,10 @@
 				</div>
 			</div>
 			<div class="grid group">
-					<div class="col-1 form-section">
+					<div class="col-4 form-section">
 						<input class="btn btn-submit" type="submit" value="Assign Section To Room">
+						<input class="btn btn-submit update" type="submit" value="Update">
+						<input class="btn btn-submit danger" type="submit" value="Delete">
 					</div>
 			</div>
 		</form>
