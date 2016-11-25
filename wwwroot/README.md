@@ -88,6 +88,28 @@ EG.
 	<button type="submit" class="btn btn-submit">Submit</button>
 
 
+#### Checkboxes / Radio Buttons
+
+All checkboxes and radio buttons need to be wrapped in a div with the class of checkbox
+
+So this
+
+	<div class="col-2 form-section">
+
+will become
+
+	<div class="col-2 form-section checkbox">
+
+Also all check boxes and raido buttons need to be formated liek the following
+
+	<label class="checkbox-layout">
+		<input type="radio" name="Semester" value="Winter" checked> Winter
+	</label>
+
+The input type needs to be wrapped in a label container with the class of checkbox-layout
+
+---
+
 ## TABS
 ---
 
@@ -124,26 +146,6 @@ Will show up when you click this link
 	<li class="tab-link current" data-tab="tab-1"> First Form </li>
 
 ## THE CLASS OF current IS ONLY USED ON THE FIRST DIV AND THE FIRST LI 
-
-## Checkboxes / Radio Buttons
-
-All checkboxes and radio buttons need to be wrapped in a div with the class of checkbox
-
-So this
-
-	<div class="col-2 form-section">
-
-will become
-
-	<div class="col-2 form-section checkbox">
-
-Also all check boxes and raido buttons need to be formated liek the following
-
-	<label class="checkbox-layout">
-		<input type="radio" name="Semester" value="Winter" checked> Winter
-	</label>
-
-The input type needs to be wrapped in a label container with the class of checkbox-layout
 
 ---
 
