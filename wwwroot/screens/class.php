@@ -46,8 +46,8 @@
 			<div class="grid group">
 				<div class="col-4 form-section">
 					<input class="btn btn-submit" type="submit" value="Create Class">
-					<input class="btn btn-submit update" type="submit" value="Update">
-					<input class="btn btn-submit danger" type="submit" value="Delete">
+					<input class="btn btn-update" type="submit" value="Update">
+					<input class="btn btn-danger" type="submit" value="Delete">
 				</div>
 			</div>
 		</form>
@@ -118,8 +118,8 @@
 			<div class="grid group">
 				<div class="col-4 form-section">
 					<input class="btn btn-submit" type="submit" value="Add Class Section">
-					<input class="btn btn-submit update" type="submit" value="Update">
-					<input class="btn btn-submit danger" type="submit" value="Delete">
+					<input class="btn btn-update" type="submit" value="Update">
+					<input class="btn btn-danger" type="submit" value="Delete">
 				</div>
 			</div>
 		</form>
@@ -131,7 +131,7 @@
 		<div class="grid group">
 			<div class="col-4 form-section">
 				<label for="search">Search:</label>
-				<input type="text" class="form-input" name="search">	
+				<input type="text" class="form-input" name="search">
 			</div>
 		</div>
 		<hr>
@@ -158,7 +158,7 @@
 							<option value="1018">1018</option>
 						</SELECT>
 
-					
+
 						<label for="CourseID">Course ID:</label>
 						<SELECT class="form-input form-ddl" name="CourseID">
 							<option value="RootCanal101">Root Canals 101 - 1001</option>
@@ -344,8 +344,8 @@
 			<div class="grid group">
 					<div class="col-4 form-section">
 						<input class="btn btn-submit" type="submit" value="Assign Section To Room">
-						<input class="btn btn-submit update" type="submit" value="Update">
-						<input class="btn btn-submit danger" type="submit" value="Delete">
+						<input class="btn btn-update" type="submit" value="Update">
+						<input class="btn btn-danger" type="submit" value="Delete">
 					</div>
 			</div>
 		</form>
