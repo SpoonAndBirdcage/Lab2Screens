@@ -259,6 +259,27 @@ nav {
 	color: #fff;
 }
 
+/**
+ * 		Tables
+ */
+table {
+	background-color: #e2e2e2;
+	width: 100%;
+	padding: 50px;
+	border-radius: 10px;	
+}
+
+thead th {
+	font-size: 1.5em;
+	padding: 20px;
+}
+
+tbody {
+	text-align: center;
+}
+tbody td {
+	padding: 10px;
+}
 
 
 /**
