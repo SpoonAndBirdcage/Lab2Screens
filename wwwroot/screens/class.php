@@ -10,6 +10,7 @@
 	<!--Create Course(CourseID, CourseName, CourseDescription, CreditsAwarded)-->
 	<section id="tab-1" class="form-main tab-content current">
 		<h2>Create a Course</h2>
+		<form>
 		<div class="grid group">
 			<div class="col-4 form-section">
 				<label for="search">Search:</label>
@@ -19,28 +20,23 @@
 		<hr>
 		<form>
 			<div class="grid group">
-				<div class="col-2 form-section">
-					<label for="CourseID" >Course ID:</label>
-					<input class="form-input" type="text" name="CourseID" readonly value="1001">
-				</div>
-
-				<div class="col-2 form-section">
-					<label for="CourseName">Course Name:</label>
-					<input class="form-input" type="text" name="CourseName" value="Root Canals 101">
-				</div>
-			</div>
-			<div class="grid group">
 				<div class="col-1 form-section">
-					<label for="Credits">Credits:</label>
-					<SELECT class="form-input form-ddl" name="Credits">
-						<option value="3">3</option>
-					</SELECT>
+					<div class="row-inside-row">
+						<label for="CourseID" >Course ID:</label>
+						<input class="form-input" type="text" name="CourseID" readonly value="1001">
+
+						<label for="CourseName">Course Name:</label>
+						<input class="form-input" type="text" name="CourseName" value="Root Canals 101">
+
+						<label for="Credits">Credits:</label>
+						<SELECT class="form-input form-ddl" name="Credits">
+							<option value="3">3</option>
+						</SELECT>
+					</div>
 				</div>
-			</div>
-			<div class="grid group">
-				<div class="col-4 form-section">
-					<label for="CourseDescription">Course Description:</label><br>
-					<textarea id="elementID" class="form-input form-textarea"></textarea>
+				<div class="col-3 form-section">
+					<label for="CourseDescription">Course Description:</label>
+					<textarea id="elementID" class="form-input form-textarea" style="height: 192px;"></textarea>
 				</div>
 			</div>
 			<div class="grid group">
@@ -77,7 +73,7 @@
 				</div>
 			</div>
 
-			<div class="grid group">
+			<div class="grid group grid-spacing">
 				<div class="col-2 form-section checkbox">
 					<label for="SemesterID">Semester:</label>
 					<label class="checkbox-layout">
@@ -116,7 +112,7 @@
 				</div>
 			</div>
 			<div class="grid group">
-				<div class="col-4 form-section">
+				<div class="col-4 form-section btn-group">
 					<input class="btn btn-submit" type="submit" value="Add Class Section">
 					<input class="btn btn-update" type="submit" value="Update">
 					<input class="btn btn-danger" type="submit" value="Delete">
@@ -137,27 +133,21 @@
 		<hr>
 		<form>
 			<div class="grid group">
-				<div class="col-2 form-section">
-					<label for="RoomLocation">Location:</label>
-					<SELECT class="form-input form-ddl" name="RoomLocation">
-						<option value="MainDentalCampus">Main Dental Campus</option>
-					</SELECT>
-				</div>
-				<div class="col-2 form-section">
-					<label for="Room">Room:</label>
-					<SELECT class="form-input form-ddl" name="Room">
-						<option value="202">QR-201</option>
-					</SELECT>
-				</div>
-			</div>
-			<div class="grid group">
 				<div class="col-1 form-section">
 					<div class="row-inside-row">
+						<label for="RoomLocation">Location:</label>
+						<SELECT class="form-input form-ddl" name="RoomLocation">
+							<option value="MainDentalCampus">Main Dental Campus</option>
+						</SELECT>
+						<label for="Room">Room:</label>
+						<SELECT class="form-input form-ddl" name="Room">
+							<option value="202">QR-201</option>
+						</SELECT>
+
 						<label for="RoomCourseID">Section:</label>
 						<SELECT class="form-input form-ddl" name="RoomCourseID">
 							<option value="1018">1018</option>
 						</SELECT>
-
 
 						<label for="CourseID">Course ID:</label>
 						<SELECT class="form-input form-ddl" name="CourseID">
@@ -173,6 +163,10 @@
 						<SELECT class="form-input form-ddl" name="StartTime">
 							<option value="13">1:00pm</option>
 						</SELECT>
+
+						<input class="btn btn-submit" type="submit" value="Assign Section">
+						<input class="btn btn-update" type="submit" value="Update">
+						<input class="btn btn-danger" type="submit" value="Delete">
 					</div>
 				</div>
 				<div class="col-3 form-section">
@@ -192,7 +186,7 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td><strong>8:00am</strong></td>
+								<td>8:00am</td>
 								<td>Sunday</td>
 								<td>Monday</td>
 								<td>Tuesday</td>
@@ -202,7 +196,7 @@
 								<td>Saturday</td>
 							</tr>
 							<tr>
-								<td><strong>9:00am</strong></td>
+								<td>9:00am</td>
 								<td>Sunday</td>
 								<td>Monday</td>
 								<td>Tuesday</td>
@@ -212,7 +206,7 @@
 								<td>Saturday</td>
 							</tr>
 							<tr>
-								<td><strong>10:00am</strong></td>
+								<td>10:00am</td>
 								<td>Sunday</td>
 								<td>Monday</td>
 								<td>Tuesday</td>
@@ -222,7 +216,7 @@
 								<td>Saturday</td>
 							</tr>
 							<tr>
-								<td><strong>11:00am</strong></td>
+								<td>11:00am</td>
 								<td>Sunday</td>
 								<td>Monday</td>
 								<td>Tuesday</td>
@@ -232,7 +226,7 @@
 								<td>Saturday</td>
 							</tr>
 							<tr>
-								<td><strong>12:00pm</strong></td>
+								<td>12:00pm</td>
 								<td>Sunday</td>
 								<td>Monday</td>
 								<td>Tuesday</td>
@@ -242,7 +236,7 @@
 								<td>Saturday</td>
 							</tr>
 							<tr>
-								<td><strong>1:00pm</strong></td>
+								<td>1:00pm</td>
 								<td>Sunday</td>
 								<td>Monday</td>
 								<td>Tuesday</td>
@@ -252,7 +246,7 @@
 								<td>Saturday</td>
 							</tr>
 							<tr>
-								<td><strong>2:00pm</strong></td>
+								<td>2:00pm</td>
 								<td>Sunday</td>
 								<td>Monday</td>
 								<td>Tuesday</td>
@@ -262,7 +256,7 @@
 								<td>Saturday</td>
 							</tr>
 							<tr>
-								<td><strong>3:00pm</strong></td>
+								<td>3:00pm</td>
 								<td>Sunday</td>
 								<td>Monday</td>
 								<td>Tuesday</td>
@@ -272,7 +266,7 @@
 								<td>Saturday</td>
 							</tr>
 							<tr>
-								<td><strong>4:00pm</strong></td>
+								<td>4:00pm</td>
 								<td>Sunday</td>
 								<td>Monday</td>
 								<td>Tuesday</td>
@@ -282,7 +276,7 @@
 								<td>Saturday</td>
 							</tr>
 							<tr>
-								<td><strong>5:00pm</strong></td>
+								<td>5:00pm</td>
 								<td>Sunday</td>
 								<td>Monday</td>
 								<td>Tuesday</td>
@@ -292,7 +286,7 @@
 								<td>Saturday</td>
 							</tr>
 							<tr>
-								<td><strong>6:00pm</strong></td>
+								<td>6:00pm</td>
 								<td>Sunday</td>
 								<td>Monday</td>
 								<td>Tuesday</td>
@@ -302,7 +296,7 @@
 								<td>Saturday</td>
 							</tr>
 							<tr>
-								<td><strong>7:00pm</strong></td>
+								<td>7:00pm</td>
 								<td>Sunday</td>
 								<td>Monday</td>
 								<td>Tuesday</td>
@@ -312,7 +306,7 @@
 								<td>Saturday</td>
 							</tr>
 							<tr>
-								<td><strong>8:00pm</strong></td>
+								<td>8:00pm</td>
 								<td>Sunday</td>
 								<td>Monday</td>
 								<td>Tuesday</td>
@@ -322,7 +316,7 @@
 								<td>Saturday</td>
 							</tr>
 							<tr>
-								<td><strong>9:00pm</strong></td>
+								<td>9:00pm</td>
 								<td>Sunday</td>
 								<td>Monday</td>
 								<td>Tuesday</td>
@@ -332,7 +326,7 @@
 								<td>Saturday</td>
 							</tr>
 							<tr>
-								<td><strong>10:00pm</strong></td>
+								<td>10:00pm</td>
 								<td>Sunday</td>
 								<td>Monday</td>
 								<td>Tuesday</td>
@@ -344,13 +338,6 @@
 						</tbody>
 					</table>
 				</div>
-			</div>
-			<div class="grid group">
-					<div class="col-4 form-section">
-						<input class="btn btn-submit" type="submit" value="Assign Section To Room">
-						<input class="btn btn-update" type="submit" value="Update">
-						<input class="btn btn-danger" type="submit" value="Delete">
-					</div>
 			</div>
 		</form>
 	</section>

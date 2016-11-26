@@ -15,6 +15,10 @@ a {
 	text-decoration: none;
 }
 
+p {
+	color: #e2e2e2;
+}
+
 
 
 /**
@@ -43,13 +47,19 @@ h2 {
 	padding-bottom: 12px;
 }
 
+h3 {
+	font-family: 'Lato', sans-serif;
+	color: #e2e2e2;
+	font-size: 1.3em;
+	letter-spacing: 2px;
+}
 
 
 /**
  *		Tab System
  */
 ul.tabs {
-	margin: 0 0 60px 0;
+	margin: 0 0 40px 0;
 	padding: 0px;
 	list-style: none;
 	border-bottom: 5px solid #e2e2e2;
@@ -174,6 +184,13 @@ nav {
 	margin-bottom: 15px;
 }
 
+.grid-spacing {
+	margin-bottom: 45px;
+}
+
+.btn-group {
+	margin-top: 10px;
+}
 /**
  * 		Forms
  */
@@ -198,17 +215,21 @@ nav {
 	display: block;
 	border-radius: 5px;
 	width: 100%;
-	padding: 10px;
+	padding: 6px;
 	font-size: 16px;
 }
 
 .form-ddl {
-	height: 42px;
+	height: 36px;
 }
 
 .form-textarea {
 	resize: none;
 	max-width: 100%;
+}
+
+.checkbox label:first-child {
+	margin-bottom: 20px;
 }
 
 .checkbox .checkbox-layout {
@@ -230,7 +251,7 @@ nav {
 }
 
 .btn-submit:hover {
-	background-color: #1ec0b8;
+	background-color: #1ec081;
 	border: 1px solid #30343e;
 	color: #fff;
 }
@@ -248,13 +269,13 @@ nav {
 }
 
 .btn-update {
-	background-color: #f3743c;
+	background-color: #FFA33A;
 	border: 1px solid #30343e;
 	color: #fff;
 }
 
-.btn-update {
-	background-color: #FFA33A;
+.btn-update:hover {
+	background-color: #f3B43A;
 	border: 1px solid #30343e;
 	color: #fff;
 }
@@ -265,20 +286,35 @@ nav {
 table {
 	background-color: #e2e2e2;
 	width: 100%;
-	padding: 50px;
-	border-radius: 10px;	
+	border-radius: 10px;
+}
+
+thead {
+	border-bottom: 3px solid #252830;
 }
 
 thead th {
-	font-size: 1.5em;
-	padding: 20px;
+	font-size: 1.4em;
+    font-weight: bolder;
+    padding: 10px 0;
+    text-transform: lowercase;
+    font-variant: small-caps;
 }
 
 tbody {
 	text-align: center;
 }
+
 tbody td {
-	padding: 10px;
+	padding: 14px 0;
+}
+
+tbody tr:nth-of-type(even) {
+	background-color: #fff;
+}
+
+tbody td:first-child {
+	border-right: 3px solid #252830;
 }
 
 
