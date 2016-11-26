@@ -9,16 +9,8 @@
 
 	<!--Create Course(CourseID, CourseName, CourseDescription, CreditsAwarded)-->
 	<section id="tab-1" class="form-main tab-content current">
+		<form>
 		<h2>Create a Course</h2>
-		<form>
-		<div class="grid group">
-			<div class="col-4 form-section">
-				<label for="search">Search:</label>
-				<input type="text" class="form-input" name="search">
-			</div>
-		</div>
-		<hr>
-		<form>
 			<div class="grid group">
 				<div class="col-1 form-section">
 					<div class="row-inside-row">
@@ -51,25 +43,84 @@
 
 	<!--Create Course Section(CourseSectionID, CourseID, SemesterID, InstructorID, SessionalInstructorID)-->
 	<section id="tab-2" class="form-main tab-content">
+		<form>
 		<h2>Add Course Section</h2>
 		<div class="grid group">
-			<div class="col-4 form-section">
-				<label for="search">Search:</label>
-				<input type="text" class="form-input" name="search">
+				<div class="col-4 form-section">
+					<div class="search">
+  						<span class="fa fa-search"></span>
+  						<input placeholder="Search" class="form-input">
+					</div>
+				</div>
 			</div>
-		</div>
-		<hr>
-		<form>
+			<div class="grid group search-group search-results">
+				<div class="col-4 form-section">
+					<label>Search Results:</label>
+					<table>
+						<thead>
+							<tr>
+								<th>Course ID</th>
+								<th>Course Name</th>
+								<th>Credits</th>
+								<th>Description</th>
+								<th>Select</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td><a href="#">Select</a></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
 			<div class="grid group">
 				<div class="col-2 form-section">
 					<label for="CourseID">Course ID:</label>
-					<SELECT class="form-input form-ddl" name="CourseID">
-						<option value="RootCanal101">Root Canals 101 - 1001</option>
-					</SELECT>
+					<input class="form-input" type="text" name="CourseID" readonly>
 				</div>
 				<div class="col-2 form-section">
-					<label for="CourseID">Course Section ID:</label>
-					<input class="form-input" type="text" name="CourseID" readonly value="1018">
+					<label for="CourseName">Course Name:</label>
+					<input class="form-input" type="text" name="CourseName" readonly>
 				</div>
 			</div>
 
@@ -99,13 +150,13 @@
 
 			<div class="grid group">
 				<div class="col-2 form-section">
-					<label for="Instructor">Instructor:</label>
+					<label for="Instructor">Full Time Instructor:</label>
 					<SELECT class="form-input form-ddl" name="Instructor">
 						<option value="52">Homer Simpson</option>
 					</SELECT>
 				</div>
 				<div class="col-2 form-section">
-					<label for="InstructorSes">Sessional Instructor ID:</label>
+					<label for="InstructorSes">Sessional Instructor:</label>
 					<SELECT class="form-input form-ddl" name="InstructorSes">
 						<option value="67">Maggie Simpson</option>
 					</SELECT>
@@ -123,25 +174,99 @@
 
 	<!--Add Class to Room Schedule (ClassRoomScheduleID, ClassRoomID, CourseSectionID, Date)-->
 	<section id="tab-3" class="form-main tab-content">
+		<form>
 		<h2>Assign Section to Room</h2>
 		<div class="grid group">
-			<div class="col-4 form-section">
-				<label for="search">Search:</label>
-				<input type="text" class="form-input" name="search">
+				<div class="col-4 form-section">
+					<div class="search">
+  						<span class="fa fa-search"></span>
+  						<input placeholder="Search" class="form-input">
+					</div>
+				</div>
 			</div>
-		</div>
-		<hr>
-		<form>
+			<div class="grid group search-group search-results">
+				<div class="col-4 form-section">
+					<label>Search Results:</label>
+					<table>
+						<thead>
+							<tr>
+								<th>Room ID</th>
+								<th>Room Nuber</th>
+								<th>Location</th>
+								<th>Capacity</th>
+								<th>Type</th>
+								<th>Description</th>
+								<th>Select</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td><a href="#">Select</a></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
 			<div class="grid group">
 				<div class="col-1 form-section">
 					<div class="row-inside-row">
+						<label for="RoomID">Room ID:</label>
+						<input class="form-input" type="text" name="RoomID" readonly value="1018">
+
 						<label for="RoomLocation">Location:</label>
 						<SELECT class="form-input form-ddl" name="RoomLocation">
 							<option value="MainDentalCampus">Main Dental Campus</option>
-						</SELECT>
-						<label for="Room">Room:</label>
-						<SELECT class="form-input form-ddl" name="Room">
-							<option value="202">QR-201</option>
 						</SELECT>
 
 						<label for="RoomCourseID">Section:</label>

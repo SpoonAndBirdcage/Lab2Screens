@@ -5,15 +5,78 @@
 		<form>
 		<h2>Add a Classroom</h2>
 			<div class="grid group">
-<!--				<div class="col-2 form-section">
-					<label for="RoomID" >Room ID:</label>
-					<input class="form-input" type="text" name="RoomID" readonly value="QR-201">
-				</div>
--->
 				<div class="col-4 form-section">
-					<label for="search">Search:</label>
-					<input type="text" class="form-input" name="search">
-					<hr>
+					<div class="search">
+  						<span class="fa fa-search"></span>
+  						<input placeholder="Search" class="form-input">
+					</div>
+				</div>
+			</div>
+			<div class="grid group search-group search-results">
+				<div class="col-4 form-section">
+					<label>Search Results:</label>
+					<table>
+						<thead>
+							<tr>
+								<th>Room ID</th>
+								<th>Room Nuber</th>
+								<th>Location</th>
+								<th>Capacity</th>
+								<th>Type</th>
+								<th>Description</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 			</div>
 			<div class="grid group">
@@ -41,14 +104,14 @@
 					<textarea id="RoomDescription"
 							  name="RoomDescription"
 							  class="form-input form-textarea"
-							  style="height: 300px;"></textarea>
+							  style="height: 270px;"></textarea>
 				</div>
 			</div>
-			<div class="grid group">
+			<div class="grid group btn-group">
 				<div class="col-1 form-section">
 					<input class="btn btn-submit" type="submit" value="Create Room">
-					<input class="btn btn-submit" type="submit" value="Update">
-					<input class="btn btn-submit" type="submit" value="Delete">
+					<input class="btn btn-update" type="submit" value="Update">
+					<input class="btn btn-danger" type="submit" value="Delete">
 				</div>
 			</div>
 		</form>

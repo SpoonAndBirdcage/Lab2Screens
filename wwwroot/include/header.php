@@ -5,10 +5,12 @@
 	<title>Nait Dental School</title>
 	<link rel="stylesheet" href="../styles/reset.css" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
-	<link rel="stylesheet" href="../styles/main.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="../styles/main.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery.tools.min.js"></script> 
-	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
+	<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 	<!--[if lt IE9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>

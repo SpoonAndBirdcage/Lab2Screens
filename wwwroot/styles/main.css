@@ -191,6 +191,15 @@ nav {
 .btn-group {
 	margin-top: 10px;
 }
+
+.search-group {
+	padding: 0 0 35px 0;
+	border-bottom: 2px solid #e2e2e2;
+	margin-bottom: 25px;
+}
+.search-results {
+	margin-top: 15px;
+}
 /**
  * 		Forms
  */
@@ -280,6 +289,26 @@ nav {
 	color: #fff;
 }
 
+.search {
+  position: relative;
+  color: #aaa;
+  font-size: 16px;
+}
+
+.search input {
+  height: 32px;
+  background: #fcfcfc;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+}
+
+.search input { text-indent: 32px;}
+.search .fa-search {
+  position: absolute;
+  top: 9px;
+  left: 10px;
+}
 /**
  * 		Tables
  */
@@ -287,6 +316,8 @@ table {
 	background-color: #e2e2e2;
 	width: 100%;
 	border-radius: 10px;
+	overflow: hidden;
+
 }
 
 thead {
@@ -295,10 +326,15 @@ thead {
 
 thead th {
 	font-size: 1.4em;
-    font-weight: bolder;
     padding: 10px 0;
     text-transform: lowercase;
     font-variant: small-caps;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+thead th:first-of-type{
+	font-weight: 700;
 }
 
 tbody {
