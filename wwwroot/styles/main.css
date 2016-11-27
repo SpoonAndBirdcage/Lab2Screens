@@ -353,6 +353,11 @@ tbody td:first-child {
 	border-right: 3px solid #252830;
 }
 
+tbody td a {
+	color: #1ec0a7;
+	text-decoration: underline;
+}
+
 
 /**
  * 		Footer

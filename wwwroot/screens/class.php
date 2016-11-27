@@ -264,10 +264,11 @@
 						<label for="RoomID">Room ID:</label>
 						<input class="form-input" type="text" name="RoomID" readonly value="1018">
 
+						<label for="RoomNum">Room Number:</label>
+						<input class="form-input" type="text" name="RoomNum" readonly value="RM108">
+
 						<label for="RoomLocation">Location:</label>
-						<SELECT class="form-input form-ddl" name="RoomLocation">
-							<option value="MainDentalCampus">Main Dental Campus</option>
-						</SELECT>
+						<input class="form-input" type="text" name="RoomLocation" readonly value="Main Dental Building">
 
 						<label for="RoomCourseID">Section:</label>
 						<SELECT class="form-input form-ddl" name="RoomCourseID">
