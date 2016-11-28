@@ -80,19 +80,60 @@
 			<li class="tab-link current" data-tab="tab-1">Search Results</li>
 			<li class="tab-link" data-tab="tab-2">Manage Order</li>
 		</ul>
-		<div class="form-main">
-			<h2>Purchase Order</h2>
+		<div id="tab-1" class="form-main tab-content current">
+			<h2>Search Results: Active Orders For All</h2>
+			<div class="grid group">
+				<div class="col-2 form-section">
+					<table>
+						<tr>
+							<th>Order Number</th>
+							<th>Order Date</th>
+							<th>Vendor</th>
+							<th>Contact Phone</th>
+						</tr>
+						<tr>
+							<td>454</td>
+							<td>September 23, 2016</td>
+							<td>Aseptico, Inc.</td>
+							<td>(780)-243-2534</td>
+							<td><input class="btn btn-submit" type="submit" value="Edit"></td>
+						</tr>
+						<tr>
+							<td>455</td>
+							<td>September 23, 2016</td>
+							<td>K Dental</td>
+							<td>(587)-732-6633</td>
+							<td><input class="btn btn-submit" type="submit" value="Edit"></td>
+						</tr>
+						<tr>
+							<td>456</td>
+							<td>September 30, 2016</td>
+							<td>Sinclair Dental</td>
+							<td>(974)-878-2257</td>
+							<td><input class="btn btn-submit" type="submit" value="Edit"></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="grid group">
+				<div class="col-1 form-section">
+					<input class="btn btn-submit" type="submit" value="Back">
+				</div>
+			</div>
+		</div>
+		<div id="tab-2" class="form-main tab-content">
+			<h2>Manage Purchase Order</h2>
 			<form>
 				<div class="grid group">
 					<div class="col-2 form-section">
-						<label>Vendor</label>
+						<label>Select Vendor</label>
 						<select class="form-input">
-							<option>Select a Vendor</option>
+							<option>Sinclair Dental</option>
 						</select>
 					</div>
 					<div class="col-2 form-section">
 						<label>Employee ID</label>
-						<input class="form-input" type="text">
+						<input class="form-input" value="2341765" type="text">
 					</div>
 				</div>
 				<div class="grid group">
@@ -101,8 +142,6 @@
 					</div>
 				</div>
 			</form>
-		</div>
-		<div class="form-main">
 			<div class="grid group">
 				<div class="col-2 form-section">
 					<form>
