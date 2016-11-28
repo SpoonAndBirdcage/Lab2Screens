@@ -22,7 +22,7 @@
 					<h4 class="nav-label">Appointments</h4>
 				</li>
 				<li class="group">
-					<a href="#" class="nav-link"><img class="nav-icon" src="../assets/navicons/patient_icon_96_96.png" alt="Patient Icon"></a>
+					<a href="../screens/patients.php" class="nav-link"><img class="nav-icon" src="../assets/navicons/patient_icon_96_96.png" alt="Patient Icon"></a>
 					<h4 class="nav-label">Patients</h4>
 				</li>
 				<li class="group">
@@ -30,7 +30,7 @@
 					<h4 class="nav-label">Inventory</h4>
 				</li>
 				<li class="group">
-					<a href="#" class="nav-link"><img class="nav-icon" src="../assets/navicons/class_icon_96_96.png" alt="Classes Icon"></a>
+					<a href="../screens/class.php" class="nav-link"><img class="nav-icon" src="../assets/navicons/class_icon_96_96.png" alt="Classes Icon"></a>
 					<h4 class="nav-label">Courses</h4>
 				</li>
 				<li class="group">
@@ -43,7 +43,7 @@
 				</li>
 
 				<li class="group">
-					<a href="#" class="nav-link"><img class="nav-icon" src="../assets/navicons/classroom_icon_96_96.png" alt="Classroom Icon"></a>
+					<a href="../screens/room.php" class="nav-link"><img class="nav-icon" src="../assets/navicons/classroom_icon_96_96.png" alt="Classroom Icon"></a>
 					<h4 class="nav-label">Classrooms</h4>
 				</li>
 			</ul>
