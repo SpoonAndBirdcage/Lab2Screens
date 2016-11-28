@@ -298,7 +298,7 @@
 							</tr>
 							<tr>
 								<td>11:00am</td>
-				Advance Root Canals - 2046				<td></td>
+								<td></td>
 								<td>Fillings - 1201</td>
 								<td></td>
 								<td>Fillings - 1201</td>
@@ -323,7 +323,7 @@
 								<td>Advance Root Canals - 2046</td>
 								<td>Cleaning Techniques - 2001</td>
 								<td>Cleaning Techniques - 2001</td>
-								<td>Friday</td>
+								<td></td>
 								<td></td>
 							</tr>
 							<tr>
@@ -341,8 +341,8 @@
 								<td></td>
 								<td>Advance Root Canals - 2046</td>
 								<td>Intermidiate Braces - 2259</td>
-								<td>Wednesday</td>
-								<td> Root Canals - 2046</td>
+								<td></td>
+								<td>Root Canals - 2046</td>
 								<td>Intermidiate Braces - 2259</td>
 								<td></td>
 							</tr>
@@ -359,61 +359,61 @@
 							<tr>
 								<td>5:00pm</td>
 								<td></td>
-								<td>Monday</td>
+								<td></td>
 								<td>Intermidiate Braces - 2259</td>
-								<td>Wednesday</td>
-								<td>Thursday</td>
+								<td></td>
+								<td></td>
 								<td>Intermidiate Braces - 2259</td>
 								<td></td>
 							</tr>
 							<tr>
 								<td>6:00pm</td>
 								<td></td>
-								<td>Monday</td>
-								<td>Tuesday</td>
-								<td>Wednesday</td>
-								<td>Thursday</td>
-								<td>Friday</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
 								<td></td>
 							</tr>
 							<tr>
 								<td>7:00pm</td>
 								<td></td>
-								<td>Monday</td>
-								<td>Tuesday</td>
-								<td>Wednesday</td>
-								<td>Thursday</td>
-								<td>Friday</td>
+								<td></td>
+								<td>Customer Relations - 2028</td>
+								<td></td>
+								<td>Customer Relations - 2028</td>
+								<td></td>
 								<td></td>
 							</tr>
 							<tr>
 								<td>8:00pm</td>
 								<td></td>
-								<td>Monday</td>
-								<td>Tuesday</td>
-								<td>Wednesday</td>
-								<td>Thursday</td>
-								<td>Friday</td>
+								<td></td>
+								<td>Customer Relations - 2028</td>
+								<td></td>
+								<td>Customer Relations - 2028</td>
+								<td></td>
 								<td></td>
 							</tr>
 							<tr>
 								<td>9:00pm</td>
 								<td></td>
-								<td>Monday</td>
-								<td>Tuesday</td>
-								<td>Wednesday</td>
-								<td>Thursday</td>
-								<td>Friday</td>
+								<td></td>
+								<td>Customer Relations - 2028</td>
+								<td></td>
+								<td>Customer Relations - 2028</td>
+								<td></td>
 								<td></td>
 							</tr>
 							<tr>
 								<td>10:00pm</td>
 								<td></td>
-								<td>Monday</td>
-								<td>Tuesday</td>
-								<td>Wednesday</td>
-								<td>Thursday</td>
-								<td>Friday</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
 								<td></td>
 							</tr>
 						</tbody>

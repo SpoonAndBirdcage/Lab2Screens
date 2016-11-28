@@ -9,7 +9,7 @@
 	<!--Create Course(CourseID, CourseName, CourseDescription, CreditsAwarded)-->
 	<section id="tab-1" class="form-main tab-content current">
 		<form>
-		<h2>Create a Course</h2>
+		<h2>Add/Update a Course</h2>
 		<div class="grid group">
 				<div class="col-4 form-section">
 					<div class="search">
@@ -111,7 +111,7 @@
 	<!--Create Course Section(CourseSectionID, CourseID, SemesterID, InstructorID, SessionalInstructorID)-->
 	<section id="tab-2" class="form-main tab-content">
 		<form>
-		<h2>Add Course Section</h2>
+		<h2>Add/Update Course Section</h2>
 		<div class="grid group">
 				<div class="col-4 form-section">
 					<div class="search">
@@ -171,7 +171,7 @@
 							</tr>
 							<tr>
 								<td>CIA101</td>
-								<td>Tourture Techniques</td>
+								<td>Customer Service</td>
 								<td>6</td>
 								<td><strong>Root Canals</strong>, Specialty tools and more... Everything ypu need to keep your patients talking.</td>
 								<td><a href="#">Select</a></td>
