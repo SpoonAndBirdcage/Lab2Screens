@@ -30,7 +30,6 @@
 			    <option value="">Female</option>
 			    <option value="01">Others</option>
 			</select>
-			</label>
 			</div>
 
 			<div class="col-4 form-section checkbox"></div>
