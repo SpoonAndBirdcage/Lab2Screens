@@ -312,7 +312,7 @@
 								<td>Fillings - 1201</td>
 								<td></td>
 								<td>Fillings - 1201</td>
-								<td>Thursday</td>
+								<td></td>
 								<td>Fillings - 1201</td>
 								<td></td>
 							</tr>
