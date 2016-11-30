@@ -25,7 +25,7 @@
 					<h4 class="nav-label">Appointments</h4>
 				</li>
 				<li class="group">
-					<a href="#" class="nav-link"><img class="nav-icon" src="../assets/navicons/patient_icon_96_96.png" alt="Patient Icon"></a>
+					<a href="../screens/patients.php" class="nav-link"><img class="nav-icon" src="../assets/navicons/patient_icon_96_96.png" alt="Patient Icon"></a>
 					<h4 class="nav-label">Patients</h4>
 				</li>
 				<li class="group">

@@ -46,20 +46,98 @@
 	</header>
 	<!--<?php include('include/header.php') ?>-->
 	<main class="main-content">
-		<h1>Create Purchase Order</h1>
+		<h1>Manage Purchase Orders</h1>
 		<div class="form-main">
-			<h2></h2>
+			<h2>Search Purchase Orders</h2>
+			<form>
+				<div class="grid group">
+					<div class="col-1 form-section">
+						<label for="name">Enter Purchase Order Number:</label>
+						<input class="form-input" type="text" name="name">
+					</div>
+					<div class="col-1 form-section">
+						<label for="category">Select Vendor:</label>
+						<select class="form-input form-ddl">
+							<option value="default">All</option>
+						</select>
+					</div>
+					<div class="col-1 form-section">
+						<label for="category">Select Status:</label>
+						<select class="form-input form-ddl">
+							<option value="default">Open</option>
+						</select>
+					</div>
+				</div>
+				<div class="grid group">
+					<div class="col-1 form-section">
+						<input class="btn btn-submit" type="submit" value="Create Purchase Order">
+						<input class="btn btn-submit" type="submit" value="Search">
+					</div>
+				</div>
+			</form>
+		</div>
+		<ul class="tabs">
+			<li class="tab-link current" data-tab="tab-1">Search Results</li>
+			<li class="tab-link" data-tab="tab-2">Manage Order</li>
+		</ul>
+		<div id="tab-1" class="form-main tab-content current">
+			<h2>Search Results: Open Orders For All</h2>
+			<div class="grid group">
+				<div class="col-2 form-section">
+					<table>
+						<tr>
+							<th>Order Number</th>
+							<th>Order Date</th>
+							<th>Vendor</th>
+							<th>Contact Phone</th>
+							<th>Status</th>
+						</tr>
+						<tr>
+							<td>454</td>
+							<td>September 23, 2016</td>
+							<td>Aseptico, Inc.</td>
+							<td>(780)-243-2534</td>
+							<td>Open</td>
+							<td><input class="btn btn-submit" type="submit" value="Edit"></td>
+						</tr>
+						<tr>
+							<td>455</td>
+							<td>September 23, 2016</td>
+							<td>K Dental</td>
+							<td>(587)-732-6633</td>
+							<td>Open</td>
+							<td><input class="btn btn-submit" type="submit" value="Edit"></td>
+						</tr>
+						<tr>
+							<td>456</td>
+							<td>September 30, 2016</td>
+							<td>Sinclair Dental</td>
+							<td>(974)-878-2257</td>
+							<td>Open</td>
+							<td><input class="btn btn-submit" type="submit" value="Edit"></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="grid group">
+				<div class="col-1 form-section">
+					<input class="btn btn-submit" type="submit" value="Back">
+				</div>
+			</div>
+		</div>
+		<div id="tab-2" class="form-main tab-content">
+			<h2>Manage Purchase Order</h2>
 			<form>
 				<div class="grid group">
 					<div class="col-2 form-section">
-						<label>Vendor</label>
+						<label>Select Vendor</label>
 						<select class="form-input">
-							<option>Select a Vendor</option>
+							<option>Sinclair Dental</option>
 						</select>
 					</div>
 					<div class="col-2 form-section">
 						<label>Employee ID</label>
-						<input class="form-input" type="text">
+						<input class="form-input" value="2341765" type="text">
 					</div>
 				</div>
 				<div class="grid group">
@@ -68,16 +146,14 @@
 					</div>
 				</div>
 			</form>
-		</div>
-		<div class="form-main">
 			<div class="grid group">
 				<div class="col-2 form-section">
 					<form>
-						<h2>Vendor Information</h2>
+						<h3>Vendor Information</h3>
 						<div class="grid group">
 							<div class="col-2 form-section">
 								<label>Vendor ID:</label>
-								<input class="form-input" type="text" value="42312" readonly>
+								<input class="form-input" type="text" value="34321" readonly>
 							</div>
 							<div class="col-2 form-section">
 								<label>Name:</label>
@@ -117,7 +193,7 @@
 					</form>
 				</div>
 				<div class="col-2 form-section">
-					<h2>Order List</h2>
+					<h3>Order List</h3>
 					<div class="grid group">
 						<div class="col-2 form-section">
 							<table>
@@ -190,5 +266,6 @@
 		</div>
 	</main>
 	<!--<?php include('include/footer.php') ?>-->
+	<script src="../scripts/main.js"></script>
 </body>
 </html>

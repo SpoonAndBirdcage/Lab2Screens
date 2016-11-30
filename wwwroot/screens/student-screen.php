@@ -81,6 +81,7 @@
 					</table>
 				</div>
 			</div>
+<<<<<<< HEAD
 		<div class="grid group">
 			<div class="col-1 form-section">
 				<label for="fname">First Name</label>
@@ -93,6 +94,17 @@
 			<div class="col-1 form-section">
 				<label for="lname">Last Name</label>
 				<input type="text" class="form-input" name="lname" value="Wayne">
+=======
+
+			<div class="col-2 form-section checkbox">
+			<label>Gender:</label>
+			<select name="elementName" class="form-input form-ddl">
+				<option value="">Gender</option>
+				<option value="">Male</option>
+			    <option value="">Female</option>
+			    <option value="01">Others</option>
+			</select>
+>>>>>>> f9080245222c1ef393db229ed3c002293712f37b
 			</div>
 		</div>
 		<div class="grid group">

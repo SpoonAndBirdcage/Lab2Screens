@@ -44,105 +44,192 @@
 			</ul>
 		</nav>
 	</header>
+	<!--<?php include('include/header.php') ?>-->
 	<main class="main-content">
 		<h1>Manage Vendors</h1>
-		<section class="col-4">
-			<h3>Search Vendors</h3>
-			<form class="col-2 form-section">
-			<label for="name">Search by Vendor ID:</label>
-				<input class="form-input" type="text" name="name">
-				<input class="btn btn-submit" type="submit" value="Search">
-				<br/>
-
-				<label for="name">Search by Name:</label>
-				<input class="form-input" type="text" name="name">
-				<input class="btn btn-submit" type="submit" value="Search">
-				<br/>
-
-				<label for="category">Search by Category:</label>
-				<select class="form-input">
-				  <option value="default">Select Category</option>
-				</select>
-				<input class="btn btn-submit" type="submit" value="Search">
-				<br/>
-				<input class="btn btn-submit" type="submit" value="Add New Vendor">
+		<section class="form-main">
+			<h2>Search Vendors</h2>
+			<form>
+				<div class="grid group">
+					<div class="col-1 form-section">
+						<label for="name">Search by Vendor ID:</label>
+						<input class="form-input" type="text" name="name">
+					</div>
+					<div class="col-1 form-section">
+						<label for="name">Search by Name:</label>
+						<input class="form-input" type="text" name="name">
+					</div>
+					<div class="col-1 form-section">
+						<label for="category">Select Category:</label>
+						<select class="form-input">
+						  <option value="default">All</option>
+						</select>
+					</div>
+				</div>
+				<div class="grid group">
+					<div class="col-1 form-section">
+						<input class="btn btn-submit" type="submit" value="Add New Vendor">
+						<input class="btn btn-submit" type="submit" value="Search">
+					</div>
+				</div>
 			</form>
 		</section>
-		<section class="col-2 form-section">
-			<h3>Search Results: Category</h3>
-			<table>
-				<tr>
-					<th>Vendor ID</th>
-					<th>Name</th>
-					<th>Phone Number</th>
-				</tr>
-				<tr>
-					<td>34321</td>
-					<td>Aseptico, Inc.</td>
-					<td>(780)-243-2534</td>
-					<td><input class="btn btn-submit" type="submit" value="Edit"></td>
-				</tr>
-				<tr>
-					<td>34438</td>
-					<td>K Dental</td>
-					<td>(587)-732-6633</td>
-					<td><input class="btn btn-submit" type="submit" value="Edit"></td>
-				</tr>
-				<tr>
-					<td>34321</td>
-					<td>Sinclair Dental</td>
-					<td>(974)-878-2257</td>
-					<td><input class="btn btn-submit" type="submit" value="Edit"></td>
-				</tr>
-			</table>
+		<ul class="tabs">
+			<li class="tab-link current" data-tab="tab-1">Search Results</li>
+			<li class="tab-link" data-tab="tab-2">Edit Vendor</li>
+			<li class="tab-link" data-tab="tab-3">Add Vendor</li>
+		</ul>
+		<section id="tab-1" class="form-main tab-content current">
+			<h2>Search Results: All</h2>
+			<div class="grid group">
+				<div class="col-2 form-section">
+					<table>
+						<tr>
+							<th>Vendor ID</th>
+							<th>Name</th>
+							<th>Phone Number</th>
+							<th>Category</th>
+						</tr>
+						<tr>
+							<td>34321</td>
+							<td>Aseptico, Inc.</td>
+							<td>(780)-243-2534</td>
+							<td>Equipment</td>
+							<td><input class="btn btn-submit" type="submit" value="Edit"></td>
+						</tr>
+						<tr>
+							<td>34438</td>
+							<td>K Dental</td>
+							<td>(587)-732-6633</td>
+							<td>Instruments</td>
+							<td><input class="btn btn-submit" type="submit" value="Edit"></td>
+						</tr>
+						<tr>
+							<td>34321</td>
+							<td>Sinclair Dental</td>
+							<td>(974)-878-2257</td>
+							<td>Disposables</td>
+							<td><input class="btn btn-submit" type="submit" value="Edit"></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="grid group">
+				<div class="col-1 form-section">
+					<input class="btn btn-submit" type="submit" value="Back">
+				</div>
+			</div>
 		</section>
-		<section class="col-2 form-section">
-			<h3>Edit Vendor Information</h3>
+		<section id="tab-2" class="form-main tab-content">
+			<h2>Edit Vendor Information</h2>
 			<form>
-				<label for="name">Vendor ID: </label>
-				<input class="form-input" type="text" value="34321" readonly>
-
-				<label for="name">Name:</label>
-				<input class="form-input" type="text">
-
-				<label for="name">Phone:</label>
-				<input class="form-input" type="text">
-				
-				<label for="name">Email:</label>
-				<input class="form-input" type="text">
-				
-				<label for="name">Address:</label>
-				<input class="form-input" type="text">
-
-				<label for="name">Website:</label>
-				<input class="form-input" type="text">
-				
-				<input class="btn btn-submit" type="submit" value="Cancel">
-				<input class="btn btn-submit" type="submit" value="Update">
+				<div class="grid group">
+					<div class="col-1 form-section">
+						<label>Vendor ID:</label>
+						<input class="form-input" type="text" value="34321" readonly>
+					</div>
+					<div class="col-1 form-section">
+						<label>Name:</label>
+						<input class="form-input" type="text" value="Sinclair Dental" readonly>
+					</div>
+					<div class="col-1 form-section">
+						<label for="category">Category:</label>
+						<select class="form-input">
+						  <option value="default">Disposables</option>
+						</select>
+					</div>
+				</div>
+				<div class="grid group">
+					<div class="col-4 form-section">
+						<label for="Address">Address</label>
+						<input type="text" id="Address" value="3844-53rd Avenue NW" class="form-input"/>
+					</div>
+				</div>
+				<div class="grid group">
+					<div class="col-1 form-section">
+					    <label for="City">City</label>
+					    <input type="text" id="City" value="Edmonton" class="form-input"/>
+					</div>
+					<div class="col-1 form-section">
+					    <label for="Province">Province</label> 
+					    <input type="text"  id="Province" value="AB" class="form-input"/>
+					</div>
+					<div class="col-1 form-section">
+					    <label for="PostalCode">Postal Code</label>
+					    <input type="text" id="PostalCode" value="T6B3N7"  class="form-input"/>
+					</div>
+				</div>
+				<div class="grid group">
+					<div class="col-2 form-section">
+						<label>Phone:</label>
+						<input class="form-input" type="text" value="(780) 440-1311" readonly>
+					</div>
+					<div class="col-2 form-section">
+						<label>Email:</label>
+						<input class="form-input" type="text" value="Edmonton@sinclairdental.com" readonly>
+					</div>
+				</div>
+				<div class="grid group">
+				<div class="col-1 form-section">
+					<input class="btn btn-submit" type="submit" value="Update">
+					<input class="btn btn-submit" type="submit" value="Cancel">
+				</div>
+			</div>
 			</form>
 		</section>
-		<section class="col-2 form-section">
-			<h3>Add New Vendor</h3>
+		<section id="tab-3" class="form-main tab-content">
+			<h2>Add New Vendor</h2>
 			<form>
-				<label for="name">Name:</label>
-				<input class="form-input" type="text">
-
-				<label for="name">Phone:</label>
-				<input class="form-input" type="text">
-				
-				<label for="name">Email:</label>
-				<input class="form-input" type="text">
-				
-				<label for="name">Address:</label>
-				<input class="form-input" type="text">
-
-				<label for="name">Website:</label>
-				<input class="form-input" type="text">
-				
-				<input class="btn btn-submit" type="submit" value="Cancel">
-				<input class="btn btn-submit" type="submit" value="Add">
+				<div class="grid group">
+					<div class="col-2 form-section">
+						<label>Name:</label>
+						<input class="form-input" type="text">
+					</div>
+					<div class="col-2 form-section">
+						<label for="category">Category:</label>
+						<select class="form-input">
+						  <option value="default">Select Category</option>
+						</select>
+					</div>
+				</div>
+				<div class="grid group">
+					<div class="col-4 form-section">
+						<label for="Address">Address</label>
+						<input type="text" id="Address" class="form-input"/>
+					</div>
+				</div>
+				<div class="grid group">
+					<div class="col-1 form-section">
+					    <label for="City">City</label>
+					    <input type="text" id="City" class="form-input"/>
+					</div>
+					<div class="col-1 form-section">
+					    <label for="Province">Province</label> 
+					    <input type="text"  id="Province" class="form-input"/>
+					</div>
+					<div class="col-1 form-section">
+					    <label for="PostalCode">Postal Code</label>
+					    <input type="text" id="PostalCode" class="form-input"/>
+					</div>
+				</div>
+				<div class="grid group">
+					<div class="col-2 form-section">
+						<label>Phone:</label>
+						<input class="form-input" type="text">
+					</div>
+					<div class="col-2 form-section">
+						<label>Email:</label>
+						<input class="form-input" type="text">
+					</div>
+				</div>
+				<div class="col-1 form-section">
+					<input class="btn btn-submit" type="submit" value="Create">
+					<input class="btn btn-submit" type="submit" value="Cancel">
+				</div>
 			</form>
 		</section>
 	</main>
+	<!--<?php include('include/footer.php') ?>-->
+	<script src="../scripts/main.js"></script>
 </body>
 </html>

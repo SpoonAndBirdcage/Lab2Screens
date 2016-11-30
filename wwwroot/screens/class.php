@@ -4,30 +4,97 @@
 		<ul class="tabs">
 			<li class="tab-link current" data-tab="tab-1">Create a Course</li>
 			<li class="tab-link" data-tab="tab-2">Add Course Section</li>
-			<li class="tab-link" data-tab="tab-3">Assign Course Section to Room</li>
 		</ul>
 
 	<!--Create Course(CourseID, CourseName, CourseDescription, CreditsAwarded)-->
 	<section id="tab-1" class="form-main tab-content current">
 		<form>
-		<h2>Create a Course</h2>
+		<h2>Add/Update a Course</h2>
+		<div class="grid group">
+				<div class="col-4 form-section">
+					<div class="search">
+  						<span class="fa fa-search"></span>
+  						<input placeholder="Search" class="form-input" value="Root Canals">
+					</div>
+				</div>
+			</div>
+			<div class="grid group search-group search-results">
+				<div class="col-4 form-section">
+					<label>Search Results</label>
+					<table>
+						<thead>
+							<tr>
+								<th>Course ID</th>
+								<th>Course Name</th>
+								<th>Credits</th>
+								<th>Description</th>
+								<th>Select</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>RC101</td>
+								<td>Intro to Root Canals</td>
+								<td>4.5</td>
+								<td>A beginners guide to <strong>Root Canals</strong></td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td>RC201</td>
+								<td>Intermediate Root Canals</td>
+								<td>4.5</td>
+								<td><strong>Root Canal</strong> techniques with stone tools.</td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td>RC301</td>
+								<td>Advanced Root Canals</td>
+								<td>4.5</td>
+								<td>Advanced <strong>Root Canal</strong> techniques featuring Steel.</td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td>RC401</td>
+								<td>Expert Root Canals</td>
+								<td>4.5</td>
+								<td>Next gen <strong>Root Canal</strong> techniques featuring alien technology</td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td>HD101</td>
+								<td>The History of Root Canals</td>
+								<td>3</td>
+								<td>Famous doctors and methods from around the world dating back to 1600bc.</td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td>CIA101</td>
+								<td>Tourture Techniques</td>
+								<td>6</td>
+								<td><strong>Root Canals</strong>, Specialty tools and more... Everything ypu need to keep your patients talking.</td>
+								<td><a href="#">Select</a></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
 			<div class="grid group">
 				<div class="col-1 form-section">
 					<div class="row-inside-row">
-						<label for="CourseID" >Course ID:</label>
+						<label for="CourseID" >Course ID</label>
 						<input class="form-input" type="text" name="CourseID" readonly value="1001">
 
-						<label for="CourseName">Course Name:</label>
+						<label for="CourseName">Course Name</label>
 						<input class="form-input" type="text" name="CourseName" value="Root Canals 101">
 
-						<label for="Credits">Credits:</label>
+						<label for="Credits">Credits</label>
 						<SELECT class="form-input form-ddl" name="Credits">
 							<option value="3">3</option>
 						</SELECT>
 					</div>
 				</div>
 				<div class="col-3 form-section">
-					<label for="CourseDescription">Course Description:</label>
+					<label for="CourseDescription">Course Description</label>
 					<textarea id="elementID" class="form-input form-textarea" style="height: 192px;"></textarea>
 				</div>
 			</div>
@@ -44,7 +111,7 @@
 	<!--Create Course Section(CourseSectionID, CourseID, SemesterID, InstructorID, SessionalInstructorID)-->
 	<section id="tab-2" class="form-main tab-content">
 		<form>
-		<h2>Add Course Section</h2>
+		<h2>Add/Update Course Section</h2>
 		<div class="grid group">
 				<div class="col-4 form-section">
 					<div class="search">
@@ -55,8 +122,8 @@
 			</div>
 			<div class="grid group search-group search-results">
 				<div class="col-4 form-section">
-					<label>Search Results:</label>
-					<table>
+					<label>Search Results</label>
+										<table>
 						<thead>
 							<tr>
 								<th>Course ID</th>
@@ -68,45 +135,45 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
+								<td>RC101</td>
+								<td>Intro to Root Canals</td>
+								<td>4.5</td>
+								<td>A beginners guide to <strong>Root Canals</strong></td>
 								<td><a href="#">Select</a></td>
 							</tr>
 							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
+								<td>RC201</td>
+								<td>Intermediate Root Canals</td>
+								<td>4.5</td>
+								<td><strong>Root Canal</strong> techniques with stone tools.</td>
 								<td><a href="#">Select</a></td>
 							</tr>
 							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
+								<td>RC301</td>
+								<td>Advanced Root Canals</td>
+								<td>4.5</td>
+								<td>Advanced <strong>Root Canal</strong> techniques featuring Steel.</td>
 								<td><a href="#">Select</a></td>
 							</tr>
 							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
+								<td>RC401</td>
+								<td>Expert Root Canals</td>
+								<td>4.5</td>
+								<td>Next gen <strong>Root Canal</strong> techniques featuring alien technology</td>
 								<td><a href="#">Select</a></td>
 							</tr>
 							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
+								<td>HD101</td>
+								<td>The History of Root Canals</td>
+								<td>3</td>
+								<td>Famous doctors and methods from around the world dating back to 1600bc.</td>
 								<td><a href="#">Select</a></td>
 							</tr>
 							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
+								<td>CIA101</td>
+								<td>Customer Service</td>
+								<td>6</td>
+								<td><strong>Root Canals</strong>, Specialty tools and more... Everything ypu need to keep your patients talking.</td>
 								<td><a href="#">Select</a></td>
 							</tr>
 						</tbody>
@@ -115,16 +182,22 @@
 			</div>
 			<div class="grid group">
 				<div class="col-2 form-section">
-					<label for="CourseID">Course ID:</label>
+					<label for="CourseID">Course ID</label>
 					<input class="form-input" type="text" name="CourseID" readonly>
 				</div>
 				<div class="col-2 form-section">
-					<label for="CourseName">Course Name:</label>
+					<label for="CourseName">Course Name</label>
 					<input class="form-input" type="text" name="CourseName" readonly>
 				</div>
 			</div>
 
 			<div class="grid group grid-spacing">
+				<div class="col-2 form-section">
+			    	<label for="SemesterYear">Year</label>
+					<SELECT class="form-input form-ddl" name="SemesterYear">
+						<option value="2016">2016</option>
+					</SELECT>
+				</div>
 				<div class="col-2 form-section checkbox">
 					<label for="SemesterID">Semester:</label>
 					<label class="checkbox-layout">
@@ -140,23 +213,17 @@
 				    	<input type="radio" name="Semester" value="Fall"> Fall
 				    </label>
 			   </div>
-			   <div class="col-2 form-section">
-			    	<label for="SemesterYear">Year:</label>
-					<SELECT class="form-input form-ddl" name="SemesterYear">
-						<option value="2016">2016</option>
-					</SELECT>
-				</div>
 			</div>
 
 			<div class="grid group">
 				<div class="col-2 form-section">
-					<label for="Instructor">Full Time Instructor:</label>
+					<label for="Instructor">Full Time Instructor</label>
 					<SELECT class="form-input form-ddl" name="Instructor">
 						<option value="52">Homer Simpson</option>
 					</SELECT>
 				</div>
 				<div class="col-2 form-section">
-					<label for="InstructorSes">Sessional Instructor:</label>
+					<label for="InstructorSes">Sessional Instructor</label>
 					<SELECT class="form-input form-ddl" name="InstructorSes">
 						<option value="67">Maggie Simpson</option>
 					</SELECT>
@@ -172,300 +239,6 @@
 		</form>
 	</section>
 
-	<!--Add Class to Room Schedule (ClassRoomScheduleID, ClassRoomID, CourseSectionID, Date)-->
-	<section id="tab-3" class="form-main tab-content">
-		<form>
-		<h2>Assign Section to Room</h2>
-		<div class="grid group">
-				<div class="col-4 form-section">
-					<div class="search">
-  						<span class="fa fa-search"></span>
-  						<input placeholder="Search" class="form-input">
-					</div>
-				</div>
-			</div>
-			<div class="grid group search-group search-results">
-				<div class="col-4 form-section">
-					<label>Search Results:</label>
-					<table>
-						<thead>
-							<tr>
-								<th>Room ID</th>
-								<th>Room Nuber</th>
-								<th>Location</th>
-								<th>Capacity</th>
-								<th>Type</th>
-								<th>Description</th>
-								<th>Select</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td><a href="#">Select</a></td>
-							</tr>
-							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td><a href="#">Select</a></td>
-							</tr>
-							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td><a href="#">Select</a></td>
-							</tr>
-							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td><a href="#">Select</a></td>
-							</tr>
-							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td><a href="#">Select</a></td>
-							</tr>
-							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td><a href="#">Select</a></td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-			</div>
-			<div class="grid group">
-				<div class="col-1 form-section">
-					<div class="row-inside-row">
-						<label for="RoomID">Room ID:</label>
-						<input class="form-input" type="text" name="RoomID" readonly value="1018">
 
-						<label for="RoomNum">Room Number:</label>
-						<input class="form-input" type="text" name="RoomNum" readonly value="RM108">
-
-						<label for="RoomLocation">Location:</label>
-						<input class="form-input" type="text" name="RoomLocation" readonly value="Main Dental Building">
-
-						<label for="RoomCourseID">Section:</label>
-						<SELECT class="form-input form-ddl" name="RoomCourseID">
-							<option value="1018">1018</option>
-						</SELECT>
-
-						<label for="CourseID">Course ID:</label>
-						<SELECT class="form-input form-ddl" name="CourseID">
-							<option value="RootCanal101">Root Canals 101 - 1001</option>
-						</SELECT>
-
-						<label for="DayOfWeek">Day Of Week:</label>
-						<SELECT class="form-input form-ddl" name="DayOfWeek">
-							<option value="Mon">Monday</option>
-						</SELECT>
-
-						<label for="StartTime">Start Time:</label>
-						<SELECT class="form-input form-ddl" name="StartTime">
-							<option value="13">1:00pm</option>
-						</SELECT>
-
-						<input class="btn btn-submit" type="submit" value="Assign Section">
-						<input class="btn btn-update" type="submit" value="Update">
-						<input class="btn btn-danger" type="submit" value="Delete">
-					</div>
-				</div>
-				<div class="col-3 form-section">
-					<label for="schedule">Room Schedule:</label>
-					<table name="schedule" id="schedule">
-						<thead>
-							<tr>
-								<th>Time</th>
-								<th>Sunday</th>
-								<th>Monday</th>
-								<th>Tuesday</th>
-								<th>Wednesday</th>
-								<th>Thursday</th>
-								<th>Friday</th>
-								<th>Saturday</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>8:00am</td>
-								<td>Sunday</td>
-								<td>Monday</td>
-								<td>Tuesday</td>
-								<td>Wednesday</td>
-								<td>Thursday</td>
-								<td>Friday</td>
-								<td>Saturday</td>
-							</tr>
-							<tr>
-								<td>9:00am</td>
-								<td>Sunday</td>
-								<td>Monday</td>
-								<td>Tuesday</td>
-								<td>Wednesday</td>
-								<td>Thursday</td>
-								<td>Friday</td>
-								<td>Saturday</td>
-							</tr>
-							<tr>
-								<td>10:00am</td>
-								<td>Sunday</td>
-								<td>Monday</td>
-								<td>Tuesday</td>
-								<td>Wednesday</td>
-								<td>Thursday</td>
-								<td>Friday</td>
-								<td>Saturday</td>
-							</tr>
-							<tr>
-								<td>11:00am</td>
-								<td>Sunday</td>
-								<td>Monday</td>
-								<td>Tuesday</td>
-								<td>Wednesday</td>
-								<td>Thursday</td>
-								<td>Friday</td>
-								<td>Saturday</td>
-							</tr>
-							<tr>
-								<td>12:00pm</td>
-								<td>Sunday</td>
-								<td>Monday</td>
-								<td>Tuesday</td>
-								<td>Wednesday</td>
-								<td>Thursday</td>
-								<td>Friday</td>
-								<td>Saturday</td>
-							</tr>
-							<tr>
-								<td>1:00pm</td>
-								<td>Sunday</td>
-								<td>Monday</td>
-								<td>Tuesday</td>
-								<td>Wednesday</td>
-								<td>Thursday</td>
-								<td>Friday</td>
-								<td>Saturday</td>
-							</tr>
-							<tr>
-								<td>2:00pm</td>
-								<td>Sunday</td>
-								<td>Monday</td>
-								<td>Tuesday</td>
-								<td>Wednesday</td>
-								<td>Thursday</td>
-								<td>Friday</td>
-								<td>Saturday</td>
-							</tr>
-							<tr>
-								<td>3:00pm</td>
-								<td>Sunday</td>
-								<td>Monday</td>
-								<td>Tuesday</td>
-								<td>Wednesday</td>
-								<td>Thursday</td>
-								<td>Friday</td>
-								<td>Saturday</td>
-							</tr>
-							<tr>
-								<td>4:00pm</td>
-								<td>Sunday</td>
-								<td>Monday</td>
-								<td>Tuesday</td>
-								<td>Wednesday</td>
-								<td>Thursday</td>
-								<td>Friday</td>
-								<td>Saturday</td>
-							</tr>
-							<tr>
-								<td>5:00pm</td>
-								<td>Sunday</td>
-								<td>Monday</td>
-								<td>Tuesday</td>
-								<td>Wednesday</td>
-								<td>Thursday</td>
-								<td>Friday</td>
-								<td>Saturday</td>
-							</tr>
-							<tr>
-								<td>6:00pm</td>
-								<td>Sunday</td>
-								<td>Monday</td>
-								<td>Tuesday</td>
-								<td>Wednesday</td>
-								<td>Thursday</td>
-								<td>Friday</td>
-								<td>Saturday</td>
-							</tr>
-							<tr>
-								<td>7:00pm</td>
-								<td>Sunday</td>
-								<td>Monday</td>
-								<td>Tuesday</td>
-								<td>Wednesday</td>
-								<td>Thursday</td>
-								<td>Friday</td>
-								<td>Saturday</td>
-							</tr>
-							<tr>
-								<td>8:00pm</td>
-								<td>Sunday</td>
-								<td>Monday</td>
-								<td>Tuesday</td>
-								<td>Wednesday</td>
-								<td>Thursday</td>
-								<td>Friday</td>
-								<td>Saturday</td>
-							</tr>
-							<tr>
-								<td>9:00pm</td>
-								<td>Sunday</td>
-								<td>Monday</td>
-								<td>Tuesday</td>
-								<td>Wednesday</td>
-								<td>Thursday</td>
-								<td>Friday</td>
-								<td>Saturday</td>
-							</tr>
-							<tr>
-								<td>10:00pm</td>
-								<td>Sunday</td>
-								<td>Monday</td>
-								<td>Tuesday</td>
-								<td>Wednesday</td>
-								<td>Thursday</td>
-								<td>Friday</td>
-								<td>Saturday</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-			</div>
-		</form>
-	</section>
 </main>
 <?php include('../include/footer.php') ?>
