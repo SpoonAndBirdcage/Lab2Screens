@@ -137,6 +137,10 @@ nav {
 	background-color: #141820;
 }
 
+.nav-logo:hover {
+	background-color: #30343e;
+}
+
 .active {
 	background-color: #141820;
 }

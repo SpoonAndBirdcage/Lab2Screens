@@ -18,6 +18,9 @@
 		<nav>
 			<ul class="main-nav">
 				<li class="group">
+					<a href="#" class="nav-link nav-logo"><img class="nav-icon" src="../assets/navicons/Nait-Polytechnic.png" alt="Nait Logo"></a>
+				</li>
+				<li class="group">
 					<a href="#" class="nav-link"><img class="nav-icon" src="../assets/navicons/appt_icon_96_96.png" alt="Appointment Icon"></a>
 					<h4 class="nav-label">Appointments</h4>
 				</li>
@@ -26,24 +29,24 @@
 					<h4 class="nav-label">Patients</h4>
 				</li>
 				<li class="group">
-					<a href="#" class="nav-link"><img class="nav-icon" src="../assets/navicons/inventory_icon_96_96.png" alt="Inventory Icon"></a>
+					<a href="../screens/inventory.php" class="nav-link"><img class="nav-icon" src="../assets/navicons/inventory_icon_96_96.png" alt="Inventory Icon"></a>
 					<h4 class="nav-label">Inventory</h4>
 				</li>
 				<li class="group">
-					<a href="#" class="nav-link"><img class="nav-icon" src="../assets/navicons/class_icon_96_96.png" alt="Classes Icon"></a>
+					<a href="../screens/class.php" class="nav-link"><img class="nav-icon" src="../assets/navicons/class_icon_96_96.png" alt="Classes Icon"></a>
 					<h4 class="nav-label">Courses</h4>
 				</li>
 				<li class="group">
-					<a href="#" class="nav-link"><img class="nav-icon" src="../assets/navicons/student_icon_96_96.png" alt="Student Icon"></a>
+					<a href="../screens/student-screen.php" class="nav-link"><img class="nav-icon" src="../assets/navicons/student_icon_96_96.png" alt="Student Icon"></a>
 					<h4 class="nav-label">Students</h4>
 				</li>
 				<li class="group">
-					<a href="#" class="nav-link"><img class="nav-icon" src="../assets/navicons/instructors_icon_96_96.png" alt="Instructor Icon"></a>
+					<a href="../screens/instructor.php" class="nav-link"><img class="nav-icon" src="../assets/navicons/instructors_icon_96_96.png" alt="Instructor Icon"></a>
 					<h4 class="nav-label">Instructors</h4>
 				</li>
 
 				<li class="group">
-					<a href="#" class="nav-link"><img class="nav-icon" src="../assets/navicons/classroom_icon_96_96.png" alt="Classroom Icon"></a>
+					<a href="../screens/room.php" class="nav-link"><img class="nav-icon" src="../assets/navicons/classroom_icon_96_96.png" alt="Classroom Icon"></a>
 					<h4 class="nav-label">Classrooms</h4>
 				</li>
 			</ul>
