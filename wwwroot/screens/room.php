@@ -256,120 +256,96 @@
 						<thead>
 							<tr>
 								<th>Time</th>
-								<th>Sunday</th>
 								<th>Monday</th>
 								<th>Tuesday</th>
 								<th>Wednesday</th>
 								<th>Thursday</th>
 								<th>Friday</th>
-								<th>Saturday</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
 								<td>8:00am</td>
-								<td></td>
 								<td>Root Canals - 1002</td>
 								<td></td>
 								<td>Root Canals - 1002</td>
 								<td></td>
 								<td>Root Canals - 1002</td>
-								<td></td>
 							</tr>
 							<tr>
 								<td>9:00am</td>
-								<td></td>
 								<td>Root Canals - 1002</td>
 								<td></td>
 								<td>Root Canals - 1002</td>
 								<td></td>
 								<td>Root Canals - 1002</td>
-								<td></td>
 							</tr>
 							<tr>
 								<td>10:00am</td>
 								<td></td>
 								<td></td>
 								<td></td>
-								<td></td>
 								<td>Intro to Dentures - 1304</td>
-								<td></td>
 								<td></td>
 							</tr>
 							<tr>
 								<td>11:00am</td>
-								<td></td>
 								<td>Fillings - 1201</td>
 								<td></td>
 								<td>Fillings - 1201</td>
 								<td>Intro to Dentures - 1304</td>
 								<td>Fillings - 1201</td>
-								<td></td>
 							</tr>
 							<tr>
 								<td>12:00pm</td>
-								<td></td>
 								<td>Fillings - 1201</td>
 								<td></td>
 								<td>Fillings - 1201</td>
 								<td></td>
 								<td>Fillings - 1201</td>
-								<td></td>
 							</tr>
 							<tr>
 								<td>1:00pm</td>
-								<td></td>
 								<td>Cleaning Techniques - 2001</td>
 								<td>Advance Root Canals - 2046</td>
 								<td>Cleaning Techniques - 2001</td>
 								<td>Cleaning Techniques - 2001</td>
-								<td></td>
 								<td></td>
 							</tr>
 							<tr>
 								<td>2:00pm</td>
-								<td></td>
 								<td>Cleaning Techniques - 2001</td>
 								<td>Advance Root Canals - 2046</td>
 								<td>Cleaning Techniques - 2001</td>
 								<td>Cleaning Techniques - 2001</td>
 								<td></td>
-								<td></td>
 							</tr>
 							<tr>
 								<td>3:00pm</td>
-								<td></td>
 								<td>Advance Root Canals - 2046</td>
 								<td>Intermidiate Braces - 2259</td>
 								<td></td>
 								<td>Root Canals - 2046</td>
 								<td>Intermidiate Braces - 2259</td>
-								<td></td>
 							</tr>
 							<tr>
 								<td>4:00pm</td>
-								<td></td>
 								<td>Advance Root Canals - 2046</td>
 								<td>Intermidiate Braces - 2259</td>
 								<td></td>
 								<td>Advance Root Canals - 2046</td>
 								<td>Intermidiate Braces - 2259</td>
-								<td></td>
 							</tr>
 							<tr>
 								<td>5:00pm</td>
 								<td></td>
-								<td></td>
 								<td>Intermidiate Braces - 2259</td>
 								<td></td>
 								<td></td>
 								<td>Intermidiate Braces - 2259</td>
-								<td></td>
 							</tr>
 							<tr>
 								<td>6:00pm</td>
-								<td></td>
-								<td></td>
 								<td></td>
 								<td></td>
 								<td></td>
@@ -379,21 +355,17 @@
 							<tr>
 								<td>7:00pm</td>
 								<td></td>
-								<td></td>
 								<td>Customer Relations - 2028</td>
 								<td></td>
 								<td>Customer Relations - 2028</td>
-								<td></td>
 								<td></td>
 							</tr>
 							<tr>
 								<td>8:00pm</td>
 								<td></td>
-								<td></td>
 								<td>Customer Relations - 2028</td>
 								<td></td>
 								<td>Customer Relations - 2028</td>
-								<td></td>
 								<td></td>
 							</tr>
 							<tr>
@@ -403,17 +375,6 @@
 								<td>Customer Relations - 2028</td>
 								<td></td>
 								<td>Customer Relations - 2028</td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>10:00pm</td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
 								<td></td>
 							</tr>
 						</tbody>
