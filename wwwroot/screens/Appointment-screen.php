@@ -1,7 +1,7 @@
 
 <?php include('../include/header.php') ?>
 <main class="main-content">
-	<h1>Create Dental Appointment</h1>
+	<h1>Appointment Management</h1>
 	<ul class="tabs">
 	<li class="tab-link current" data-tab="tab-1"> Create </li>
 	<li class="tab-link" data-tab="tab-2"> Update </li>

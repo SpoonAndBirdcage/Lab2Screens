@@ -1,6 +1,6 @@
 <?php include('../include/header.php') ?>
 	<main class="main-content">
-		<h1>Manage Inventory</h1>
+		<h1>Inventory Management</h1>
 		<div class="form-main">
 			<h2>Search Inventory</h2>
 			<form>

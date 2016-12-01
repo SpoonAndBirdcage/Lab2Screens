@@ -21,7 +21,7 @@
 					<a href="#" class="nav-link nav-logo"><img class="nav-icon" src="../assets/navicons/Nait-Polytechnic.png" alt="Nait Logo"></a>
 				</li>
 				<li class="group">
-					<a href="#" class="nav-link"><img class="nav-icon" src="../assets/navicons/appt_icon_96_96.png" alt="Appointment Icon"></a>
+					<a href="../screens/Appointment-screen.php" class="nav-link"><img class="nav-icon" src="../assets/navicons/appt_icon_96_96.png" alt="Appointment Icon"></a>
 					<h4 class="nav-label">Appointments</h4>
 				</li>
 				<li class="group">
