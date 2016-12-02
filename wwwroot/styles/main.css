@@ -313,6 +313,40 @@ nav {
   top: 9px;
   left: 10px;
 }
+
+/**
+ * 		Calander
+ */
+.calander {
+ 	background: #30343e;
+  	border-radius: 10px;
+  	box-sizing: border-box;
+  	padding: 15px;
+}
+
+.calander header {
+	text-align: center;
+}
+
+.calander button {
+      position: relative;
+      top: -4px;
+    }
+
+.calander button:first-child {
+      text-align: left;
+    }
+.calander button:last-child {
+      text-align: right;
+    }
+
+.cal-head {
+	font-size: 1.5em;
+	text-align: center;
+	display: inline-block;
+	padding: 0 190px 15px;
+}
+
 /**
  * 		Tables
  */
