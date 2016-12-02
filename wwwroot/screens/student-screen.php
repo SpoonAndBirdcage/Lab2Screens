@@ -164,20 +164,57 @@
 		</div>
 	</div>
 
+
+
+
 	<div id="tab-2" class="form-main tab-content">
 		<h2>Register Student in Section</h2>
 			<div class="grid group">
-				<div class="col-1 form-section">
-				<label>Search Student:</label>
-				<input type="text" class="form-input" name="student">
+			<div class="col-4 form-section">
+				<div class="search">
+						<span class="fa fa-search"></span>
+						<input placeholder="Search" class="form-input">
 				</div>
-				<div class="col-4 form-section"></div>
 			</div>
-
-			<div class="col-2 form-section">
-				<button type="submit" class="btn btn-submit">Search</button>
+		</div>
+		<div class="grid group search-group search-results">
+			<div class="col-4 form-section">
+				<label>Search Results:</label>
+				<table>
+					<thead>
+						<tr>
+							<th>Student ID</th>
+							<th>First Name</th>
+							<th>Last Name</th>
+							<th>E-Mail</th>
+							<th>Phone Number</th>
+							<th>Gender</th>
+							<th>Address</th>
+							<th>City</th>
+							<th>Province</th>
+							<th>Designation</th>
+							<th>Edit</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td><a href="#">Edit</a></td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
-
+		</div>
+		
 			<div class="grid group">
 				<div class="col-1 form-section">
 				<label>Search Course:</label>
