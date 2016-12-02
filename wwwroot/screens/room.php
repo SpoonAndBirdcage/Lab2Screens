@@ -2,10 +2,10 @@
 <main class="main-content">
 	<h1>Classroom Management</h1>
 		<ul class="tabs">
-			<li class="tab-link current" data-tab="tab-1">Add a Classroom</li>
-			<li class="tab-link" data-tab="tab-2">Assign Course Section to Room</li>
+			<li class="tab-link current" data-tab="tab-1">Assign Course Section to Room</li>
+			<li class="tab-link" data-tab="tab-2">Add a Classroom</li>
 		</ul>
-	<section id="tab-1" class="form-main tab-content current">
+	<section id="tab-2" class="form-main tab-content">
 		<form>
 		<h2>Add a Classroom</h2>
 			<div class="grid group">
@@ -128,7 +128,7 @@
 		</form>
 	</section>
 		<!--Add Class to Room Schedule (ClassRoomScheduleID, ClassRoomID, CourseSectionID, Date)-->
-	<section id="tab-2" class="form-main tab-content">
+	<section id="tab-3" class="form-main tab-content current">
 		<form>
 		<h2>Assign Section to Room</h2>
 		<div class="grid group">
@@ -251,7 +251,7 @@
 					</div>
 				</div>
 				<div class="col-3 form-section">
-					<label for="schedule">Room Schedule</label>
+					<label for="schedule">Room Schedule For: DB105</label>
 					<table name="schedule" id="schedule">
 						<thead>
 							<tr>
