@@ -176,7 +176,8 @@
 						<input placeholder="Search" class="form-input">
 				</div>
 			</div>
-		</div>
+			</div>]
+
 		<div class="grid group search-group search-results">
 			<div class="col-4 form-section">
 				<label>Search Results:</label>
@@ -214,32 +215,206 @@
 				</table>
 			</div>
 		</div>
-		
-			<div class="grid group">
-				<div class="col-1 form-section">
-				<label>Search Course:</label>
-				<select name="elementName" id="elementID" class="form-input form-ddl">
-					<option value=""></option>
-					<option value=""></option>
-				</select>
+
+		<div class="grid group search-group search-results">
+			<div class="col-4 form-section">
+					<label>Student Schedule</label>
+					<table>
+						<thead>
+							<tr>
+								<th>Time</th>
+								<th>Monday</th>
+								<th>Tuesday</th>
+								<th>Wednesday</th>
+								<th>Thursday</th>
+								<th>Friday</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>8:00am</td>
+								<td>Root Canals - 1002</td>
+								<td></td>
+								<td>Root Canals - 1002</td>
+								<td></td>
+								<td>Root Canals - 1002</td>
+							</tr>
+							<tr>
+								<td>9:00am</td>
+								<td>Root Canals - 1002</td>
+								<td></td>
+								<td>Root Canals - 1002</td>
+								<td></td>
+								<td>Root Canals - 1002</td>
+							</tr>
+							<tr>
+								<td>10:00am</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td>Intro to Dentures - 1304</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>11:00am</td>
+								<td>Fillings - 1201</td>
+								<td></td>
+								<td>Fillings - 1201</td>
+								<td>Intro to Dentures - 1304</td>
+								<td>Fillings - 1201</td>
+							</tr>
+							<tr>
+								<td>12:00pm</td>
+								<td>Fillings - 1201</td>
+								<td></td>
+								<td>Fillings - 1201</td>
+								<td></td>
+								<td>Fillings - 1201</td>
+							</tr>
+							<tr>
+								<td>1:00pm</td>
+								<td>Cleaning Techniques - 2001</td>
+								<td>Advance Root Canals - 2046</td>
+								<td>Cleaning Techniques - 2001</td>
+								<td>Cleaning Techniques - 2001</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>2:00pm</td>
+								<td>Cleaning Techniques - 2001</td>
+								<td>Advance Root Canals - 2046</td>
+								<td>Cleaning Techniques - 2001</td>
+								<td>Cleaning Techniques - 2001</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>3:00pm</td>
+								<td>Advance Root Canals - 2046</td>
+								<td>Intermidiate Braces - 2259</td>
+								<td></td>
+								<td>Root Canals - 2046</td>
+								<td>Intermidiate Braces - 2259</td>
+							</tr>
+							<tr>
+								<td>4:00pm</td>
+								<td>Advance Root Canals - 2046</td>
+								<td>Intermidiate Braces - 2259</td>
+								<td></td>
+								<td>Advance Root Canals - 2046</td>
+								<td>Intermidiate Braces - 2259</td>
+							</tr>
+							<tr>
+								<td>5:00pm</td>
+								<td></td>
+								<td>Intermidiate Braces - 2259</td>
+								<td></td>
+								<td></td>
+								<td>Intermidiate Braces - 2259</td>
+							</tr>
+							<tr>
+								<td>6:00pm</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>7:00pm</td>
+								<td></td>
+								<td>Customer Relations - 2028</td>
+								<td></td>
+								<td>Customer Relations - 2028</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>8:00pm</td>
+								<td></td>
+								<td>Customer Relations - 2028</td>
+								<td></td>
+								<td>Customer Relations - 2028</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>9:00pm</td>
+								<td></td>
+								<td></td>
+								<td>Customer Relations - 2028</td>
+								<td></td>
+								<td>Customer Relations - 2028</td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
-				<div class="col-4 form-section"></div>
 			</div>
 
-			<div class="grid group">
-				<div class="col-1 form-section">
-				<label>Search Section:</label>
-				<select name="elementName" id="elementID" class="form-input form-ddl">
-					<option value=""></option>
-					<option value=""></option>
-				</select>
-				</div>
-				<div class="col-4 form-section"></div>
+			<div class="col-4 form-section">
+					<div class="search">
+  						<span class="fa fa-search"></span>
+  						<input placeholder="Search" class="form-input" value="Root Canals">
+					</div>
 			</div>
 
-			<div class="col-2 form-section">
-				<label>Add Student to Section</label>
-				<button type="submit" class="btn btn-submit">Register Student</button>
+			<div class="grid group search-group search-results">
+				<div class="col-4 form-section">
+					<label>Search Results</label>
+					<table>
+						<thead>
+							<tr>
+								<th>Course ID</th>
+								<th>Course Name</th>
+								<th>Credits</th>
+								<th>Description</th>
+								<th>Select</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>RC101</td>
+								<td>Intro to Root Canals</td>
+								<td>4.5</td>
+								<td>A beginners guide to <strong>Root Canals</strong></td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td>RC201</td>
+								<td>Intermediate Root Canals</td>
+								<td>4.5</td>
+								<td><strong>Root Canal</strong> techniques with stone tools.</td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td>RC301</td>
+								<td>Advanced Root Canals</td>
+								<td>4.5</td>
+								<td>Advanced <strong>Root Canal</strong> techniques featuring Steel.</td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td>RC401</td>
+								<td>Expert Root Canals</td>
+								<td>4.5</td>
+								<td>Next gen <strong>Root Canal</strong> techniques featuring alien technology</td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td>HD101</td>
+								<td>The History of Root Canals</td>
+								<td>3</td>
+								<td>Famous doctors and methods from around the world dating back to 1600bc.</td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td>CIA101</td>
+								<td>Customer Relations</td>
+								<td>6</td>
+								<td><strong>Root Canals</strong>, Specialty tools and more... Everything ypu need to keep your patients talking.</td>
+								<td><a href="#">Select</a></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 			</div>
 	</div>
 </main>
