@@ -194,7 +194,7 @@
 							<th>City</th>
 							<th>Province</th>
 							<th>Designation</th>
-							<th>Edit</th>
+							<th></th>
 						</tr>
 					</thead>
 					<tbody>
@@ -209,7 +209,7 @@
 							<td></td>
 							<td></td>
 							<td></td>
-							<td><a href="#">Edit</a></td>
+							<td><a href="#">Select</a></td>
 						</tr>
 					</tbody>
 				</table>
@@ -252,7 +252,7 @@
 								<td></td>
 								<td></td>
 								<td></td>
-								<td>Intro to Dentures - 1304</td>
+								<td></td>
 								<td></td>
 							</tr>
 							<tr>
@@ -260,7 +260,7 @@
 								<td>Fillings - 1201</td>
 								<td></td>
 								<td>Fillings - 1201</td>
-								<td>Intro to Dentures - 1304</td>
+								<td></td>
 								<td>Fillings - 1201</td>
 							</tr>
 							<tr>
@@ -274,7 +274,7 @@
 							<tr>
 								<td>1:00pm</td>
 								<td>Cleaning Techniques - 2001</td>
-								<td>Advance Root Canals - 2046</td>
+								<td></td>
 								<td>Cleaning Techniques - 2001</td>
 								<td>Cleaning Techniques - 2001</td>
 								<td></td>
@@ -282,66 +282,9 @@
 							<tr>
 								<td>2:00pm</td>
 								<td>Cleaning Techniques - 2001</td>
-								<td>Advance Root Canals - 2046</td>
+								<td></td>
 								<td>Cleaning Techniques - 2001</td>
 								<td>Cleaning Techniques - 2001</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>3:00pm</td>
-								<td>Advance Root Canals - 2046</td>
-								<td>Intermidiate Braces - 2259</td>
-								<td></td>
-								<td>Root Canals - 2046</td>
-								<td>Intermidiate Braces - 2259</td>
-							</tr>
-							<tr>
-								<td>4:00pm</td>
-								<td>Advance Root Canals - 2046</td>
-								<td>Intermidiate Braces - 2259</td>
-								<td></td>
-								<td>Advance Root Canals - 2046</td>
-								<td>Intermidiate Braces - 2259</td>
-							</tr>
-							<tr>
-								<td>5:00pm</td>
-								<td></td>
-								<td>Intermidiate Braces - 2259</td>
-								<td></td>
-								<td></td>
-								<td>Intermidiate Braces - 2259</td>
-							</tr>
-							<tr>
-								<td>6:00pm</td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>7:00pm</td>
-								<td></td>
-								<td>Customer Relations - 2028</td>
-								<td></td>
-								<td>Customer Relations - 2028</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>8:00pm</td>
-								<td></td>
-								<td>Customer Relations - 2028</td>
-								<td></td>
-								<td>Customer Relations - 2028</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>9:00pm</td>
-								<td></td>
-								<td></td>
-								<td>Customer Relations - 2028</td>
-								<td></td>
-								<td>Customer Relations - 2028</td>
 								<td></td>
 							</tr>
 						</tbody>
@@ -410,6 +353,72 @@
 								<td>Customer Relations</td>
 								<td>6</td>
 								<td><strong>Root Canals</strong>, Specialty tools and more... Everything ypu need to keep your patients talking.</td>
+								<td><a href="#">Select</a></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="col-4 form-section">
+					<label>Course Sections</label>
+					<table>
+						<thead>
+							<tr>
+								<th>Course ID</th>
+								<th>Course Name</th>
+								<th>Credits</th>
+								<th>Time</th>
+								<th>Room</th>
+								<th>Select</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>RC401</td>
+								<td>Expert Root Canals</td>
+								<td>4.5</td>
+								<td>1:00 pm - 2:00 pm / MWF</td>
+								<td>DB104</td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td>RC401</td>
+								<td>Expert Root Canals</td>
+								<td>4.5</td>
+								<td>1:00 pm - 2:00 pm / MWF</td>
+								<td>DB105</td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td>RC401</td>
+								<td>Expert Root Canals</td>
+								<td>4.5</td>
+								<td>2:00 pm - 3:00 pm / MWF</td>
+								<td>DB204</td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td>RC401</td>
+								<td>Expert Root Canals</td>
+								<td>4.5</td>
+								<td>2:00 pm - 3:00 pm / MWF</td>
+								<td>DB113</td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td>RC401</td>
+								<td>Expert Root Canals</td>
+								<td>4.5</td>
+								<td>3:00 pm - 4:00 pm / MWF</td>
+								<td>DB204</td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td>RC401</td>
+								<td>Expert Root Canals</td>
+								<td>4.5</td>
+								<td>3:00 pm - 4:00 pm / MWF</td>
+								<td>DB208</td>
 								<td><a href="#">Select</a></td>
 							</tr>
 						</tbody>

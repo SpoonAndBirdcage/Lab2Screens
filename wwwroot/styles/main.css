@@ -313,49 +313,15 @@ nav {
   top: 9px;
   left: 10px;
 }
-
-/**
- * 		Calander
- */
-.calander {
- 	background: #30343e;
-  	border-radius: 10px;
-  	box-sizing: border-box;
-  	padding: 15px;
-}
-
-.calander header {
-	text-align: center;
-}
-
-.calander button {
-      position: relative;
-      top: -4px;
-    }
-
-.calander button:first-child {
-      text-align: left;
-    }
-.calander button:last-child {
-      text-align: right;
-    }
-
-.cal-head {
-	font-size: 1.5em;
-	text-align: center;
-	display: inline-block;
-	padding: 0 190px 15px;
-}
-
 /**
  * 		Tables
  */
-table {
+table {	
 	background-color: #e2e2e2;
 	width: 100%;
 	border-radius: 10px;
 	overflow: hidden;
-
+	table-layout: fixed;
 }
 
 thead {
@@ -399,6 +365,56 @@ tbody td a {
 thead th:nth-of-type(2n+2), tbody td:nth-of-type(2n+2) {
 	background-color: rgba(0,0,0,0.1);
 }
+
+/**
+ * 		Calander
+ */
+.calander header {
+	text-align: center;
+}
+
+.calander button {
+      position: relative;
+      top: -4px;
+    }
+
+.calander button:first-child {
+      text-align: left;
+    }
+.calander button:last-child {
+      text-align: right;
+    }
+
+.calander button {
+	border-radius: 5px;
+	border: 1px solid #30343e;
+	padding: 6px;
+}
+
+.cal-head {
+	font-size: 1.5em;
+	text-align: center;
+	display: inline-block;
+	padding: 25px 16% 0;
+}
+
+.cal thead th{
+	font-weight: 700;
+}
+
+.cal tbody td:first-child {
+	border-right: none;
+}
+
+.cal tbody td{
+	padding: 18px 0;
+}
+
+.cal .selected {
+	background-color: #30343e;
+	color: #e2e2e2;
+}
+
 
 /**
  * 		Footer
