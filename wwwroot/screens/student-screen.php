@@ -14,7 +14,7 @@
 			<div class="col-4 form-section">
 				<div class="search">
 						<span class="fa fa-search"></span>
-						<input placeholder="Search" class="form-input">
+						<input placeholder="Search" class="form-input" value="2009">
 				</div>
 			</div>
 			<div class="col-3"></div>
@@ -31,7 +31,6 @@
 							<th>Last Name</th>
 							<th>E-Mail</th>
 							<th>Phone Number</th>
-							<th>Gender</th>
 							<th>Designation</th>
 							<th>Edit</th>
 						</tr>
@@ -39,31 +38,28 @@
 					<tbody>
 						<tr>
 							<td>200910818</td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
+							<td>Bruce</td>
+							<td>Wayne</td>
+							<td>batman01@gmail.com</td>
+							<td>(587)555-1234</td>
+							<td>Orthodontist</td>
 							<td><a href="#">Edit</a></td>
 						</tr>
 						<tr>
 							<td>200910960</td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
+							<td>Dick</td>
+							<td>Grayson</td>
+							<td>robin01@gmail.com</td>
+							<td>(587)456-1234</td>
 							<td></td>
 							<td><a href="#">Edit</a></td>
 						</tr>
 						<tr>
 							<td>200910340</td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
+							<td>Exo</td>
+							<td>Ox</td>
+							<td>exoexo@gmail.com</td>
+							<td>(780)265-1234</td>
 							<td></td>
 							<td><a href="#">Edit</a></td>
 						</tr>
@@ -163,7 +159,7 @@
 			<div class="col-4 form-section">
 				<div class="search">
 						<span class="fa fa-search"></span>
-						<input placeholder="Search" class="form-input">
+						<input placeholder="Search" class="form-input" value="200910818">
 				</div>
 			</div>
 			<div class="col-3"></div>
@@ -188,11 +184,11 @@
 					<tbody>
 						<tr>
 							<td>200910818</td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
+							<td>Bruce</td>
+							<td>Wayne</td>
+							<td>batman01@gmail.com</td>
+							<td>(587)555-1234</td>
+							<td>Orthodontist</td>
 							<td><a href="#">Select</a></td>
 						</tr>
 					</tbody>
