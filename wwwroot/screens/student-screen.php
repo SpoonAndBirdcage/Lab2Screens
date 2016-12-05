@@ -194,7 +194,7 @@
 							<th>City</th>
 							<th>Province</th>
 							<th>Designation</th>
-							<th>Edit</th>
+							<th></th>
 						</tr>
 					</thead>
 					<tbody>
@@ -209,7 +209,7 @@
 							<td></td>
 							<td></td>
 							<td></td>
-							<td><a href="#">Edit</a></td>
+							<td><a href="#">Select</a></td>
 						</tr>
 					</tbody>
 				</table>
@@ -252,7 +252,7 @@
 								<td></td>
 								<td></td>
 								<td></td>
-								<td>Intro to Dentures - 1304</td>
+								<td></td>
 								<td></td>
 							</tr>
 							<tr>
@@ -260,7 +260,7 @@
 								<td>Fillings - 1201</td>
 								<td></td>
 								<td>Fillings - 1201</td>
-								<td>Intro to Dentures - 1304</td>
+								<td></td>
 								<td>Fillings - 1201</td>
 							</tr>
 							<tr>
@@ -274,7 +274,7 @@
 							<tr>
 								<td>1:00pm</td>
 								<td>Cleaning Techniques - 2001</td>
-								<td>Advance Root Canals - 2046</td>
+								<td></td>
 								<td>Cleaning Techniques - 2001</td>
 								<td>Cleaning Techniques - 2001</td>
 								<td></td>
@@ -282,66 +282,9 @@
 							<tr>
 								<td>2:00pm</td>
 								<td>Cleaning Techniques - 2001</td>
-								<td>Advance Root Canals - 2046</td>
+								<td></td>
 								<td>Cleaning Techniques - 2001</td>
 								<td>Cleaning Techniques - 2001</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>3:00pm</td>
-								<td>Advance Root Canals - 2046</td>
-								<td>Intermidiate Braces - 2259</td>
-								<td></td>
-								<td>Root Canals - 2046</td>
-								<td>Intermidiate Braces - 2259</td>
-							</tr>
-							<tr>
-								<td>4:00pm</td>
-								<td>Advance Root Canals - 2046</td>
-								<td>Intermidiate Braces - 2259</td>
-								<td></td>
-								<td>Advance Root Canals - 2046</td>
-								<td>Intermidiate Braces - 2259</td>
-							</tr>
-							<tr>
-								<td>5:00pm</td>
-								<td></td>
-								<td>Intermidiate Braces - 2259</td>
-								<td></td>
-								<td></td>
-								<td>Intermidiate Braces - 2259</td>
-							</tr>
-							<tr>
-								<td>6:00pm</td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>7:00pm</td>
-								<td></td>
-								<td>Customer Relations - 2028</td>
-								<td></td>
-								<td>Customer Relations - 2028</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>8:00pm</td>
-								<td></td>
-								<td>Customer Relations - 2028</td>
-								<td></td>
-								<td>Customer Relations - 2028</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>9:00pm</td>
-								<td></td>
-								<td></td>
-								<td>Customer Relations - 2028</td>
-								<td></td>
-								<td>Customer Relations - 2028</td>
 								<td></td>
 							</tr>
 						</tbody>
