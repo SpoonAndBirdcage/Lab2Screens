@@ -4,7 +4,7 @@
 	<h1>Appointment Management</h1>
 	<ul class="tabs">
 		<li class="tab-link current" data-tab="tab-1">Book an Appointment</li>
-		<li class="tab-link" data-tab="tab-2">Appointment Inventory</li>
+		<li class="tab-link" data-tab="tab-2">Appointment Details</li>
 	</ul>	
 	<section id="tab-1" class="form-main tab-content current">
 		<form>
@@ -296,11 +296,11 @@
 						<input type="text" class="form-input" name="pid" value="P101" readonly>
 					</div>
 					<div class="col-2 form-section">
-						<label>Patient First Name</label>
+						<label>First Name</label>
 						<input type="text" class="form-input" name="pname" value="Peter">
 					</div>
 					<div class="col-2 form-section">
-						<label>Patient Last Name</label>
+						<label>Last Name</label>
 						<input type="text" class="form-input" name="pname" value="Parker">
 					</div>
 				</div>

@@ -375,7 +375,6 @@
 								<td>Customer Relations - 2028</td>
 								<td></td>
 								<td>Customer Relations - 2028</td>
-								<td></td>
 							</tr>
 						</tbody>
 					</table>

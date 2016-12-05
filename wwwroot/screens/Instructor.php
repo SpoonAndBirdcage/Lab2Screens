@@ -64,7 +64,7 @@
                     </div>
                     <div class="col-2 form-section">
                         <label for="PostalCode">Postal Code</label>
-                        <input type="text" id="PostalCode" value="B4T7V3"  class="form-input"/>
+                        <input type="text" id="PostalCode" value="B4T 7V3"  class="form-input"/>
                     </div>
                     <div class="col-2 form-section">
                         <label for="City">City</label>
@@ -74,33 +74,40 @@
                 <div class="grid group">
                     <div class="col-4 form-section">
                         <label>Availability</label>
-                        <p>Enter times available for the following days eg. 12am-12pm *N/A for days unavailable</p>
                     </div>
                 </div>
                 <div class="grid group">
                     <div class="col-1 form-section">
-                        <label for="Monday">Monday</label>
-                        <input type="text" id="Monday" value="8AM-9PM" class="form-input"/>
+                        <label for="MonStart">Monday</label>
+                        <input type="time" class="form-time-input" name="MonStart" id="MonStart" value="08:00:00" />
+                        <input type="time" class="form-time-input" name="MonEnd" id="MonEnd" value="16:00:00" />
                     </div>
                     <div class="col-1 form-section">
                         <label for="Tuesday">Tuesday</label>
-                        <input type="text" id="Tuesday" value="8AM-9PM" class="form-input"/>
+                        <input type="time" class="form-time-input" name="TuesStart" id="TuesStart" value="08:00:00" />
+                        <input type="time" class="form-time-input" name="TuesEnd" id="TuesEnd" value="16:00:00" />
                     </div>
                     <div class="col-1 form-section">
                         <label for="Wednesday">Wednesday</label>
-                        <input type="text" id="Wednesday" value="8AM-9PM" class="form-input"/>
+                        <input type="time" class="form-time-input" name="WedStart" id="WedStart" value="08:00:00" />
+                        <input type="time" class="form-time-input" name="WedEnd" id="WedEnd" value="16:00:00" />
                     </div>
+                </div>
+                <div class="grid group">
                     <div class="col-1 form-section">
                         <label for="Thursday">Thursday</label>
-                        <input type="text" id="Thursday" value="8AM-9PM" class="form-input"/>
+                        <input type="time" class="form-time-input" name="ThursStart" id="ThursStart" value="08:00:00" />
+                        <input type="time" class="form-time-input" name="ThursEnd" id="ThursEnd" value="16:00:00" />
                     </div>
                     <div class="col-1 form-section">
                         <label for="Friday">Friday</label>
-                        <input type="text" id="Friday" value="8AM-9PM" class="form-input"/>
+                        <input type="time" class="form-time-input" name="FriStart" id="FriStart" value="08:00:00" />
+                        <input type="time" class="form-time-input" name="FriEnd" id="FriEnd" value="16:00:00" />
                     </div>
                     <div class="col-1 form-section">
                         <label for="Saturday">Saturday</label>
-                        <input type="text" id="Saturday" value="N/A" class="form-input"/>
+                        <input type="time" class="form-time-input" name="SatStart" id="SatStart" value="08:00:00" />
+                        <input type="time" class="form-time-input" name="SatEnd" id="SatEnd" value="16:00:00" />
                     </div>
                 </div>
                 <div class="grid group btn-group">

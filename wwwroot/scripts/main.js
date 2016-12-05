@@ -8,6 +8,7 @@ $(document).ready(function(){
     }, function() {
     	$(this).next().hide();
     });	
+
     $('ul.tabs li').click(function(){
 	var tab_id = $(this).attr('data-tab');
 
@@ -16,6 +17,16 @@ $(document).ready(function(){
 
 	$(this).addClass('current');
 	$("#"+tab_id).addClass('current');
+	});
+
+	$('ul.tabs2 li').click(function(){
+	var tab_id2 = $(this).attr('data-tab');
+
+	$('ul.tabs2 li').removeClass('current2');
+	$('.tab2-content').removeClass('current2');
+
+	$(this).addClass('current2');
+	$("#"+tab_id2).addClass('current2');
 	});
 });
 
