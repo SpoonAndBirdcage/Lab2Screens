@@ -17,6 +17,8 @@
 						<input placeholder="Search" class="form-input">
 				</div>
 			</div>
+			<div class="col-3"></div>
+			<div class="col-3"></div>
 		</div>
 		<div class="grid group search-group search-results">
 			<div class="col-4 form-section">
@@ -30,32 +32,13 @@
 							<th>E-Mail</th>
 							<th>Phone Number</th>
 							<th>Gender</th>
-							<th>Address</th>
-							<th>City</th>
-							<th>Province</th>
 							<th>Designation</th>
 							<th>Edit</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td><a href="#">Edit</a></td>
-						</tr>
-						<tr>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
+							<td>200910818</td>
 							<td></td>
 							<td></td>
 							<td></td>
@@ -65,10 +48,17 @@
 							<td><a href="#">Edit</a></td>
 						</tr>
 						<tr>
+							<td>200910960</td>
 							<td></td>
 							<td></td>
 							<td></td>
 							<td></td>
+							<td></td>
+							<td></td>
+							<td><a href="#">Edit</a></td>
+						</tr>
+						<tr>
+							<td>200910340</td>
 							<td></td>
 							<td></td>
 							<td></td>
@@ -176,7 +166,9 @@
 						<input placeholder="Search" class="form-input">
 				</div>
 			</div>
-			</div>]
+			<div class="col-3"></div>
+			<div class="col-3"></div>
+			</div>
 
 		<div class="grid group search-group search-results">
 			<div class="col-4 form-section">
@@ -189,21 +181,13 @@
 							<th>Last Name</th>
 							<th>E-Mail</th>
 							<th>Phone Number</th>
-							<th>Gender</th>
-							<th>Address</th>
-							<th>City</th>
-							<th>Province</th>
 							<th>Designation</th>
-							<th></th>
+							<th>Select</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
+							<td>200910818</td>
 							<td></td>
 							<td></td>
 							<td></td>
