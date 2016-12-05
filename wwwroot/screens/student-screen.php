@@ -358,6 +358,72 @@
 						</tbody>
 					</table>
 				</div>
+
+				<div class="col-4 form-section">
+					<label>Course Sections</label>
+					<table>
+						<thead>
+							<tr>
+								<th>Course ID</th>
+								<th>Course Name</th>
+								<th>Credits</th>
+								<th>Time</th>
+								<th>Room</th>
+								<th>Select</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>RC401</td>
+								<td>Expert Root Canals</td>
+								<td>4.5</td>
+								<td>1:00 pm - 2:00 pm / MWF</td>
+								<td>DB104</td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td>RC401</td>
+								<td>Expert Root Canals</td>
+								<td>4.5</td>
+								<td>1:00 pm - 2:00 pm / MWF</td>
+								<td>DB105</td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td>RC401</td>
+								<td>Expert Root Canals</td>
+								<td>4.5</td>
+								<td>2:00 pm - 3:00 pm / MWF</td>
+								<td>DB204</td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td>RC401</td>
+								<td>Expert Root Canals</td>
+								<td>4.5</td>
+								<td>2:00 pm - 3:00 pm / MWF</td>
+								<td>DB113</td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td>RC401</td>
+								<td>Expert Root Canals</td>
+								<td>4.5</td>
+								<td>3:00 pm - 4:00 pm / MWF</td>
+								<td>DB204</td>
+								<td><a href="#">Select</a></td>
+							</tr>
+							<tr>
+								<td>RC401</td>
+								<td>Expert Root Canals</td>
+								<td>4.5</td>
+								<td>3:00 pm - 4:00 pm / MWF</td>
+								<td>DB208</td>
+								<td><a href="#">Select</a></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 			</div>
 	</div>
 </main>

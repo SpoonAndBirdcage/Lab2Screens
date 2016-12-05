@@ -1,5 +1,5 @@
 <?php include('../include/header.php') ?>
-    <main class="main-content">
+<main class="main-content">
         <h1>Instructor Management</h1>
             <ul class="tabs">
                 <li class="tab-link current" data-tab="tab-1">Add Instructors</li>
@@ -11,7 +11,7 @@
                 <div class="grid group">
                     <div class="col-4 form-section">
                         <label for="InstructorID">Instructor ID</label>
-                        <input type="text" readonly value="111" class="form-input">
+                        <input type="text" readonly value="BM13" class="form-input">
                     </div>
                 </div>
                 <div class="grid group">
@@ -31,7 +31,7 @@
                     </div>
                     <div class="col-2 form-section">
                         <label for="PhoneNumber">Phone</label>
-                        <input type="text" id="PhoneNumber" value="7823479569" class="form-input"/>
+                        <input type="text" id="PhoneNumber" value="782-347-9569" class="form-input"/>
                     </div>
                 </div>
                 <div class="grid group grid-spacing">
@@ -59,8 +59,8 @@
                 </div>
                 <div class="grid group grid-spacing">
                     <div class="col-2 form-section">
-                        <label for="Province">Province</label>
-                        <input type="text"  id="Province" value="AB" class="form-input"/>
+                        <label for="Province/State">Province/State</label>
+                        <input type="text"  id="Province/State" value="AB" class="form-input"/>
                     </div>
                     <div class="col-2 form-section">
                         <label for="PostalCode">Postal Code</label>
@@ -142,9 +142,83 @@
                         <label for="Sessional">Sessional Instructors</label>
                         <select id="Sessional"  class="form-input form-ddl">
                             <option value="0">Select.....</option>
+                            <option value="1">Dick Grayson</option>
                         </select>
                     </div>
                 </div>
+                  <div class="grid group btn-group">
+                       <div class = "col-4 form- section">
+                      <button type="submit" class="btn btn-submit" id= "SearchButton">Search</button>
+                           <button type="submit" class="btn btn-submit" id="ClearButton">Clear</button>
+                      </div>
+                      <div class="grid group">
+                      <div class="col-4 form-section">
+                      <label>Search Results</label>
+                          <table>
+                          <thead>
+                              <tr>
+                              <th>Instructor ID</th>
+                                  <th>First Name</th>
+                                  <th>Last Name</th>
+                                  <th>E-mail</th>
+                                  <th>Phone</th>
+                                  <th>Designation</th>
+                                  <th>Type</th>
+                                  <th>Address</th>
+                                  <th>Province/State</th>
+                                  <th>Postal Code</th>
+                                  <th>City</th>
+                                  <th></th>
+                              </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <td>SM01</td>
+                                      <td>Clarl</td>
+                                      <td>Kent</td>
+                                      <td>whoissuperman@gmail.com</td>
+                                      <td>618-524-2141</td>
+                                      <td>Dentist</td>
+                                      <td>Full-Time</td>
+                                      <td>1938 Sullivan Place</td>
+                                      <td>Illinois</td>
+                                      <td>S4S4S4</td>
+                                      <td>Metropolis</td>
+                                      <td><a href="#">Select</a></td>
+                                  </tr>
+                                  <tr>
+                                      <td>FS03</td>
+                                      <td>Barry</td>
+                                      <td>Allen</td>
+                                      <td>Neverlate@gmail.com</td>
+                                      <td>426-784-5798</td>
+                                      <td>Orthodontist</td>
+                                      <td>Sessional</td>>
+                                      <td>5749 Central Place</td>
+                                      <td>Ohio</td>
+                                      <td>F5F5F5</td>
+                                      <td>Central City</td>
+                                      <td><a href="#">Select</a></td>
+                                    </tr>
+                                  <tr>
+                                      <td>HS04</td>
+                                      <td>Bruce</td>
+                                      <td>Banner</td>
+                                      <td>youwontlikemewhenimmad@gmail.com</td>
+                                      <td>916-456-7236</td>
+                                      <td>Dentist</td>
+                                      <td>Sessional</td>
+                                      <td>179 Easton Road</td>
+                                      <td>Alberta</td>
+                                      <td>H0L3S5</td>
+                                      <td>Edmonton</td>
+                                      <td><a href="#">Select</a></td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                      </div>
+                          </div>
+                    </div>
                 <div class="grid group">
                     <div class="col-2 form-section">
                         <label for="CourseDLL">Course</label>
@@ -163,6 +237,137 @@
                             <option value="3">A03</option>
                         </select>
                     </div>
+                    <div class="grid group">
+                    <div class ="col-4 form-section">
+                    <label>Instructor Schedule</label>
+                        <table>
+                            <thead>
+                        <tr>
+                        <th>Time</th>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+                            <th>Wednesday</th>
+                            <th>Thursday</th>
+                            <th>Friday</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+								<td>8:00am</td>
+								<td>Root Canals - 1002</td>
+								<td></td>
+								<td>Root Canals - 1002</td>
+								<td>Cleaning Techniques - 2001</td>
+								<td>Root Canals - 1002</td>
+							</tr>
+							<tr>
+								<td>9:00am</td>
+								<td>Root Canals - 1002</td>
+								<td></td>
+								<td>Root Canals - 1002</td>
+								<td>Cleaning Techniques - 2001</td>
+								<td>Root Canals - 1002</td>
+							</tr>
+							<tr>
+								<td>10:00am</td>
+								<td></td>
+								<td></td>
+								<td>Customer Relations - 2028</td>
+								<td>Intro to Dentures - 1304</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>11:00am</td>
+								<td>Root Canals - 1002</td>
+								<td>Intro to Dentures -1304</td>
+								<td>Advance Root Canals - 2046</td>
+								<td>Intro to Dentures - 1304</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>12:00pm</td>
+								<td>Root Canals - 1002</td>
+								<td>Advance Root Canals - 2046</td>
+								<td>Root Canals - 1002/td>
+								<td></td>
+								<td>Advance Root Canals - 2046</td>
+							</tr>
+							<tr>
+								<td>1:00pm</td>
+								<td>Cleaning Techniques - 2001</td>
+								<td>Advance Root Canals - 2046</td>
+								<td>Cleaning Techniques - 2001</td>
+								<td>Cleaning Techniques - 2001</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>2:00pm</td>
+								<td>Cleaning Techniques - 2001</td>
+								<td>Advance Root Canals - 2046</td>
+								<td>Customer Relations - 2028</td>
+								<td>Cleaning Techniques - 2001</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>3:00pm</td>
+								<td>Advance Root Canals - 2046</td>
+								<td>Intermidiate Braces - 2259</td>
+								<td></td>
+								<td>Root Canals - 2046</td>
+								<td>Intermidiate Braces - 2259</td>
+							</tr>
+							<tr>
+								<td>4:00pm</td>
+								<td>Advance Root Canals - 2046</td>
+								<td></td>
+								<td></td>
+								<td>Advance Root Canals - 2046</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>5:00pm</td>
+								<td>Advance Root Canals - 2046</td>
+								<td></td>
+								<td>Customer Relations - 2028</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>6:00pm</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>7:00pm</td>
+								<td></td>
+								<td>Customer Relations - 2028</td>
+								<td></td>
+								<td>Customer Relations - 2028</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>8:00pm</td>
+								<td></td>
+								<td>Advance Root Canals - 2046</td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+                                <td>9:00pm</td>
+								<td>Advance Root Canals - 2046</td>
+								<td></td>
+								<td>Advance Root Canals - 2046</td>
+								<td></td>
+								<td>Advance Root Canals - 2046</td>
+							</tr>
+                            </tbody>
+                        </table>
+                    </div>
+                        </div>
                 </div>
                 <div class="grid group btn-group">
                     <div class="col-4 form-section">
