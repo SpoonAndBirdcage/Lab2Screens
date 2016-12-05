@@ -1,5 +1,5 @@
 <?php include('../include/header.php') ?>
-    <main class="main-content">
+<main class="main-content">
         <h1>Instructor Management</h1>
             <ul class="tabs">
                 <li class="tab-link current" data-tab="tab-1">Add Instructors</li>
@@ -143,9 +143,10 @@
                        <div class = "col-4 form- section">
                       <button type="submit" class="btn btn-submit" id= "SearchButton">Search</button>
                            <button type="submit" class="btn btn-submit" id="ClearButton">Clear</button>
-                      </div> 
+                      </div>
+                      <div class="grid group">
                       <div class="col-4 form-section">
-                      <label>Search Results:</label>
+                      <label>Search Results</label>
                           <table>
                           <thead>
                               <tr>
@@ -209,6 +210,7 @@
                               </tbody>
                           </table>
                       </div>
+                          </div>
                     </div>
                 <div class="grid group">
                     <div class="col-2 form-section">
@@ -228,6 +230,7 @@
                             <option value="3">A03</option>
                         </select>
                     </div>
+                    <div class="grid group">
                     <div class ="col-4 form-section">
                     <label>Instructor Schedule</label>
                         <table>
@@ -347,8 +350,7 @@
 								<td></td>
 							</tr>
 							<tr>
-								<td>9:00pm</td>
-								<td></td>
+                                <td>9:00pm</td>
 								<td>Advance Root Canals - 2046</td>
 								<td></td>
 								<td>Advance Root Canals - 2046</td>
@@ -358,6 +360,7 @@
                             </tbody>
                         </table>
                     </div>
+                        </div>
                 </div>
                 <div class="grid group btn-group">
                     <div class="col-4 form-section">
