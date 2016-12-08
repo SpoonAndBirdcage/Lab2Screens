@@ -406,7 +406,9 @@
 				<div class="grid group grid-spacing">
 					<div class="col-4 form-section">
 						<label>Treatment Plan</label>
-						<input type="text" class="form-input" name="TreatmentPlan" value="TP01323">	
+						<select class="form-input form-ddl">
+							<option value="TreatmentPlan">TP01323</option>
+						</select>
 					</div>
 				</div>
 				<div class="grid group">
@@ -419,13 +421,56 @@
 				</div>
 				<div class="grid group">
 					<div class="col-2 form-section">
-						<label for="BookingDate">Booking Date</label>
-						<input type="date" class="form-input" name="BookingDate" id="BookingDate" value="2016-07-16" />
+						<div class="row-inside-row">
+							<label for="BookingDate">Booking Date</label>
+							<input type="date" class="form-input" name="BookingDate" id="BookingDate" value="2016-07-16" />
+
+							<label>Booking Time</label>
+							<input type="time" class="form-input" name="BookingTime" id="BookingTime" value="08:00:00" />
+						</div>
 					</div>
 					<div class="col-2 form-section">
-						<label>Booking Time</label>
-						<input type="time" class="form-input" name="BookingTime" id="BookingTime" value="08:00:00" />
+					<label>Order List</label>
+						<table>
+							<thead>
+								<tr>
+									<th>Clean type</th>
+									<th>Desc</th>
+									<th>Cost</th>
+									<th>Qty</th>
+									<th>Price</th>
+									<th>Edit</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Ba</td>
+									<td>Face Mask</td>
+									<td>3 Layer, Tie Type, 50/Pk</td>
+									<td><input class="form-input" type="text" value="40"></td>
+									<td>&#36;3.77</td>
+									<td><input class="btn btn-submit" type="submit" value="Remove"></td>
+								</tr>
+								<tr>
+									<td>HAS-100-67</td>
+									<td>Gloves Vinyl Powder Free</td>
+									<td>Size: XS,S,M,L,XL, 100/Pk</td>
+									<td><input class="form-input" type="text" value="20"></td>
+									<td>&#36;5.36</td>
+									<td><input class="btn btn-submit" type="submit" value="Remove"></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td><input class="btn btn-submit" type="submit" value="Add"></td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
+				</div>
 				</div>
 				<div class="grid group btn-group">
 					<div class="col-4 form-section">
