@@ -11,27 +11,27 @@
                 <div class="grid group">
                     <div class="col-4 form-section">
                         <label for="InstructorID">Instructor ID</label>
-                        <input type="text" readonly value="BM13" class="form-input">
+                        <input type="text" value="BM13" class="form-input" readonly>
                     </div>
                 </div>
                 <div class="grid group">
                     <div class="col-2 form-section">
                         <label for="FirstName">First Name</label>
-                        <input type="text" id="FirstName" value="Bruce" class="form-input"/>
+                        <input type="text" id="FirstName" value="Bruce" class="form-input" />
                     </div>
                     <div class="col-2 form-section">
                         <label for="LastName">Last Name</label>
-                        <input type="text" id="LastName" value="Wayne" class="form-input"/>
+                        <input type="text" id="LastName" value="Wayne" class="form-input" />
                     </div>
                 </div>
                 <div class="grid group">
                     <div class="col-2 form-section">
                         <label for="Email">E-Mail</label>
-                        <input type="text" id="Email" value="iamnotbatman@gmail.com" class="form-input"/>
+                        <input type="text" id="Email" value="iamnotbatman@gmail.com" class="form-input" />
                     </div>
                     <div class="col-2 form-section">
                         <label for="PhoneNumber">Phone</label>
-                        <input type="text" id="PhoneNumber" value="782-347-9569" class="form-input"/>
+                        <input type="text" id="PhoneNumber" value="782-347-9569" class="form-input" />
                     </div>
                 </div>
                 <div class="grid group grid-spacing">
@@ -54,21 +54,21 @@
                 <div class="grid group">
                     <div class="col-4 form-section">
                         <label for="Address">Address</label>
-                        <input type="text" id="Address" value="123 Gotham St" class="form-input"/>
+                        <input type="text" id="Address" value="123 Gotham St" class="form-input" />
                     </div>
                 </div>
                 <div class="grid group grid-spacing">
                     <div class="col-2 form-section">
                         <label for="Province/State">Province/State</label>
-                        <input type="text"  id="Province/State" value="AB" class="form-input"/>
+                        <input type="text"  id="Province/State" value="AB" class="form-input" />
                     </div>
                     <div class="col-2 form-section">
                         <label for="PostalCode">Postal Code</label>
-                        <input type="text" id="PostalCode" value="B4T 7V3"  class="form-input"/>
+                        <input type="text" id="PostalCode" value="B4T 7V3"  class="form-input" />
                     </div>
                     <div class="col-2 form-section">
                         <label for="City">City</label>
-                        <input type="text" id="City" value="Gotham" class="form-input"/>
+                        <input type="text" id="City" value="Gotham" class="form-input" />
                     </div>
                 </div>
                 <div class="grid group">
@@ -121,253 +121,281 @@
         </div>
 
         <div id="tab-2" class="form-main tab-content">
-        <h2>Contract Instructor to Course Section</h2>
+            <h2>Contract Instructor to Course Section</h2>
             <form>
                 <div class="grid group">
-                    <div class="col-1 form-section">
-                        <label for="Designation">Designation</label>
-                        <select id="Designation" class="form-input form-ddl">
-                            <option value="0">Select.....</option>
-                            <option value="1">Orthodontist</option>
-                        </select>
+                    <div class="col-2 form-section">
+                    <h3 style="padding-bottom: 8px;">Instructor Search</h3>
+                        <div class="search">
+                            <span class="fa fa-search"></span>
+                            <input placeholder="Search" class="form-input" value="Destist">
+                        </div>
                     </div>
-                    <div class="col-1 form-section">
-                        <label for="FullTime">Full Time Instructors</label>
-                        <select id="FullTime" class="form-input form-ddl">
-                            <option value="0">Select.....</option>
-                            <option value="1">Bruce Wayne</option>
-                        </select>
-                    </div>
-                    <div class="col-1 form-section">
-                        <label for="Sessional">Sessional Instructors</label>
-                        <select id="Sessional"  class="form-input form-ddl">
-                            <option value="0">Select.....</option>
-                            <option value="1">Dick Grayson</option>
-                        </select>
+                    <div class="col-2 form-section">
+                    <h3 style="padding-bottom: 8px;">Course Section Search</h3>
+                        <div class="search">
+                            <span class="fa fa-search"></span>
+                            <input placeholder="Search" class="form-input" value="Root Canals 101">
+                        </div>
                     </div>
                 </div>
-                  <div class="grid group btn-group">
-                       <div class = "col-4 form- section">
-                      <button type="submit" class="btn btn-submit" id= "SearchButton">Search</button>
-                           <button type="submit" class="btn btn-submit" id="ClearButton">Clear</button>
-                      </div>
-                      <div class="grid group">
-                      <div class="col-4 form-section">
-                      <label>Search Results</label>
+
+                <div class="grid group grid-spacing">
+                    <div class="col-2 form-section">
+                    <label>Search Results</label>
                           <table>
-                          <thead>
-                              <tr>
-                              <th>Instructor ID</th>
-                                  <th>First Name</th>
-                                  <th>Last Name</th>
-                                  <th>E-mail</th>
-                                  <th>Phone</th>
-                                  <th>Designation</th>
-                                  <th>Type</th>
-                                  <th>Address</th>
-                                  <th>Province/State</th>
-                                  <th>Postal Code</th>
-                                  <th>City</th>
-                                  <th></th>
-                              </tr>
-                              </thead>
-                              <tbody>
-                                  <tr>
-                                      <td>SM01</td>
-                                      <td>Clarl</td>
-                                      <td>Kent</td>
-                                      <td>whoissuperman@gmail.com</td>
-                                      <td>618-524-2141</td>
-                                      <td>Dentist</td>
-                                      <td>Full-Time</td>
-                                      <td>1938 Sullivan Place</td>
-                                      <td>Illinois</td>
-                                      <td>S4S4S4</td>
-                                      <td>Metropolis</td>
-                                      <td><a href="#">Select</a></td>
-                                  </tr>
-                                  <tr>
+                            <thead>
+                                <tr>
+                                    <th>Instructor ID</th>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Designation</th>
+                                    <th>Type</th>
+                                    <th>Select</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>SM01</td>
+                                    <td>Clark</td>
+                                    <td>Kent</td>
+                                    <td>Dentist</td>
+                                    <td>Full-Time</td>
+                                    <td><a href="#">Select</a></td>
+                                </tr>
+                                <tr>
                                       <td>FS03</td>
                                       <td>Barry</td>
                                       <td>Allen</td>
-                                      <td>Neverlate@gmail.com</td>
-                                      <td>426-784-5798</td>
-                                      <td>Orthodontist</td>
-                                      <td>Sessional</td>>
-                                      <td>5749 Central Place</td>
-                                      <td>Ohio</td>
-                                      <td>F5F5F5</td>
-                                      <td>Central City</td>
+                                      <td>Dentist</td>
+                                      <td>Sessional</td>
                                       <td><a href="#">Select</a></td>
                                     </tr>
                                   <tr>
                                       <td>HS04</td>
                                       <td>Bruce</td>
                                       <td>Banner</td>
-                                      <td>youwontlikemewhenimmad@gmail.com</td>
-                                      <td>916-456-7236</td>
                                       <td>Dentist</td>
                                       <td>Sessional</td>
-                                      <td>179 Easton Road</td>
-                                      <td>Alberta</td>
-                                      <td>H0L3S5</td>
-                                      <td>Edmonton</td>
                                       <td><a href="#">Select</a></td>
                                   </tr>
                               </tbody>
                           </table>
-                      </div>
-                          </div>
-                    </div>
-                <div class="grid group">
-                    <div class="col-2 form-section">
-                        <label for="CourseDLL">Course</label>
-                        <select id="CourseDDL"  class="form-input form-ddl">
-                            <option value="0">Select.....</option>
-                            <option value="1" selected>OPTO1001</option>
-                            <option value="2">DENT1000</option>
-                        </select>
                     </div>
                     <div class="col-2 form-section">
-                        <label for="SectionDDL">Section</label>
-                        <select id="SectionDDL" class="form-input form-ddl">
-                            <option value="0">Select......</option>
-                            <option value="1">A01</option>
-                            <option value="2">A02</option>
-                            <option value="3">A03</option>
-                        </select>
-                    </div>
-                    <div class="grid group">
-                    <div class ="col-4 form-section">
-                    <label>Instructor Schedule</label>
-                        <table>
+                    <label>Search Results</label>
+                          <table>
                             <thead>
-                        <tr>
-                        <th>Time</th>
-                            <th>Monday</th>
-                            <th>Tuesday</th>
-                            <th>Wednesday</th>
-                            <th>Thursday</th>
-                            <th>Friday</th>
-                            </tr>
+                                <tr>
+                                    <th>Section ID</th>
+                                    <th>Course Name</th>
+                                    <th>Semester</th>
+                                    <th>Schedule</th>
+                                    <th>Select</th>
+                                </tr>
                             </thead>
                             <tbody>
                                 <tr>
-								<td>8:00am</td>
-								<td>Root Canals - 1002</td>
-								<td></td>
-								<td>Root Canals - 1002</td>
-								<td>Cleaning Techniques - 2001</td>
-								<td>Root Canals - 1002</td>
-							</tr>
-							<tr>
-								<td>9:00am</td>
-								<td>Root Canals - 1002</td>
-								<td></td>
-								<td>Root Canals - 1002</td>
-								<td>Cleaning Techniques - 2001</td>
-								<td>Root Canals - 1002</td>
-							</tr>
-							<tr>
-								<td>10:00am</td>
-								<td></td>
-								<td></td>
-								<td>Customer Relations - 2028</td>
-								<td>Intro to Dentures - 1304</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>11:00am</td>
-								<td>Root Canals - 1002</td>
-								<td>Intro to Dentures -1304</td>
-								<td>Advance Root Canals - 2046</td>
-								<td>Intro to Dentures - 1304</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>12:00pm</td>
-								<td>Root Canals - 1002</td>
-								<td>Advance Root Canals - 2046</td>
-								<td>Root Canals - 1002/td>
-								<td></td>
-								<td>Advance Root Canals - 2046</td>
-							</tr>
-							<tr>
-								<td>1:00pm</td>
-								<td>Cleaning Techniques - 2001</td>
-								<td>Advance Root Canals - 2046</td>
-								<td>Cleaning Techniques - 2001</td>
-								<td>Cleaning Techniques - 2001</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>2:00pm</td>
-								<td>Cleaning Techniques - 2001</td>
-								<td>Advance Root Canals - 2046</td>
-								<td>Customer Relations - 2028</td>
-								<td>Cleaning Techniques - 2001</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>3:00pm</td>
-								<td>Advance Root Canals - 2046</td>
-								<td>Intermidiate Braces - 2259</td>
-								<td></td>
-								<td>Root Canals - 2046</td>
-								<td>Intermidiate Braces - 2259</td>
-							</tr>
-							<tr>
-								<td>4:00pm</td>
-								<td>Advance Root Canals - 2046</td>
-								<td></td>
-								<td></td>
-								<td>Advance Root Canals - 2046</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>5:00pm</td>
-								<td>Advance Root Canals - 2046</td>
-								<td></td>
-								<td>Customer Relations - 2028</td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>6:00pm</td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>7:00pm</td>
-								<td></td>
-								<td>Customer Relations - 2028</td>
-								<td></td>
-								<td>Customer Relations - 2028</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>8:00pm</td>
-								<td></td>
-								<td>Advance Root Canals - 2046</td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-                                <td>9:00pm</td>
-								<td>Advance Root Canals - 2046</td>
-								<td></td>
-								<td>Advance Root Canals - 2046</td>
-								<td></td>
-								<td>Advance Root Canals - 2046</td>
-							</tr>
+                                    <td>1001</td>
+                                    <td>Root Canals 101</td>
+                                    <td>Winter</td>
+                                    <td>Tues, Thurs, Fri</td>
+                                    <td><a href="#">Select</a></td>
+                                </tr>
+                                <tr>
+                                    <td>1002</td>
+                                    <td>Root Canals 101</td>
+                                    <td>Winter</td>
+                                    <td>Mon, Wed, Fri</td>
+                                    <td><a href="#">Select</a></td>
+                                </tr>
+                                  <tr>
+                                      <td>1003</td>
+                                      <td>Root Canals 101</td>
+                                      <td>Winter</td>
+                                      <td>Mon, Tues, Wed</td>
+                                      <td><a href="#">Select</a></td>
+                                  </tr>
+                                  <tr>
+                                      <td>1001</td>
+                                      <td>Root Canals 101</td>
+                                      <td>Spring</td>
+                                      <td>Tues, Wed, Fri</td>
+                                      <td><a href="#">Select</a></td>
+                                  </tr>
+                                  <tr>
+                                      <td>1002</td>
+                                      <td>Root Canals 101</td>
+                                      <td>Spring</td>
+                                      <td>Tues, Wed, Thurs</td>
+                                      <td><a href="#">Select</a></td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                    </div>
+                </div>
+                <div class="grid group">
+                    <div class="col-1 form-section">
+                        <div class="row-inside-row">
+                            <label for="instID">Instructor ID</label>
+                            <input type="text" id="instID" value="HS04" class="form-input" />
+
+                            <label for="fName">First Name</label>
+                            <input type="text" id="fName" value="Bruce" class="form-input" />
+
+                            <label for="lName">Last Name</label>
+                            <input type="text" id="lName" value="Banner" class="form-input" />
+
+                            <label for="desig">Designation</label>
+                            <input type="text" id="desig" value="Destist" class="form-input" />
+
+                            <label for="type">Type</label>
+                            <input type="text" id="type" value="Sessional" class="form-input" />
+
+                            <label for="CourseDLL">Course</label>
+                            <select id="CourseDDL"  class="form-input form-ddl">
+                                <option value="0">Select.....</option>
+                                <option value="1" selected>OPTO1001</option>
+                                <option value="2">DENT1000</option>
+                            </select>
+                            <label for="SectionDDL">Section</label>
+                            <select id="SectionDDL" class="form-input form-ddl">
+                                <option value="0">Select......</option>
+                                <option value="1">A01</option>
+                                <option value="2">A02</option>
+                                <option value="3">A03</option>
+                            </select>
+                        </div>
+                     </div>
+                    <div class ="col-3 form-section">
+                    <label>Instructor Schedule</label>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Monday</th>
+                                    <th>Tuesday</th>
+                                    <th>Wednesday</th>
+                                    <th>Thursday</th>
+                                    <th>Friday</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+    								<td>8:00am</td>
+    								<td>Root Canals - 1002</td>
+    								<td></td>
+    								<td>Root Canals - 1002</td>
+    								<td>Cleaning Techniques - 2001</td>
+    								<td>Root Canals - 1002</td>
+						        </tr>
+						        <tr>
+    								<td>9:00am</td>
+    								<td>Root Canals - 1002</td>
+    								<td></td>
+    								<td>Root Canals - 1002</td>
+    								<td>Cleaning Techniques - 2001</td>
+    								<td>Root Canals - 1002</td>
+						        </tr>
+						        <tr>
+    								<td>10:00am</td>
+    								<td></td>
+    								<td></td>
+    								<td>Customer Relations - 2028</td>
+    								<td>Intro to Dentures - 1304</td>
+    								<td></td>
+						        </tr>
+						        <tr>
+    								<td>11:00am</td>
+    								<td>Root Canals - 1002</td>
+    								<td>Intro to Dentures -1304</td>
+    								<td>Advance Root Canals - 2046</td>
+    								<td>Intro to Dentures - 1304</td>
+    								<td></td>
+						        </tr>
+						        <tr>
+    								<td>12:00pm</td>
+    								<td>Root Canals - 1002</td>
+    								<td>Advance Root Canals - 2046</td>
+    								<td>Root Canals - 1002</td>
+    								<td></td>
+    								<td>Advance Root Canals - 2046</td>
+						        </tr>
+						        <tr>
+    								<td>1:00pm</td>
+    								<td>Cleaning Techniques - 2001</td>
+    								<td>Advance Root Canals - 2046</td>
+    								<td>Cleaning Techniques - 2001</td>
+    								<td>Cleaning Techniques - 2001</td>
+    								<td></td>
+						        </tr>
+						        <tr>
+    								<td>2:00pm</td>
+    								<td>Cleaning Techniques - 2001</td>
+    								<td>Advance Root Canals - 2046</td>
+    								<td>Customer Relations - 2028</td>
+    								<td>Cleaning Techniques - 2001</td>
+    								<td></td>
+						        </tr>
+						        <tr>
+    								<td>3:00pm</td>
+    								<td>Advance Root Canals - 2046</td>
+    								<td>Intermidiate Braces - 2259</td>
+    								<td></td>
+    								<td>Root Canals - 2046</td>
+    								<td>Intermidiate Braces - 2259</td>
+						        </tr>
+						        <tr>
+    								<td>4:00pm</td>
+    								<td>Advance Root Canals - 2046</td>
+    								<td></td>
+    								<td></td>
+    								<td>Advance Root Canals - 2046</td>
+    								<td></td>
+						        </tr>
+						        <tr>
+    								<td>5:00pm</td>
+    								<td>Advance Root Canals - 2046</td>
+    								<td></td>
+    								<td>Customer Relations - 2028</td>
+    								<td></td>
+    								<td></td>
+						        </tr>
+							    <tr>
+    								<td>6:00pm</td>
+    								<td></td>
+    								<td></td>
+    								<td></td>
+    								<td></td>
+    								<td></td>
+							    </tr>
+							    <tr>
+    								<td>7:00pm</td>
+    								<td></td>
+    								<td>Customer Relations - 2028</td>
+    								<td></td>
+    								<td>Customer Relations - 2028</td>
+    								<td></td>
+							    </tr>
+							    <tr>
+    								<td>8:00pm</td>
+    								<td></td>
+    								<td>Advance Root Canals - 2046</td>
+    								<td></td>
+    								<td></td>
+    								<td></td>
+							    </tr>
+							    <tr>
+                                    <td>9:00pm</td>
+    								<td>Advance Root Canals - 2046</td>
+    								<td></td>
+    								<td>Advance Root Canals - 2046</td>
+    								<td></td>
+    								<td>Advance Root Canals - 2046</td>
+							    </tr>
                             </tbody>
                         </table>
                     </div>
-                        </div>
                 </div>
                 <div class="grid group btn-group">
                     <div class="col-4 form-section">
