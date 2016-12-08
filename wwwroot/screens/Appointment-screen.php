@@ -2,13 +2,14 @@
 <?php include('../include/header.php') ?>
 <main class="main-content">
 	<h1>Appointment Management</h1>
+
 	<ul class="tabs">
 		<li class="tab-link current" data-tab="tab-1">Book an Appointment</li>
 		<li class="tab-link" data-tab="tab-2">Appointment Details</li>
 	</ul>	
 	<section id="tab-1" class="form-main tab-content current">
 		<form>
-			<h2>Appointment Schedule - Week Of July 17, 2016</h2>
+			<h2>Appointment Schedule - Week Of July 13, 2016</h2>
 				<div class="grid grid grid-spacing">
 					<div class="col-3 form-section">
 					<table name="schedule" id="schedule">
@@ -202,11 +203,11 @@
 								    <td>12</td>
 								  </tr>
 								  <tr>
-								    <td>13</td>
+								    <td class="selected">13</td>
 								    <td>14</td>
 								    <td>15</td>
 								    <td>16</td>
-								    <td class="selected">17</td>
+								    <td>17</td>
 								    <td>18</td>
 								    <td>19</td>
 								  </tr>
@@ -238,6 +239,104 @@
 						</div>
 					</div>
 				</div>
+				<div class="grid group grid-spacing">
+					<div class="col-4 form-section">
+					<h2>Patient Search</h2>
+						<div class="row-inside-row">
+							<div class="search">
+									<span class="fa fa-search"></span>
+									<input placeholder="Search" class="form-input" value="Parker">
+							</div>
+							<label>Search Results:</label>
+							<table>
+								<thead>
+									<tr>
+										<th>Patient ID</th>
+										<th>First Name</th>
+										<th>Last Name</th>
+										<th>Phone</th>
+										<th>Select</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>P101</td>
+										<td>Peter</td>
+										<td>Parker</td>
+										<td>(780)555-1234</td>
+										<td><a href="#">Select</a></td>
+									</tr>
+									<tr>
+										<td>P128</td>
+										<td>Sean</td>
+										<td>Parker</td>
+										<td>(403)555-8034</td>
+										<td><a href="#">Select</a></td>
+									</tr>
+									<tr>
+										<td>P204</td>
+										<td>Parker</td>
+										<td>Posey</td>
+										<td>(780)555-9987</td>
+										<td><a href="#">Select</a></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>	
+					</div>
+				</div>
+				<div class="grid group">
+					<div class="col-2 form-section">
+						<label>Patient ID</label>
+						<input type="text" class="form-input" name="pid" value="P101" readonly>
+					</div>
+					<div class="col-2 form-section">
+						<label>First Name</label>
+						<input type="text" class="form-input" name="pname" value="Peter">
+					</div>
+					<div class="col-2 form-section">
+						<label>Last Name</label>
+						<input type="text" class="form-input" name="pname" value="Parker">
+					</div>
+				</div>
+				<div class="grid group grid-spacing">
+					<div class="col-4 form-section">
+						<label>Treatment Plan</label>
+						<input type="text" class="form-input" name="TreatmentPlan" value="TP01323">	
+					</div>
+				</div>
+				<div class="grid group">
+					<div class="col-2 form-section">
+						<label>Procedure</label>
+						<select class="form-input form-ddl">
+							<option value="Cleaning">Cleaning</option>
+						</select>
+					</div>
+				</div>
+				<div class="grid group">
+					<div class="col-2 form-section">
+						<label for="BookingDate">Booking Date</label>
+						<input type="date" class="form-input" name="BookingDate" id="BookingDate" value="2016-07-16" />
+					</div>
+					<div class="col-2 form-section">
+						<label>Booking Time</label>
+						<input type="time" class="form-input" name="BookingTime" id="BookingTime" value="08:00:00" />
+					</div>
+				</div>
+				<div class="grid group btn-group">
+					<div class="col-4 form-section">
+						<button type="submit" class="btn btn-submit">Create Appointment</button>
+						<button type="submit" class="btn btn-update">Update</button>
+						<button type="submit" class="btn btn-danger">Delete</button>
+					</div>
+				</div>
+			</div>
+		</form>
+	</section>
+
+	<section id="tab-2" class="form-main tab-content">
+		<form>
+			<h2>Appointment Details</h2>
 				<div class="grid group grid-spacing">
 					<div class="col-4 form-section">
 					<h2>Patient Search</h2>
@@ -334,23 +433,6 @@
 						<button type="submit" class="btn btn-update">Update</button>
 						<button type="submit" class="btn btn-danger">Delete</button>
 					</div>
-				</div>
-			</div>
-		</form>
-	</section>
-
-	<section id="tab-2" class="form-main tab-content">
-		<form>
-			<h2>Search Appointment</h2>
-			<div class="grid group">
-				<div class="col-1 form-section">
-					<label>Search ID:</label>
-					<input type="text" class="form-input" name="fname">
-				</div>
-			</div>
-			<div class="grid group">
-				<div class="col-2 form-section">
-					<button type="submit" class="btn btn-submit">Search</button>
 				</div>
 			</div>
 		</form>
