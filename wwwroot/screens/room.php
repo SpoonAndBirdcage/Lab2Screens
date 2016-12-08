@@ -169,7 +169,7 @@
 								<td>105</td>
 								<td>Dental Building</td>
 								<td>25</td>
-								<td>Computer Lab(BYOD)</td>
+								<td>Computer Lab (BYOD)</td>
 								<td>Bring Your Own Device Computer Lab</td>
 								<td><a href="#">Select</a></td>
 							</tr>
@@ -196,7 +196,7 @@
 								<td>204</td>
 								<td>Dental Building</td>
 								<td>25</td>
-								<td>Computer Lab(BYOD)</td>
+								<td>Computer Lab (BYOD)</td>
 								<td>Bring Your Own Device Computer Lab</td>
 								<td><a href="#">Select</a></td>
 							</tr>
